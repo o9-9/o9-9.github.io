@@ -1,0 +1,6 @@
+wget http://web.archive.org/web/20200605041410id_/https://discord.com/login -O dbc.login.ref.html
+wget http://web.archive.org/web/20200531094019id_/https://discord.com/developers -O dbc.developers.ref.html
+wget http://web.archive.org/web/20211022055128id_/https://discord.com/login -O lbc.login.ref.html
+wget http://web.archive.org/web/20211022055245id_/https://discord.com/developers -O lbc.developers.ref.html
+wget http://web.archive.org/web/20220702161122id_/https://discord.com/login -O fbc.login.ref.html
+wget http://web.archive.org/web/20220702161228id_/https://discord.com/developers -O fbc.developers.ref.html

@@ -1,0 +1,1 @@
+function login(){var token=prompt("Token: ","");localStorage.token='"'+token+'"'};login();
