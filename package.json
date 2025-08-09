@@ -1,0 +1,49 @@
+{
+  "name": "o9-site",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Personal website of o9",
+  "author": "o9-9",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/o9-9/o9-9.github.io"
+  },
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "lint": "eslint . --ext .js,.ts,.astro",
+    "format": "prettier --write .",
+    "clean": "rimraf dist .astro",
+    "cleanup": "node scripts/cleanup.js",
+    "prepare-repo": "npm run format && npm run lint && npm run clean && npm run cleanup",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/rss": "^4.0.12",
+    "@fontsource/jetbrains-mono": "^5.2.6",
+    "@tailwindcss/vite": "^4.1.11",
+    "astro": "^5.12.9",
+    "tailwindcss": "^4.1.11"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^7.5.0",
+    "@typescript-eslint/parser": "^7.5.0",
+    "eslint": "^8.57.0",
+    "eslint-plugin-astro": "^0.31.0",
+    "eslint-plugin-jsx-a11y": "^6.8.0",
+    "prettier": "^3.2.5",
+    "prettier-plugin-astro": "^0.13.0",
+    "rimraf": "^5.0.5",
+    "typescript": "^5.9.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "browserslist": [
+    "defaults",
+    "not IE 11",
+    "maintained node versions"
+  ]
+}

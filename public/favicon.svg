@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" version="1.1">
+    <title>o9</title>
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <text font-family="JetBrains Mono, monospace" font-size="240" font-weight="bold" fill="currentColor">
+            <tspan x="104" y="324">o9</tspan>
+        </text>
+    </g>
+    <style>
+        text { fill: #1F2937; }
+        @media (prefers-color-scheme: dark) {
+            text { fill: #F3F4F6; }
+        }
+    </style>
+</svg>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <title>o9 Profile</title>
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#1F2937" x="0" y="0" width="512" height="512" rx="256"></rect>
+        <text font-family="JetBrains Mono, monospace" font-size="220" font-weight="bold" fill="#FFFFFF" text-anchor="middle" x="256" y="320">
+            o9
+        </text>
+    </g>
+</svg>

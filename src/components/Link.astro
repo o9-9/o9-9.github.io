@@ -1,0 +1,21 @@
+---
+interface Props {
+  href: string;
+  className?: string;
+  external?: boolean;
+}
+
+const { href, className = '', external = false } = Astro.props;
+---
+
+{
+  external ? (
+    <a href={href} class={className} target="_blank" rel="noopener noreferrer">
+      <slot />
+    </a>
+  ) : (
+    <a href={href} class={className}>
+      <slot />
+    </a>
+  )
+}

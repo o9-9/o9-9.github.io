@@ -1,0 +1,77 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+---
+
+<Layout title="Repositories - o9">
+  <Header />
+
+  <main class="flex flex-col min-h-screen pt-24 pb-16">
+    <div class="container mx-auto max-w-4xl px-4 sm:px-6">
+      <h1 class="text-3xl md:text-4xl font-bold mb-8 text-center text-gray-900 dark:text-white">
+        Repositories
+      </h1>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <a
+          href="https://github.com/o9-9/o9"
+          class="block p-6 bg-white dark:bg-slate-800 rounded-lg border border-gray-200 dark:border-slate-700 hover:bg-gray-50 dark:hover:bg-slate-700 transition-colors"
+        >
+          <h2 class="text-xl font-bold mb-2 text-gray-900 dark:text-white">o9</h2>
+          <p class="text-gray-600 dark:text-gray-300">Core repository for o9 projects</p>
+        </a>
+
+        <a
+          href="https://github.com/o9-9/dotfiles"
+          class="block p-6 bg-white dark:bg-slate-800 rounded-lg border border-gray-200 dark:border-slate-700 hover:bg-gray-50 dark:hover:bg-slate-700 transition-colors"
+        >
+          <h2 class="text-xl font-bold mb-2 text-gray-900 dark:text-white">Dotfiles</h2>
+          <p class="text-gray-600 dark:text-gray-300">
+            Personal configuration files for development environment
+          </p>
+        </a>
+
+        <a
+          href="https://github.com/o9-9/windots"
+          class="block p-6 bg-white dark:bg-slate-800 rounded-lg border border-gray-200 dark:border-slate-700 hover:bg-gray-50 dark:hover:bg-slate-700 transition-colors"
+        >
+          <h2 class="text-xl font-bold mb-2 text-gray-900 dark:text-white">Windots</h2>
+          <p class="text-gray-600 dark:text-gray-300">
+            Windows-specific dotfiles and configurations
+          </p>
+        </a>
+
+        <a
+          href="https://github.com/o9-9/Office"
+          class="block p-6 bg-white dark:bg-slate-800 rounded-lg border border-gray-200 dark:border-slate-700 hover:bg-gray-50 dark:hover:bg-slate-700 transition-colors"
+        >
+          <h2 class="text-xl font-bold mb-2 text-gray-900 dark:text-white">Office</h2>
+          <p class="text-gray-600 dark:text-gray-300">Office productivity tools and scripts</p>
+        </a>
+
+        <a
+          href="https://github.com/o9-9/configs"
+          class="block p-6 bg-white dark:bg-slate-800 rounded-lg border border-gray-200 dark:border-slate-700 hover:bg-gray-50 dark:hover:bg-slate-700 transition-colors"
+        >
+          <h2 class="text-xl font-bold mb-2 text-gray-900 dark:text-white">Configs</h2>
+          <p class="text-gray-600 dark:text-gray-300">
+            Configuration files for various tools and applications
+          </p>
+        </a>
+
+        <a
+          href="https://github.com/o9-9/vscode-setup"
+          class="block p-6 bg-white dark:bg-slate-800 rounded-lg border border-gray-200 dark:border-slate-700 hover:bg-gray-50 dark:hover:bg-slate-700 transition-colors"
+        >
+          <h2 class="text-xl font-bold mb-2 text-gray-900 dark:text-white">VS Code Setup</h2>
+          <p class="text-gray-600 dark:text-gray-300">
+            Visual Studio Code setup, extensions, and preferences
+          </p>
+        </a>
+      </div>
+    </div>
+  </main>
+
+  <Footer />
+</Layout>

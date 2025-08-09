@@ -1,0 +1,104 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+---
+
+<Layout title="Supporters - o9">
+  <Header />
+
+  <main class="flex flex-col min-h-screen pt-24 pb-16">
+    <div class="container mx-auto max-w-3xl px-4 sm:px-6">
+      <h1 class="text-3xl md:text-4xl font-bold mb-2 text-center text-gray-900 dark:text-white">
+        Thanks!
+      </h1>
+
+      <p class="text-center mb-12 text-gray-600 dark:text-gray-300">
+        I'm truly grateful to all the wonderful humans supporting my work on GitHub Sponsors and
+        Open Collective.
+      </p>
+
+      <div
+        class="bg-white dark:bg-slate-800 rounded-lg border border-gray-200 dark:border-slate-700 p-6 mb-8"
+      >
+        <h2 class="text-2xl font-bold mb-4 text-gray-900 dark:text-white">GitHub Sponsors</h2>
+        <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+          <!-- This would be populated dynamically in a real app -->
+          <div class="flex flex-col items-center text-center">
+            <div class="w-16 h-16 rounded-full bg-gray-200 dark:bg-gray-700 mb-2 overflow-hidden">
+              <img
+                src="https://avatars.githubusercontent.com/u/1?v=4"
+                alt="Supporter"
+                class="w-full h-full object-cover"
+              />
+            </div>
+            <span class="text-sm font-medium text-gray-900 dark:text-white">Supporter 1</span>
+          </div>
+          <div class="flex flex-col items-center text-center">
+            <div class="w-16 h-16 rounded-full bg-gray-200 dark:bg-gray-700 mb-2 overflow-hidden">
+              <img
+                src="https://avatars.githubusercontent.com/u/2?v=4"
+                alt="Supporter"
+                class="w-full h-full object-cover"
+              />
+            </div>
+            <span class="text-sm font-medium text-gray-900 dark:text-white">Supporter 2</span>
+          </div>
+          <div class="flex flex-col items-center text-center">
+            <div class="w-16 h-16 rounded-full bg-gray-200 dark:bg-gray-700 mb-2 overflow-hidden">
+              <img
+                src="https://avatars.githubusercontent.com/u/3?v=4"
+                alt="Supporter"
+                class="w-full h-full object-cover"
+              />
+            </div>
+            <span class="text-sm font-medium text-gray-900 dark:text-white">Supporter 3</span>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="bg-white dark:bg-slate-800 rounded-lg border border-gray-200 dark:border-slate-700 p-6"
+      >
+        <h2 class="text-2xl font-bold mb-4 text-gray-900 dark:text-white">
+          Open Collective Backers
+        </h2>
+        <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+          <!-- This would be populated dynamically in a real app -->
+          <div class="flex flex-col items-center text-center">
+            <div class="w-16 h-16 rounded-full bg-gray-200 dark:bg-gray-700 mb-2 overflow-hidden">
+              <img
+                src="https://avatars.githubusercontent.com/u/4?v=4"
+                alt="Backer"
+                class="w-full h-full object-cover"
+              />
+            </div>
+            <span class="text-sm font-medium text-gray-900 dark:text-white">Backer 1</span>
+          </div>
+          <div class="flex flex-col items-center text-center">
+            <div class="w-16 h-16 rounded-full bg-gray-200 dark:bg-gray-700 mb-2 overflow-hidden">
+              <img
+                src="https://avatars.githubusercontent.com/u/5?v=4"
+                alt="Backer"
+                class="w-full h-full object-cover"
+              />
+            </div>
+            <span class="text-sm font-medium text-gray-900 dark:text-white">Backer 2</span>
+          </div>
+          <div class="flex flex-col items-center text-center">
+            <div class="w-16 h-16 rounded-full bg-gray-200 dark:bg-gray-700 mb-2 overflow-hidden">
+              <img
+                src="https://avatars.githubusercontent.com/u/6?v=4"
+                alt="Backer"
+                class="w-full h-full object-cover"
+              />
+            </div>
+            <span class="text-sm font-medium text-gray-900 dark:text-white">Backer 3</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <Footer />
+</Layout>

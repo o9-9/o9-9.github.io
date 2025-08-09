@@ -1,0 +1,139 @@
+---
+interface Props {
+  isMobile?: boolean;
+}
+
+const { isMobile = false } = Astro.props;
+---
+
+<button
+  class:list={[
+    'theme-toggle text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg inline-flex items-center justify-center',
+    isMobile ? 'p-3 text-base' : 'p-2.5 text-sm',
+  ]}
+  id={isMobile ? 'themeToggleMobile' : 'themeToggle'}
+  aria-label="Toggle dark mode"
+  title={`Switch to ${isMobile ? "${'$'}{theme === 'dark' ? 'light' : 'dark'}" : 'dark'} theme`}
+>
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    class:list={[isMobile ? 'w-6 h-6' : 'w-5 h-5', 'sun-icon']}
+  >
+    <path
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="2"
+      d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"
+    ></path>
+  </svg>
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    class:list={[isMobile ? 'w-6 h-6' : 'w-5 h-5', 'moon-icon hidden']}
+  >
+    <path
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="2"
+      d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"
+    ></path>
+  </svg>
+</button>
+
+<script is:inline>
+  // Theme toggle functionality with improved reliability
+  function applyTheme(theme) {
+    const html = document.documentElement;
+    const sunIcons = document.querySelectorAll('.sun-icon');
+    const moonIcons = document.querySelectorAll('.moon-icon');
+
+    if (theme === 'dark') {
+      html.classList.add('dark');
+      moonIcons.forEach((icon) => icon.classList.remove('hidden'));
+      sunIcons.forEach((icon) => icon.classList.add('hidden'));
+    } else {
+      html.classList.remove('dark');
+      moonIcons.forEach((icon) => icon.classList.add('hidden'));
+      sunIcons.forEach((icon) => icon.classList.remove('hidden'));
+    }
+
+    // Update toggle button titles
+    document.querySelectorAll('.theme-toggle').forEach((toggle) => {
+      toggle.setAttribute('title', `Switch to ${theme === 'dark' ? 'light' : 'dark'} theme`);
+    });
+
+    // Update meta theme-color for browser UI
+    const metaThemeColor = document.querySelector("meta[name='theme-color']");
+    if (metaThemeColor) {
+      metaThemeColor.setAttribute('content', theme === 'dark' ? '#0f172a' : '#FFFFFF');
+    }
+  }
+
+  // Safely get theme preference with fallback
+  function getThemePreference() {
+    let theme;
+    try {
+      theme = localStorage.getItem('theme');
+    } catch (err) {
+      // Handle localStorage access errors
+      console.warn('localStorage access denied:', err);
+    }
+
+    if (theme) {
+      return theme;
+    }
+
+    // If no theme in localStorage, use system preference
+    return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+  }
+
+  // Function to toggle theme
+  function toggleTheme() {
+    try {
+      const element = document.documentElement;
+      const isDark = element.classList.contains('dark');
+      const newTheme = isDark ? 'light' : 'dark';
+
+      applyTheme(newTheme);
+      localStorage.setItem('theme', newTheme);
+    } catch (err) {
+      console.error('Error toggling theme:', err);
+    }
+  }
+
+  // Apply theme immediately to prevent flash
+  const currentTheme = getThemePreference();
+  applyTheme(currentTheme);
+
+  // Safely set theme preference
+  try {
+    localStorage.setItem('theme', currentTheme);
+  } catch (err) {
+    console.warn('localStorage access denied:', err);
+  }
+
+  // Add event listeners with error handling
+  document.addEventListener('DOMContentLoaded', () => {
+    // Add event listeners to both theme toggles
+    const themeToggles = [
+      document.getElementById('themeToggle'),
+      document.getElementById('themeToggleMobile'),
+    ];
+
+    themeToggles.forEach((toggle) => {
+      toggle?.addEventListener('click', toggleTheme);
+    });
+
+    // Update system preference change
+    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', (e) => {
+      if (!localStorage.getItem('theme')) {
+        applyTheme(e.matches ? 'dark' : 'light');
+      }
+    });
+  });
+</script>

@@ -1,0 +1,48 @@
+@import 'tailwindcss';
+@import '@fontsource/jetbrains-mono/400.css';
+@import '@fontsource/jetbrains-mono/700.css';
+
+:root {
+  --font-jetbrains-mono: 'JetBrains Mono', monospace;
+  --focus-ring-color: theme('colors.blue.500');
+}
+
+html {
+  font-family: var(--font-jetbrains-mono);
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-white text-gray-900 dark:bg-slate-900 dark:text-gray-100;
+  @apply min-h-screen flex flex-col;
+}
+
+/* Accessibility: Default state - hide focus outlines when not needed */
+*:focus:not(:focus-visible) {
+  outline: none;
+}
+
+/* Show focus styles only for keyboard users */
+body:not(.user-is-tabbing) *:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+/* Improved focus styles when keyboard navigation is detected */
+body.user-is-tabbing button:focus,
+body.user-is-tabbing a:focus,
+body.user-is-tabbing input:focus,
+body.user-is-tabbing select:focus,
+body.user-is-tabbing textarea:focus {
+  @apply outline-none ring-2 ring-blue-500 ring-offset-2 dark:ring-offset-slate-900;
+}
+
+/* Make images better for high-contrast mode */
+img {
+  @apply max-w-full;
+}
+
+/* Ensure footer sticks to bottom */
+main {
+  @apply flex-grow;
+}

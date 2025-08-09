@@ -1,0 +1,71 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+---
+
+<Layout title="Powershell = ❤️ - o9">
+  <Header />
+
+  <main class="flex flex-col min-h-screen pt-24 pb-16">
+    <div class="container mx-auto max-w-3xl px-4 sm:px-6">
+      <article class="prose dark:prose-invert max-w-none">
+        <h1 class="text-3xl md:text-4xl font-bold mb-4 text-gray-900 dark:text-white">
+          Powershell = ❤️
+        </h1>
+
+        <div class="flex items-center space-x-4 mb-8">
+          <span class="text-sm text-gray-500 dark:text-gray-400">August 1, 2025</span>
+          <span
+            class="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-300"
+          >
+            PowerShell
+          </span>
+        </div>
+
+        <p>
+          My Powershell Script is now available on GitHub. The Supercharge script is a collection of
+          useful PowerShell functions that I've developed over the years to make my development work
+          easier and more efficient.
+        </p>
+
+        <p>
+          You can find it on my GitHub repository: <a
+            href="https://github.com/o9-9/supercharge"
+            class="text-blue-600 dark:text-blue-400 hover:underline">Supercharge</a
+          >.
+        </p>
+
+        <h2>What does it do?</h2>
+
+        <p>The Supercharge script provides a number of useful features:</p>
+
+        <ul>
+          <li>Enhanced file system navigation</li>
+          <li>Productivity shortcuts for common tasks</li>
+          <li>Development environment setup and configuration</li>
+          <li>Custom prompts and themes</li>
+        </ul>
+
+        <h2>How to install</h2>
+
+        <pre><code>git clone https://github.com/o9-9/supercharge.git
+cd supercharge
+./install.ps1</code></pre>
+
+        <p>Check out the README for more detailed installation instructions and usage examples.</p>
+
+        <div class="mt-8 p-4 bg-gray-100 dark:bg-gray-800 rounded-lg">
+          <p class="font-bold">Stay updated!</p>
+          <p>
+            Follow the <a href="/rss.xml" class="text-blue-600 dark:text-blue-400 hover:underline"
+              >RSS feed</a
+            > to get notified about new posts and updates.
+          </p>
+        </div>
+      </article>
+    </div>
+  </main>
+
+  <Footer />
+</Layout>

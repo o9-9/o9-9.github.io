@@ -1,0 +1,138 @@
+---
+import '../styles/global.css';
+import '@fontsource/jetbrains-mono/400.css';
+import '@fontsource/jetbrains-mono/700.css';
+
+interface Props {
+  title?: string;
+  description?: string;
+  ogImage?: string;
+}
+
+const {
+  title = 'o9',
+  description = 'Personal website of o9, a full-time open-source developer.',
+  ogImage = '/o9-profile.svg',
+} = Astro.props;
+
+// Browser utilities imported in script tag below
+---
+
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="theme-color" content="#141414" media="(prefers-color-scheme: dark)" />
+    <meta name="theme-color" content="#FFFFFF" media="(prefers-color-scheme: light)" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="color-scheme" content="dark light" />
+    <!-- Accessibility -->
+    <meta name="robots" content="index, follow" />
+    <meta name="format-detection" content="telephone=no" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="generator" content={Astro.generator} />
+    <meta name="description" content={description} />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://o9-9.com/" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:image" content={ogImage} />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://o9-9.com/" />
+    <meta property="twitter:title" content={title} />
+    <meta property="twitter:description" content={description} />
+    <meta property="twitter:image" content={ogImage} />
+
+    <title>{title}</title>
+
+    <script is:inline>
+      // Improved theme initialization with error handling
+      function initializeTheme() {
+        let theme = 'light';
+
+        try {
+          // First try localStorage
+          if (typeof localStorage !== 'undefined' && localStorage.getItem('theme')) {
+            theme = localStorage.getItem('theme');
+          }
+          // Then check system preference
+          else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+            theme = 'dark';
+          }
+
+          // Apply theme to document
+          if (theme === 'dark') {
+            document.documentElement.classList.add('dark');
+          } else {
+            document.documentElement.classList.remove('dark');
+          }
+
+          // Store in localStorage for persistence
+          if (typeof localStorage !== 'undefined') {
+            localStorage.setItem('theme', theme);
+          }
+
+          // Also update the theme-color meta tag
+          const metaThemeColor = document.querySelector("meta[name='theme-color']:not([media])");
+          if (metaThemeColor) {
+            metaThemeColor.setAttribute('content', theme === 'dark' ? '#141414' : '#FFFFFF');
+          }
+        } catch (err) {
+          console.warn('Error setting initial theme:', err);
+          // Fallback in case of errors
+          if (theme === 'dark') {
+            document.documentElement.classList.add('dark');
+          }
+        }
+      }
+
+      // Run immediately to prevent flash
+      initializeTheme();
+
+      // Setup SVG optimizations for better browser compatibility
+      document.addEventListener('DOMContentLoaded', () => {
+        // Optimize SVG elements
+        const svgElements = document.querySelectorAll('svg');
+        svgElements.forEach((svg) => {
+          svg.setAttribute('style', 'transform: translateZ(0); -webkit-transform: translateZ(0);');
+        });
+
+        // Optimize SVG images
+        const svgImages = document.querySelectorAll('img[src$=".svg"]');
+        svgImages.forEach((img) => {
+          img.setAttribute('style', 'transform: translateZ(0); -webkit-transform: translateZ(0);');
+        });
+      });
+    </script>
+  </head>
+  <body
+    class="antialiased bg-white text-gray-900 dark:bg-slate-900 dark:text-white flex flex-col min-h-screen"
+  >
+    <!-- Skip to content for accessibility -->
+    <a
+      href="#main-content"
+      class="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-50 focus:px-4 focus:py-2 focus:bg-white focus:dark:bg-slate-900 focus:outline-none focus:ring-2 focus:ring-blue-500 text-gray-900 dark:text-white"
+    >
+      Skip to content
+    </a>
+
+    <slot />
+
+    <script>
+      // Add focus outline for keyboard navigation
+      function handleFirstTab(e: KeyboardEvent): void {
+        if (e.key === 'Tab') {
+          document.body.classList.add('user-is-tabbing');
+          window.removeEventListener('keydown', handleFirstTab);
+        }
+      }
+      window.addEventListener('keydown', handleFirstTab);
+    </script>
+  </body>
+</html>
