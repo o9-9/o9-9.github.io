@@ -9,7 +9,7 @@ export default {
       },
       colors: {
         slate: {
-          900: '#141414', // Override slate-900 with our custom dark color
+          900: '#141414',
         },
       },
     },
