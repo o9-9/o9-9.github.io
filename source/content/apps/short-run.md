@@ -37,7 +37,7 @@ Your shortcuts and data never leave your device. The app is built without intern
 
 #### I have a feature request, bug report, or some feedback
 
-Click the feedback button in the app or [send it here.](https://sindresorhus.com/feedback?product=Short%20Run&referrer=Website-FAQ)
+Click the feedback button in the app or [send it here.](https://o9-9.github.io/feedback?product=Short%20Run&referrer=Website-FAQ)
 
 #### The app does not show up in the menu bar
 
@@ -48,6 +48,7 @@ macOS hides menu bar apps when there is no space left in the menu bar. This is a
 The built-in menu bar item shows shortcuts in one long, unorganized list.
 
 Short Run benefits:
+
 - Choose the order of shortcuts
 - Organize shortcuts into sections and submenus
 - Show some shortcuts only when a specific app is active

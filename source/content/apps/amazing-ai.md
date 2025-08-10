@@ -9,8 +9,8 @@ platforms:
 appStoreId: 1660147028
 hasSentry: true
 olderMacOSVersions:
-  - '13'
-  - '14'
+  - "13"
+  - "14"
 ---
 
 Simply describe the image you desire, and the app will generate it for you like magic!
@@ -38,6 +38,7 @@ To write a [negative prompt](https://dreamlike.art/guides/guide-to-stable-diffus
 ### Keyboard shortcuts
 
 On macOS, when in preview mode, there are some keyboard shortcuts available:
+
 - <kbd>◀</kbd> — Previous image
 - <kbd>▶</kbd> — Next image
 - <kbd>Space</kbd> — Save image
@@ -46,13 +47,13 @@ On macOS, when in preview mode, there are some keyboard shortcuts available:
 
 ### Metadata
 
-On macOS, when you save a generated image, it includes a lot of useful metadata (prompt, steps, etc). You can [view this in Finder](https://twitter.com/sindresorhus/status/1611441129622278146/photo/1) by right-clicking the image file and selecting “Get Info”. The file also includes some relevant tags which can be used to create [smart folders](https://support.apple.com/guide/mac-help/tag-files-and-folders-mchlp15236/mac).
+On macOS, when you save a generated image, it includes a lot of useful metadata (prompt, steps, etc). You can [view this in Finder](https://twitter.com/o9-9/status/1611441129622278146/photo/1) by right-clicking the image file and selecting “Get Info”. The file also includes some relevant tags which can be used to create [smart folders](https://support.apple.com/guide/mac-help/tag-files-and-folders-mchlp15236/mac).
 
 ## Frequently Asked Questions {#faq}
 
 #### I have a feature request, bug report, or some feedback
 
-Click the feedback button in the app or [send it here.](https://sindresorhus.com/feedback?product=Amazing%20AI&referrer=Website-FAQ)
+Click the feedback button in the app or [send it here.](https://o9-9.github.io/feedback?product=Amazing%20AI&referrer=Website-FAQ)
 
 #### Why not use Stable Diffusion 3?
 
@@ -127,13 +128,13 @@ I don't plan to localize the app.
 
 ## Older Versions
 
-- [1.5.0](https://github.com/sindresorhus/sindresorhus.github.com/releases/download/v1.0.0/Amazing.AI.1.5.0.zip) for macOS 14+
+- [1.5.0](https://github.com/o9-9/o9-9.github.com/releases/download/v1.0.0/Amazing.AI.1.5.0.zip) for macOS 14+
 - [1.2.2](https://drive.google.com/file/d/1mcEhAKhmQGYzmSS-zlejt3_qsKFzqm0h/view?usp=sharing) for macOS 13+
 
 ## Non-App Store Version
 
 A special version for users that cannot access the App Store. It won't receive automatic updates. I will update it here once a year.
 
-[Download](https://github.com/sindresorhus/sindresorhus.github.com/releases/download/v1.0.0/Amazing.AI.1.6.0.zip) *(1.6.0)*
+[Download](https://github.com/o9-9/o9-9.github.com/releases/download/v1.0.0/Amazing.AI.1.6.0.zip) _(1.6.0)_
 
-*Requires macOS 15 or later*
+_Requires macOS 15 or later_

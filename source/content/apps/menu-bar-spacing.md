@@ -5,15 +5,15 @@ pubDate: 2024-07-09
 platforms:
   - macOS
 mainLinks:
-  'Download': https://github.com/sindresorhus/menu-bar-spacing-meta/releases/latest/download/Menu.Bar.Spacing.zip
+  "Download": https://github.com/o9-9/menu-bar-spacing-meta/releases/latest/download/Menu.Bar.Spacing.zip
 olderMacOSVersions:
-  - '14'
+  - "14"
 ---
 
 Menu bar apps are awesome, but MacBooks have limited menu bar space. This app helps you reclaim that space by reducing the gap between menu bar items. With a single run, the app applies changes permanently, allowing you to fit more apps into the menu bar. Reverting the changes is just as simple, done within the app. If you have a large display, the app can also increase the gap between menu bar items.
 
-- *Free*
-- *Requires macOS 15+*
+- _Free_
+- _Requires macOS 15+_
 
 The app includes a Shortcuts action, enabling automated spacing adjustments for various scenarios.
 
@@ -21,7 +21,7 @@ The app includes a Shortcuts action, enabling automated spacing adjustments for 
 
 This app can potentially replace Bartender/Ice for some users. It also lets you fit more of my [menu bar apps](/apps/menu-bar) in your menu bar.
 
-![Download count](https://img.shields.io/github/downloads/sindresorhus/menu-bar-spacing-meta/total?color=3e65d0)
+![Download count](https://img.shields.io/github/downloads/o9-9/menu-bar-spacing-meta/total?color=3e65d0)
 
 <br>
 
@@ -35,7 +35,7 @@ You may also like my [Spaced](/spaced) app for grouping menu bar items.
 
 #### I have a feature request, bug report, or some feedback
 
-Click the feedback button in the app or [send it here](https://sindresorhus.com/feedback?product=Menu%20Bar%20Spacing&referrer=Website-FAQ).
+Click the feedback button in the app or [send it here](https://o9-9.github.io/feedback?product=Menu%20Bar%20Spacing&referrer=Website-FAQ).
 
 #### I can already do this from the command-line, why should I use this app?
 

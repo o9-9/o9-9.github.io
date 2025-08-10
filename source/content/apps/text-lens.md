@@ -26,7 +26,7 @@ Extract text from anywhere on your screen. Select any area containing text - fro
 - Extract text directly from photo taken with iPhone/iPad camera
 - Drag and drop images onto menu bar icon to extract text
 - Optionally shows captured text in a window with the ability to edit
-	- Enables doing multiple captures and copy as a single text
+  - Enables doing multiple captures and copy as a single text
 - [Privacy focused](#privacy)
 
 #### Supported languages
@@ -71,7 +71,7 @@ Everything is done locally on your device. Nothing leaves your device. The app i
 
 #### I have a feature request, bug report, or some feedback
 
-Click the feedback button in the app or [send it here.](https://sindresorhus.com/feedback?product=Text%20Lens&referrer=Website-FAQ)
+Click the feedback button in the app or [send it here.](https://o9-9.github.io/feedback?product=Text%20Lens&referrer=Website-FAQ)
 
 #### The app does not show up in the menu bar
 
@@ -86,10 +86,12 @@ macOS requires screen recording permission for any app that reads pixels from th
 This is a macOS 15 bug. Apple added a system that occasionally reminds you which apps have screen recording access. It’s supposed to appear every 90 days, but some users see it constantly due to a bug in macOS 15.3 and later. This affects many apps, not just this app.
 
 Workaround:
+
 - Open the Terminal app.
 - Run this command:
+
 ```sh
-defaults write ~/Library/Group\ Containers/group.com.apple.replayd/ScreenCaptureApprovals.plist com.sindresorhus.Text-Lens -dict-add kScreenCapturePrivacyHintPolicy 7776000 kScreenCapturePrivacyHintDate -date 2035-12-31; /usr/bin/killall -HUP replayd
+defaults write ~/Library/Group\ Containers/group.com.apple.replayd/ScreenCaptureApprovals.plist com.o9-9.Text-Lens -dict-add kScreenCapturePrivacyHintPolicy 7776000 kScreenCapturePrivacyHintDate -date 2035-12-31; /usr/bin/killall -HUP replayd
 ```
 
 #### How is this different from macOS built-in Live Text?
@@ -123,16 +125,18 @@ This is planned as a simpler version, but I want to perfect it here first.
 #### How does this compare to TextSniper? {#textsniper}
 
 This app's advantages:
+
 - Universal capture: Extract text, QR codes, and barcodes with a single action
 - Capture by simply clicking the menu bar icon
 - Extract text from clipboard and files
 - Drag and drop images onto the menu bar icon to extract text
 - Can show captured text in a window with the ability to edit
-	- Enables doing multiple captures and copy as a single text
+  - Enables doing multiple captures and copy as a single text
 - Choice of menu bar icon
 - Cheaper ($6 vs. $12)
 
 TextSniper advantages:
+
 - Text-to-speech
 - More keyboard shortcuts
 - More mature

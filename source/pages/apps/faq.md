@@ -5,7 +5,7 @@ title: Frequently Asked Questions
 
 # Frequently Asked Questions
 
-*See the page of each app for app-specific FAQs.*
+_See the page of each app for app-specific FAQs._
 
 ### How can I report a bug or suggest a feature?
 
@@ -19,9 +19,9 @@ My apps prioritize user privacy and do not collect any personal data.
 
 For apps purchased on the Apple App Store, you can [request a refund](https://support.apple.com/en-us/HT204084) from Apple. App developers have no control over the purchase and refund process.
 
-For apps purchased on Gumroad, there is generally no refund. You can [request a refund](mailto:sindresorhus@gmail.com?subject=Gumroad%20refund&body=Mention%20which%20app%20you%20want%20a%20refund%20for%20and%20your%20Gumroad%20account%20email) if you have a good reason (like duplicate purchase). But most purchases are final.
+For apps purchased on Gumroad, there is generally no refund. You can [request a refund](mailto:o9-9@gmail.com?subject=Gumroad%20refund&body=Mention%20which%20app%20you%20want%20a%20refund%20for%20and%20your%20Gumroad%20account%20email) if you have a good reason (like duplicate purchase). But most purchases are final.
 
-<!-- For apps purchased on Gumroad, you can [request a refund](mailto:sindresorhus@gmail.com?subject=Gumroad%20refund&body=Mention%20which%20app%20you%20want%20a%20refund%20for%20and%20your%20Gumroad%20account%20email) within 30 days of the purchase. -->
+<!-- For apps purchased on Gumroad, you can [request a refund](mailto:o9-9@gmail.com?subject=Gumroad%20refund&body=Mention%20which%20app%20you%20want%20a%20refund%20for%20and%20your%20Gumroad%20account%20email) within 30 days of the purchase. -->
 
 However, I would appreciate if you [reached out](/feedback) first. I may be able to resolve any problems you are having.
 
@@ -66,7 +66,7 @@ I love making apps and I want them to be available to as many people as possible
 
 Free apps often raise doubts about privacy and intentions. Your trust matters deeply to me. Unlike others, I don't engage in data-selling or bombard you with pesky ads. Your privacy is sacred; you are not my product. I make apps because I enjoy it. I don't care about profits.
 
-With over 3 million users placing their confidence in me, I take pride in safeguarding their devices and respecting their privacy. Moreover, my reputation speaks volumes. Tens of thousands of developers also rely on [my code](https://github.com/sindresorhus).
+With over 3 million users placing their confidence in me, I take pride in safeguarding their devices and respecting their privacy. Moreover, my reputation speaks volumes. Tens of thousands of developers also rely on [my code](https://github.com/o9-9).
 
 Trust is earned. Don't just take my word for it; delve into the reviews on the App Store. Your peace of mind matters, and I'm committed to upholding it every step of the way. Feel free to [contact me](/contact) if you have any questions.
 
@@ -88,7 +88,7 @@ User-reported bugs are prioritized based on their impact on the app's functional
 
 ### What's the best way to learn about new apps?
 
-Subscribe to my [“new apps” RSS feed](/feeds) and follow me on [Twitter](https://twitter.com/sindresorhus) and [Mastodon](https://mastodon.social/@sindresorhus).
+Subscribe to my [“new apps” RSS feed](/feeds) and follow me on [Twitter](https://twitter.com/o9-9) and [Mastodon](https://mastodon.social/@o9-9).
 
 ### Do you actively maintain all your apps?
 
@@ -114,7 +114,7 @@ I make apps for fun and supporting older operating system versions is simply no 
 
 You can do it with my [App Buddy](/app-buddy) app.
 
-If you prefer using the command-line, [see this guide.](https://github.com/sindresorhus/guides/blob/main/backup-app-settings.md#command-line)
+If you prefer using the command-line, [see this guide.](https://github.com/o9-9/guides/blob/main/backup-app-settings.md#command-line)
 
 ### Can I contribute localizations to your apps? {#localize}
 
@@ -128,7 +128,7 @@ For non-App Store apps, anyone can add to Homebrew. Feel free to [add one of my 
 
 ### You are doing a lot of open source, why are only some of your apps open source? {#why-not-oss}
 
-I open source [some of my apps](https://github.com/search?q=user%3Asindresorhus+language%3Aswift+topic%3Aapp+archived%3Afalse), but not all, for a few key reasons. First, I use specialized tools (internal framework) to speed up app development, which are not suitable for sharing. Additionally, past experiences with open sourcing apps have led to clones of my apps appearing on the App Store, which is problematic. Also, community contributions, though well-intentioned, often don't match the high quality standards I set for my apps. As a compromise, I tend to open source the [reusable building blocks](https://github.com/search?q=user%3Asindresorhus+topic%3Aswift-package+archived%3Afalse), allowing community involvement while maintaining the quality and uniqueness of my apps.
+I open source [some of my apps](https://github.com/search?q=user%3Ao9-9+language%3Aswift+topic%3Aapp+archived%3Afalse), but not all, for a few key reasons. First, I use specialized tools (internal framework) to speed up app development, which are not suitable for sharing. Additionally, past experiences with open sourcing apps have led to clones of my apps appearing on the App Store, which is problematic. Also, community contributions, though well-intentioned, often don't match the high quality standards I set for my apps. As a compromise, I tend to open source the [reusable building blocks](https://github.com/search?q=user%3Ao9-9+topic%3Aswift-package+archived%3Afalse), allowing community involvement while maintaining the quality and uniqueness of my apps.
 
 ### How can I uninstall your app? {#uninstall-app}
 
@@ -136,7 +136,7 @@ macOS: Ensure the app is not running. Open Finder, go to the “Go” menu, and 
 
 iOS: Tap and hold the app on the Home Screen and select “Remove App”.
 
-*If you're uninstalling due to issues, please [contact me](/feedback) first; I resolve problems quickly.*
+_If you're uninstalling due to issues, please [contact me](/feedback) first; I resolve problems quickly._
 
 ### I'm getting a “The application can’t be opened” error when trying to launch your app
 
@@ -175,7 +175,7 @@ For my apps, you can also find it in [App Buddy](/app-buddy).
 
 ### What is a bundle identifier? {#bundle-identifier}
 
-A bundle identifier (or bundle ID) uniquely identifies an app in Apple's ecosystem, using a reverse-domain format like `com.companyname.appname`. For example, `com.sindresorhus.Dato` for [Dato](/dato).
+A bundle identifier (or bundle ID) uniquely identifies an app in Apple's ecosystem, using a reverse-domain format like `com.companyname.appname`. For example, `com.o9-9.Dato` for [Dato](/dato).
 
 ### What is the macOS app sandbox? {#macos-sandbox}
 
@@ -233,6 +233,7 @@ If you have tried all of this, [contact me](/feedback).
 If keyboard shortcuts or text expansion suddenly stops working, it's likely because an app is using Secure Input - a macOS security feature that blocks other apps from reading keystrokes. While this is intended for sensitive contexts like password fields, apps sometimes fail to properly disable it. Common culprits are password managers like Bitwarden and 1Password, even when running in the background. Safari can also sometimes cause this.
 
 You can try:
+
 1. Quit password managers and browsers.
 1. Quit all apps.
 1. Putting the computer to sleep and then waking it up and logging in again usually fixes it.
@@ -257,7 +258,7 @@ iOS: Open the Settings app, go to “General › iPhone/iPad Storage”, tap the
 
 ### How can I reset all permissions for your Mac app? {#mac-reset-permissions}
 
-*(This is only necessary if the app asked for any permissions the first time you launched it)*
+_(This is only necessary if the app asked for any permissions the first time you launched it)_
 
 **The simple way**
 
@@ -290,7 +291,7 @@ tccutil reset All <app-identifier>
 Example:
 
 ```sh
-tccutil reset All com.sindresorhus.Dato
+tccutil reset All com.o9-9.Dato
 ```
 
 You can now launch the app again.
@@ -302,16 +303,18 @@ You can now launch the app again.
 Select the app in [App Buddy](/app-buddy) and click “Copy to Downloads” in the “Crash Reports” section.
 
 **macOS - manual**
+
 - Open Finder
 - Select `Go to Folder…` from the `Go` menu
 - Enter: `~/Library/Logs/DiagnosticReports`
 - In the resulting list, select all files that starts with the app name, ZIP them, and [send me](/feedback)
 
 **iOS**
+
 - In the Settings app, go to “Privacy & Security › Analytics & Improvements › Analytics Data”
 - Tap the first item that starts with the app name
-	- If there is no such item, tap the first item that starts with `JetsamEvent`
-- Tap the share button, tap a mail app, and send it to `sindresorhus@gmail.com`
+  - If there is no such item, tap the first item that starts with `JetsamEvent`
+- Tap the share button, tap a mail app, and send it to `o9-9@gmail.com`
 
 ### How can I send you a **spindump** for one of your Mac apps? {#spindump}
 
@@ -359,4 +362,4 @@ No. I make apps because I enjoy it. Your money is of no interest to me.
 
 [Ask me.](/contact)
 
-*You could also try to [ask my AI bot](https://chat.openai.com/g/g-df0ZoBF9N-sindregpt).*
+_You could also try to [ask my AI bot](https://chat.openai.com/g/g-df0ZoBF9N-sindregpt)._

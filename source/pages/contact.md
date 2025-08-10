@@ -29,7 +29,7 @@ window.history.replaceState({}, '', url);
 # Contact
 
 <div class="sm:-mt-2 not-prose font-bold bg-clip-text text-transparent bg-linear-to-r from-primary-500 to-secondary-500 hover:underline hover:underline-offset-8 hover:decoration-4 decoration-black dark:decoration-white">
-	<a id="contact-email" href="mailto:sindresorhus@gmail.com" class="text-[clamp(0.5rem,6vw,1.875rem)]">sindresorhus@gmail.com</a>
+	<a id="contact-email" href="mailto:o9-9@gmail.com" class="text-[clamp(0.5rem,6vw,1.875rem)]">o9-9@gmail.com</a>
 </div>
 
 I value my time, so make it worth it, and [keep it succinct](https://www.google.com/search?q=succinct+emails).

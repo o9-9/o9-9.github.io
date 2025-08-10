@@ -1,11 +1,11 @@
 ==================================================================
-https://keybase.io/sindresorhus
+https://keybase.io/o9-9
 --------------------------------------------------------------------
 
 I hereby claim:
 
-  * I am an admin of https://sindresorhus.com
-  * I am sindresorhus (https://keybase.io/sindresorhus) on keybase.
+  * I am an admin of https://o9-9.github.io
+  * I am o9-9 (https://keybase.io/o9-9) on keybase.
   * I have a public key with fingerprint 9167 E91F 3DA4 65D0 020A  48B3 5A35 FFDB 8B07 983A
 
 To do so, I am signing this object:
@@ -19,10 +19,10 @@ To do so, I am signing this object:
       "key_id": "5a35ffdb8b07983a",
       "kid": "0101cb611ee03ce62c90d7bb7e8ee3aba2c539d8bbb07c3be2ce6e01371539d94ba50a",
       "uid": "b6eaadc02135408a3c296cd49dabdb19",
-      "username": "sindresorhus"
+      "username": "o9-9"
     },
     "service": {
-      "hostname": "sindresorhus.com",
+      "hostname": "o9-9.github.io",
       "protocol": "https:"
     },
     "type": "web_service_binding",
@@ -70,6 +70,6 @@ D5e2z+8+m5NI/Adyjbj7
 And finally, I am proving ownership of this host by posting or
 appending to this document.
 
-View my publicly-auditable identity here: https://keybase.io/sindresorhus
+View my publicly-auditable identity here: https://keybase.io/o9-9
 
 ==================================================================

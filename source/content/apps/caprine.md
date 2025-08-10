@@ -7,7 +7,7 @@ platforms:
   - macOS
   - Linux
   - Windows
-repoUrl: https://github.com/sindresorhus/caprine
+repoUrl: https://github.com/o9-9/caprine
 ---
 
 An open-source, cross-platform, and privacy-focused Facebook Messenger desktop app.

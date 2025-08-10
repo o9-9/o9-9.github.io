@@ -8,10 +8,10 @@ isMenuBarApp: true
 appStoreId: 1538245904
 hasSentry: true
 olderMacOSVersions:
-  - '11'
-  - '12'
-  - '13'
-  - '14'
+  - "11"
+  - "12"
+  - "13"
+  - "14"
 ---
 
 This can be useful as a quick reference.
@@ -20,7 +20,7 @@ This can be useful as a quick reference.
 
 #### I have a feature request, bug report, or some feedback
 
-[Send it here.](https://sindresorhus.com/feedback?product=UTC%20Time&referrer=Website-FAQ)
+[Send it here.](https://o9-9.github.io/feedback?product=UTC%20Time&referrer=Website-FAQ)
 
 #### The app does not show up in the menu bar
 
@@ -59,14 +59,14 @@ I just enjoy making apps. Consider leaving a nice review on the App Store.
 ## Older Versions
 
 - [1.9.1](https://github.com/user-attachments/files/18215312/UTC.Time.1.9.1.-.macOS.14.zip) for macOS 14+
-- [1.7.1](https://github.com/sindresorhus/meta/files/13973570/UTC.Time.1.7.1.-.macOS.13.zip) for macOS 13+
-- [1.5.1](https://github.com/sindresorhus/meta/files/10767291/UTC.Time.1.5.1.-.macOS.12.zip) for macOS 12+
-- [1.3.0](https://github.com/sindresorhus/meta/files/8007477/UTC.Time.1.3.0.-.macOS.11.zip) for macOS 11+
+- [1.7.1](https://github.com/o9-9/meta/files/13973570/UTC.Time.1.7.1.-.macOS.13.zip) for macOS 13+
+- [1.5.1](https://github.com/o9-9/meta/files/10767291/UTC.Time.1.5.1.-.macOS.12.zip) for macOS 12+
+- [1.3.0](https://github.com/o9-9/meta/files/8007477/UTC.Time.1.3.0.-.macOS.11.zip) for macOS 11+
 
 ## Non-App Store Version
 
 A special version for users that cannot access the App Store. It won't receive automatic updates. I will update it here once a year.
 
-[Download](https://www.dropbox.com/scl/fi/f2971eyhwxn3cvvqz8dz5/UTC-Time-1.10.0-1734728300.zip?rlkey=mjfgq7uh7vdgkws23b0qa9q1e&raw=1) *(1.10.0)*
+[Download](https://www.dropbox.com/scl/fi/f2971eyhwxn3cvvqz8dz5/UTC-Time-1.10.0-1734728300.zip?rlkey=mjfgq7uh7vdgkws23b0qa9q1e&raw=1) _(1.10.0)_
 
-*Requires macOS 15 or later*
+_Requires macOS 15 or later_

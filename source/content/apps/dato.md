@@ -10,12 +10,12 @@ hasSentry: true
 appStoreId: 1470584107
 setappId: 571
 olderMacOSVersions:
-  - '10.14'
-  - '10.15'
-  - '11'
-  - '12'
-  - '13'
-  - '14'
+  - "10.14"
+  - "10.15"
+  - "11"
+  - "12"
+  - "13"
+  - "14"
 feedbackNote: |
   If text in the app is upside down on macOS 26, it's a macOS bug and unrelated to the app. A computer restart fixes it.
 ---
@@ -51,7 +51,7 @@ Dato is a one-time purchase on the App Store with a lifetime of updates.
 - Supports calendar events with HTML formatted notes.
 - Show seconds in the menu bar clock or in the menu. (Optional)
 - Integration with Zoom, Google Meet, Microsoft Teams, and 50+ other services.
-	- And the ability to add support for any other video call service yourself.
+  - And the ability to add support for any other video call service yourself.
 - Open calendar events from Google Calendar directly in Google Calendar on the web.
 - Comes with multiple menu bar icons to choose from: date in calendar, date with border (like Itsycal), static clock, none.
 - Large text mode.
@@ -112,7 +112,7 @@ Dato is a one-time purchase on the App Store with a lifetime of updates.
 - Zoho Cliq
 - Zoom
 
-*And you can add support for any other video call service yourself in the app.*
+_And you can add support for any other video call service yourself in the app._
 
 ---
 
@@ -124,7 +124,7 @@ If all you need is another clock in the menu bar, check out [Second Clock](/seco
 
 Try the fully functional trial [here](https://www.dropbox.com/scl/fi/qystmc5clde2o1xypf7j1/Dato-5.6.2-trial-1752534579.zip?rlkey=gbfs4rpwtzci221fhmz02eqaw&raw=1). The only limitation is a reminder to buy the app every 12 hours, and no automatic updates. All data and settings carry over if you buy it on the App Store.
 
-*Download it to the Downloads folder, double-click to unzip, and then move it to the `/Applications` folder.*
+_Download it to the Downloads folder, double-click to unzip, and then move it to the `/Applications` folder._
 
 You can also [try it on Setapp](https://go.setapp.com/stp181?refAppID=571&utm_medium=vendor_program&utm_content=button) for 7 days for free.
 
@@ -347,10 +347,11 @@ Check if there are any [crash reports](/apps/faq#crash-report). If none exists, 
 Dato simply fetches calendars and events from macOS. If something is missing, it's never caused by Dato.
 
 Make sure:
+
 - The calendars show in the Calendar app and that they are enabled there.
-	- Open the Calendar app settings, click the “Accounts” pane, and then check that the calendars are there. Dato can only show calendars added there.
+  - Open the Calendar app settings, click the “Accounts” pane, and then check that the calendars are there. Dato can only show calendars added there.
 - The calendars are enabled in the Dato settings.
-	- Open the Dato settings, click the “Events” tab, and make sure the calendars are enabled.
+  - Open the Dato settings, click the “Events” tab, and make sure the calendars are enabled.
 - You have tried restarting your computer.
 - You are on the latest version of macOS.
 - You have tried resetting permissions for Dato using [App Buddy](/app-buddy).
@@ -362,6 +363,7 @@ Some users had luck with removing the account from the Calendar app settings and
 #### Some calendar events are missing in Dato {#missing-events}
 
 Make sure:
+
 - The calendar with the event is enabled in Dato.
 - You are on the latest Dato and macOS versions.
 - You have tried restarting your computer.
@@ -369,26 +371,27 @@ Make sure:
 - You have not hidden the event using the “Hide” action in the event's context menu.
 - You have not excluded the event with the “Exclude events” setting.
 - The event shows up in the Calendar app.
-	- If it does not show up there, the problem is not with Dato.
-	- Try pressing <kbd>Command</kbd>+<kbd>R</kbd> in the Calendar app to force-refresh.
-	- Try signing out and in again of the account in the Calendar app settings. That has helped a few users.
+  - If it does not show up there, the problem is not with Dato.
+  - Try pressing <kbd>Command</kbd>+<kbd>R</kbd> in the Calendar app to force-refresh.
+  - Try signing out and in again of the account in the Calendar app settings. That has helped a few users.
 - [Microsoft Bookings has problems syncing to MacBooks.](https://answers.microsoft.com/en-us/outlook_com/forum/all/bookings-meetings-sync-with-iphone-but-not-with/085530b3-90d2-4792-b0d9-0cc6f52875ba?page=3)
 
 #### The “upcoming event in menu bar” notification is not showing up {#upcoming-event-in-menu-bar-troubleshooting}
 
 Make sure:
+
 - The feature in enabled in the settings.
 - The correct calendars for it are enabled (it has a separate calendar picker).
 - When in the settings for it, the placeholder example menu bar item shows up in the menu bar.
-	- If it doesn't show up, try reducing the “event title limit”.
+  - If it doesn't show up, try reducing the “event title limit”.
 - There is enough space in the menu bar to show it.
 - You are on the latest Dato and macOS versions.
 - You have tried restarting your computer.
 - If you have Bartender or Ice (or a similar app that hides menu bar items) installed, make sure the menu bar item was not auto-hidden by them.
-	- Note that it uses a separate menu item from the main Dato menu item, so it could still be hidden by Bartender/Ice while the main menu bar item is not.
-	- Try quitting Bartender/Ice to make sure it is not one causing the issue.
-	- If you are using Ice, see [this](https://github.com/jordanbaird/Ice/discussions/298).
-		- As a workaround, in the “upcoming event in menu bar” settings, you could choose to keep the menu bar item visible even when there are no upcoming events.
+  - Note that it uses a separate menu item from the main Dato menu item, so it could still be hidden by Bartender/Ice while the main menu bar item is not.
+  - Try quitting Bartender/Ice to make sure it is not one causing the issue.
+  - If you are using Ice, see [this](https://github.com/jordanbaird/Ice/discussions/298).
+    - As a workaround, in the “upcoming event in menu bar” settings, you could choose to keep the menu bar item visible even when there are no upcoming events.
 - The event is not an all-day event (which are not shown).
 - You have not muted the event.
 - You have not excluded the event with the “Exclude events” setting.
@@ -399,6 +402,7 @@ Make sure:
 #### Fullscreen notifications do not work {#fullscreen-notifications-troubleshooting}
 
 Make sure:
+
 - The fullscreen notifications setting is enabled.
 - You have selected the correct calendars in the fullscreen notifications settings.
 - You are on the latest Dato and macOS versions.
@@ -425,6 +429,7 @@ This is the menu item for the “upcoming event in menu bar” feature. It shows
 I'm happy to add support for more [services](#supported-video-call-services). Just [send me](/feedback?product=Dato&referrer=Website-FAQ) an invitation link (replace a few characters at the end to anonymize it).
 
 The app can also detect the link of any video call service if you correctly add it in the Calendar app:
+
 - Create a new event.
 - Paste the video call link into the location field.
 - Accept the dropdown suggestion about it being a video call.
@@ -520,6 +525,7 @@ Dato uses macOS's built-in calendaring system, which syncs seamlessly with Googl
 It's unfortunately not possible to disable the built-in menu bar clock.
 
 However, you have some options:
+
 1. **(Recommended)** In “System Settings › Control Center › Clock Options”, choose the analog clock and disable showing the date. This gets you the closest to how it was on macOS 10.15 as you can use Dato for both date and time. <img width="258" src="https://user-images.githubusercontent.com/170270/105505537-a5044800-5cfb-11eb-979b-7a0b109f0c93.png"><br>This has the added benefit that while the system clock [shows as disabled](https://user-images.githubusercontent.com/170270/105506021-2c51bb80-5cfc-11eb-84a6-79b62d69d4bc.png) when you enable “Do Not Disturb” (which makes it pretty unreadable), Dato always shows it the same way.
 2. Use Dato for showing the date and the built-in clock for the time.
 3. Only show an icon for Dato.
@@ -535,6 +541,7 @@ It makes Dato pretend the event does not exist. The event will not be shown in D
 #### What does the “Mute” button on an event do? {#mute-event}
 
 It makes Dato not notify you about the event. This practically means the event will be ignored for:
+
 - Fullscreen notifications
 - Upcoming event in the menu bar
 - System notifications for video call events
@@ -712,13 +719,13 @@ I don't plan to add more settings to this feature. However, you can achieve this
 Run this command in the Terminal app:
 
 ```sh
-defaults export com.sindresorhus.Dato - | defaults import com.sindresorhus.Dato-setapp -
+defaults export com.o9-9.Dato - | defaults import com.o9-9.Dato-setapp -
 ```
 
 And to transfer the other way:
 
 ```sh
-defaults export com.sindresorhus.Dato-setapp - | defaults import com.sindresorhus.Dato -
+defaults export com.o9-9.Dato-setapp - | defaults import com.o9-9.Dato -
 ```
 
 #### How is this different from Fantastical?
@@ -778,16 +785,16 @@ The app comes with support for the Shortcuts app. Look up the app in the Shortcu
 
 ### Events
 
-The [distributed notification](/apps/faq#distributed-notifications) `com.sindresorhus.Dato.joinedVideoCall` is emitted when you join a video call from Dato.
+The [distributed notification](/apps/faq#distributed-notifications) `com.o9-9.Dato.joinedVideoCall` is emitted when you join a video call from Dato.
 
 ## Older Versions
 
-- [5.4.4](https://github.com/sindresorhus/sindresorhus.github.com/releases/download/v1.0.0/Dato.5.4.4.-.macOS.14.zip) for macOS 14
-- [5.1.3](https://github.com/sindresorhus/meta/files/14097627/Dato.5.1.3.-.macOS.13.zip) for macOS 13
-- [4.3.3](https://github.com/sindresorhus/meta/files/10516478/Dato.4.3.3.-.macOS.12.zip) for macOS 12
-- [3.3.8](https://github.com/sindresorhus/meta/files/8935698/Dato.3.3.8.-.macOS.11.zip) for macOS 11
-- [2.6.1](https://github.com/sindresorhus/meta/files/6758848/Dato.2.6.1.-.macOS.10.15.zip) for macOS 10.15
-- [1.4.9](https://github.com/sindresorhus/meta/files/5360452/Dato.1.14.9.-.Special.last.Mojave.compatible.release.zip) for macOS 10.14
+- [5.4.4](https://github.com/o9-9/o9-9.github.com/releases/download/v1.0.0/Dato.5.4.4.-.macOS.14.zip) for macOS 14
+- [5.1.3](https://github.com/o9-9/meta/files/14097627/Dato.5.1.3.-.macOS.13.zip) for macOS 13
+- [4.3.3](https://github.com/o9-9/meta/files/10516478/Dato.4.3.3.-.macOS.12.zip) for macOS 12
+- [3.3.8](https://github.com/o9-9/meta/files/8935698/Dato.3.3.8.-.macOS.11.zip) for macOS 11
+- [2.6.1](https://github.com/o9-9/meta/files/6758848/Dato.2.6.1.-.macOS.10.15.zip) for macOS 10.15
+- [1.4.9](https://github.com/o9-9/meta/files/5360452/Dato.1.14.9.-.Special.last.Mojave.compatible.release.zip) for macOS 10.14
 
 These are free for everyone but they will not run on newer macOS versions.
 
@@ -813,11 +820,11 @@ These are free for everyone but they will not run on newer macOS versions.
 	"alternativeHeadline": "Calendar events and world clocks in your menu bar",
 	"downloadUrl": "https://apps.apple.com/app/id1470584107",
 	"softwareVersion": "5.5.0",
-	"screenshot": "https://sindresorhus.com/_astro/screenshot1.IX_7bQOQ.jpg",
+	"screenshot": "https://o9-9.github.io/_astro/screenshot1.IX_7bQOQ.jpg",
 	"fileSize": "15MB",
 	"description": "Dato gives you a local clock, date, and multiple world clocks in the menu bar. When you click Dato in the menu bar, you get a menu with a calendar, calendar events, and world clocks. All of this is highly customizable.",
 	"keywords": "calendar,menu,bar,date,time,zone,world,clock,zoom,meet",
-	"thumbnailUrl": "https://sindresorhus.com/apps/dato/icon.png",
+	"thumbnailUrl": "https://o9-9.github.io/apps/dato/icon.png",
 	"author": {
 		"@type": "Person",
 		"givenName": "Sindre",
@@ -825,9 +832,9 @@ These are free for everyone but they will not run on newer macOS versions.
 		"jobTitle": "Open-Sourcerer",
 		"knowsAbout": "Unicorns",
 		"nationality": "Norway",
-		"image": "https://sindresorhus.com/assets/sindre-sorhus.jpg",
-		"url": "https://sindresorhus.com",
-		"sameAs": "https://github.com/sindresorhus"
+		"image": "https://o9-9.github.io/assets/sindre-sorhus.jpg",
+		"url": "https://o9-9.github.io",
+		"sameAs": "https://github.com/o9-9"
 	}
 }
 </script>

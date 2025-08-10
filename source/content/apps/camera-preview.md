@@ -8,8 +8,8 @@ isPaid: true
 isMenuBarApp: true
 appStoreId: 1632827132
 olderMacOSVersions:
-  - '13'
-  - '14'
+  - "13"
+  - "14"
 ---
 
 Instant access to your Mac's camera feed for quick checks before video calls.
@@ -24,7 +24,7 @@ Instant access to your Mac's camera feed for quick checks before video calls.
 
 #### I have a feature request, bug report, or some feedback
 
-[Send it here.](https://sindresorhus.com/feedback?product=Camera%20Preview&referrer=Website-FAQ)
+[Send it here.](https://o9-9.github.io/feedback?product=Camera%20Preview&referrer=Website-FAQ)
 
 #### The app does not work {#not-working}
 
@@ -95,6 +95,6 @@ I don't plan to localize the app.
 ## Older Versions
 
 - [1.6.1](https://github.com/user-attachments/files/18385375/Camera.Preview.1.6.1.-.macOS.14.zip) for macOS 14
-- [1.4.0](https://github.com/sindresorhus/meta/files/13988612/Camera.Preview.1.4.0.-.macOS.13.zip) for macOS 13
+- [1.4.0](https://github.com/o9-9/meta/files/13988612/Camera.Preview.1.4.0.-.macOS.13.zip) for macOS 13
 
 These are free for everyone but they will not run on newer macOS versions.

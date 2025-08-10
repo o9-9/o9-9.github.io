@@ -44,7 +44,7 @@ A color palette is a collection of colors with optional names, essential for des
 
 #### I have a feature request, bug report, or some feedback
 
-Click the feedback button in the app or [send it here.](https://sindresorhus.com/feedback?product=Simple%20Color%20Palette&referrer=Website-FAQ)
+Click the feedback button in the app or [send it here.](https://o9-9.github.io/feedback?product=Simple%20Color%20Palette&referrer=Website-FAQ)
 
 #### Is this a palette organizer app?
 
@@ -138,6 +138,6 @@ No, only flat colors are supported.
 
 A special version for users that cannot access the App Store. It won't receive automatic updates. I will update it here once a year.
 
-[Download](https://www.dropbox.com/scl/fi/6kc3f73j2msm9sygpibnq/Simple-Color-Palette-1.0.1-1744738760.zip?rlkey=9gbm58b8hy23m6rde40a7bomy&raw=1) *(1.0.1)*
+[Download](https://www.dropbox.com/scl/fi/6kc3f73j2msm9sygpibnq/Simple-Color-Palette-1.0.1-1744738760.zip?rlkey=9gbm58b8hy23m6rde40a7bomy&raw=1) _(1.0.1)_
 
-*Requires macOS 15 or later*
+_Requires macOS 15 or later_

@@ -11,7 +11,7 @@ isPaid: true
 isMenuBarApp: true
 appStoreId: 6504040051
 olderMacOSVersions:
-  - '14'
+  - "14"
 feedbackNote: |
   If you are having problems with sync, [read this](/scratchpad#troubleshooting).
 ---
@@ -71,7 +71,7 @@ Quickly open the app using the built-in Lock Screen widget. For more customizati
 
 1. Tap the share button in any app that deals with text and select “Add to Scratchpad”.
 1. macOS: Select some text in any app, right-click, and select “Services › Add to Scratchpad” or “Share › Add to Scratchpad”.
-2. iOS: Select some text in any app, tap “Share › Add to Scratchpad”.
+1. iOS: Select some text in any app, tap “Share › Add to Scratchpad”.
 1. Use the [Shortcuts action](#scripting)
 1. Use the [custom URL scheme](#scripting)
 1. Use [this shortcut](https://www.icloud.com/shortcuts/caa5fd4f5a7240cf951ef9a4184b0522) directly from a share sheet
@@ -93,7 +93,7 @@ You can replace `append` with `prepend`. And you can remove `&hide` if you want 
 
 #### I have a feature request, bug report, or some feedback
 
-Click the feedback button in the app or [send it here.](https://sindresorhus.com/feedback?product=Scratchpad&referrer=Website-FAQ)
+Click the feedback button in the app or [send it here.](https://o9-9.github.io/feedback?product=Scratchpad&referrer=Website-FAQ)
 
 #### The macOS app does not show up in the menu bar
 
@@ -210,8 +210,8 @@ The app can be automated using the Shortcuts app or with a custom URL scheme.
 
 <!-- More integrations:
 
-- [Command-line tool](https://github.com/sindresorhus/one-thing)
-- [Node.js API](https://github.com/sindresorhus/one-thing)
+- [Command-line tool](https://github.com/o9-9/one-thing)
+- [Node.js API](https://github.com/o9-9/one-thing)
 -->
 
 ### Shortcuts app
@@ -221,7 +221,7 @@ The app can be automated using the Shortcuts app or with a custom URL scheme.
 
 **Examples**
 
-- [*Tell me if you have done anything cool with scripting*](https://sindresorhus.com/feedback?product=Scratchpad&referrer=Website-FAQ)
+- [_Tell me if you have done anything cool with scripting_](https://o9-9.github.io/feedback?product=Scratchpad&referrer=Website-FAQ)
 
 ### Custom URL scheme
 
@@ -245,13 +245,13 @@ You can also prepend:
 open --background 'scratchpad:prepend?text=Hello'
 ```
 
-*Don't forget to [URL encode](https://www.urlencoder.org) the value for the `text=` search parameter. For example, using [this](https://gist.github.com/cdown/1163649) Bash function.*
+_Don't forget to [URL encode](https://www.urlencoder.org) the value for the `text=` search parameter. For example, using [this](https://gist.github.com/cdown/1163649) Bash function._
 
 You can also use the custom URL scheme on iOS.
 
 There is no way to get the text using the URL scheme, but you can use Shortcuts for that.
 
-I have not included a way to overwrite the text because I don't want anything to be able to overwrite the scratchpad. If you want this, [tell me your use-case](https://sindresorhus.com/feedback?product=Scratchpad&referrer=Website-FAQ). I may add this with an opt-in setting. For now, you can do it with Shortcuts.
+I have not included a way to overwrite the text because I don't want anything to be able to overwrite the scratchpad. If you want this, [tell me your use-case](https://o9-9.github.io/feedback?product=Scratchpad&referrer=Website-FAQ). I may add this with an opt-in setting. For now, you can do it with Shortcuts.
 
 ## Older Versions
 

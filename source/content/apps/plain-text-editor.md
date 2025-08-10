@@ -9,8 +9,8 @@ platforms:
 isPaid: true
 appStoreId: 1572202501
 olderMacOSVersions:
-  - '13'
-  - '14'
+  - "13"
+  - "14"
 ---
 
 Simple text editor without any rich text nonsense. The simplicity is a feature.
@@ -19,13 +19,13 @@ It won't handle your 1 million line log file, but it is a nice way to write down
 
 It's an [Universal Purchase](/apps/faq#universal-purchase).
 
-*It only handles UTF-8 text files (meaning no UTF-16).*
+_It only handles UTF-8 text files (meaning no UTF-16)._
 
 ## Frequently Asked Questions {#faq}
 
 #### I have a feature request, bug report, or some feedback
 
-Click the feedback button in the app or [send it here.](https://sindresorhus.com/feedback?product=Plain%20Text%20Editor&referrer=Website-FAQ)
+Click the feedback button in the app or [send it here.](https://o9-9.github.io/feedback?product=Plain%20Text%20Editor&referrer=Website-FAQ)
 
 #### How is the macOS version better than TextEdit?
 
@@ -130,7 +130,7 @@ You either have a system setting set to always show scrollbars or you have an ex
 
 This is unfortunately a macOS bug and not something I can fix.
 
-*If you work at Apple → [FB13607434](https://github.com/feedback-assistant/reports/issues/467)*
+_If you work at Apple → [FB13607434](https://github.com/feedback-assistant/reports/issues/467)_
 
 #### Can you add line numbers?
 
@@ -149,6 +149,6 @@ I don't plan to localize the app.
 ## Older Versions
 
 - [1.5.1](https://github.com/user-attachments/files/18928644/Plain.Text.Editor.1.5.1.-.macOS.14.zip) for macOS 14+
-- [1.3.2](https://github.com/sindresorhus/meta/files/14232390/Plain.Text.Editor.1.3.2.-.macOS.13.zip) for macOS 13+
+- [1.3.2](https://github.com/o9-9/meta/files/14232390/Plain.Text.Editor.1.3.2.-.macOS.13.zip) for macOS 13+
 
 These are free for everyone but they will not run on newer macOS versions.

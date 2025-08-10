@@ -28,7 +28,7 @@ For macOS, it's only available for Apple silicon Macs.
 
 #### I have a feature request, bug report, or some feedback
 
-[Send it here.](https://sindresorhus.com/feedback?product=Photo%20Widget&referrer=Website-FAQ)
+[Send it here.](https://o9-9.github.io/feedback?product=Photo%20Widget&referrer=Website-FAQ)
 
 #### The widget does not show up in the widget picker, the widget is stuck, or is missing from the Home Screen
 
@@ -89,6 +89,7 @@ This is something I want to add, but it's more complicated than it sounds. Widge
 This is because of iOS limitations. A widget can only open its own app when a user taps it. And the only way to run a shortcut is to open the Shortcuts app using a special URL. So when you tap the widget, the widget opens the main app, and the main app then opens the Shortcuts app. It's not a very good user experience, but only Apple can fix this.
 
 If you work at Apple, you know what to do:
+
 - [FB9745173](https://github.com/feedback-assistant/reports/issues/240)
 - [FB11516334](https://github.com/feedback-assistant/reports/issues/357)
 - [FB11516273](https://github.com/feedback-assistant/reports/issues/356)
@@ -98,6 +99,7 @@ If you work at Apple, you know what to do:
 Widgets get very few system resources so it's not possible to load a high-resolution image.
 
 If you work at Apple, you know what to do:
+
 - [FB8832751](https://github.com/feedback-assistant/reports/issues/177)
 
 #### How can I select a people album?

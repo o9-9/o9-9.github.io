@@ -30,8 +30,8 @@ title: Repos
 		selectAll: document.querySelectorAll.bind(document)
 	};
 
-	const username = 'sindresorhus';
-	const email = 'sindresorhus@gmail.com';
+	const username = 'o9-9';
+	const email = 'o9-9@gmail.com';
 
 	const response = await fetch(`https://api.github.com/users/${username}/events/public`);
 	const json = await response.json();
@@ -93,7 +93,7 @@ title: Repos
 		return parseInt(color.replace('#', '0x'), 16) > (0xFFFFFF / 2) ? '#333' : '#fff';
 	};
 
-	const url = isDev ? 'http://localhost:3000' : 'https://gh-latest-repos-sindresorhus.vercel.app';
+	const url = isDev ? 'http://localhost:3000' : 'https://gh-latest-repos-o9-9.vercel.app';
 
 	const json = await (await fetch(url)).json();
 
@@ -117,7 +117,7 @@ title: Repos
 			lang.style.color = textColorFromBackgroundColor(repo.primaryLanguage.color);
 			lang.style.backgroundColor = repo.primaryLanguage.color;
 
-			const query = `user:sindresorhus user:chalk user:avajs user:xojs language:${repo.primaryLanguage.name.toLowerCase()} archived:false`;
+			const query = `user:o9-9 user:chalk user:avajs user:xojs language:${repo.primaryLanguage.name.toLowerCase()} archived:false`;
 			const url = new URL('https://github.com/search');
 			url.searchParams.append('q', query);
 			lang.href = url;

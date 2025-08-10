@@ -16,7 +16,7 @@ Add playful eyes to your menu bar that follow your cursor and blink when you cli
 
 #### I have a feature request, bug report, or some feedback
 
-Click the feedback button in the app or [send it here.](https://sindresorhus.com/feedback?product=Googly%20Eyes&referrer=Website-FAQ)
+Click the feedback button in the app or [send it here.](https://o9-9.github.io/feedback?product=Googly%20Eyes&referrer=Website-FAQ)
 
 #### The app does not show up in the menu bar
 
@@ -36,9 +36,9 @@ The app is optimized as much as possible, but macOS is inefficient at updating m
 
 A special version for users that cannot access the App Store. It won't receive automatic updates. I will update it here once a year.
 
-[Download](https://www.dropbox.com/scl/fi/pyxs34muy524a1irxtn05/Googly-Eyes-1.1.1-1742015870.zip?rlkey=k4sn2jq9xmmvqrd3kxdb0gb5l&raw=1) *(1.1.1)*
+[Download](https://www.dropbox.com/scl/fi/pyxs34muy524a1irxtn05/Googly-Eyes-1.1.1-1742015870.zip?rlkey=k4sn2jq9xmmvqrd3kxdb0gb5l&raw=1) _(1.1.1)_
 
-*Requires macOS 15 or later*
+_Requires macOS 15 or later_
 
 <script type="module" is:inline>
 // Only the core measurements

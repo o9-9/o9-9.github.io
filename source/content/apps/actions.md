@@ -9,11 +9,11 @@ platforms:
 hasSentry: true
 appStoreId: 1586435171
 links:
-  'TestFlight': https://testflight.apple.com/join/fJGUrsZx
+  "TestFlight": https://testflight.apple.com/join/fJGUrsZx
 olderMacOSVersions:
-  - '12'
-  - '13'
-  - '14'
+  - "12"
+  - "13"
+  - "14"
 feedbackNote: |
   ### If the actions don't show up in the Shortcuts app or you get a “com.apple.extensionKit.errorDomain error 2”, [see this](/actions#actions-not-showing-up).<br><br>
 
@@ -24,11 +24,11 @@ The app provides lots of powerful extra actions for the Shortcuts app on macOS, 
 
 **Restart your device if the actions do not show up in the Shortcuts app. Also try setting a different device language and then back. [Learn more](#actions-not-showing-up)**
 
-If you have any questions about how to use the different actions or for what, try asking the [Actions GPT bot](https://chatgpt.com/g/g-6746353a017881918cceb0761aea3bfe-actions-app-companion). And if you want to feed your own AI, [here is the source data](https://gist.githubusercontent.com/sindresorhus/fbba65a774fb9da915e624807a02a6d2/raw/7be21a65977b6dd82d1a6cc34be4476df057ea06/actions.md).
+If you have any questions about how to use the different actions or for what, try asking the [Actions GPT bot](https://chatgpt.com/g/g-6746353a017881918cceb0761aea3bfe-actions-app-companion). And if you want to feed your own AI, [here is the source data](https://gist.githubusercontent.com/o9-9/fbba65a774fb9da915e624807a02a6d2/raw/7be21a65977b6dd82d1a6cc34be4476df057ea06/actions.md).
 
 ---
 
-*On macOS, also check out [Shortcutie](/shortcutie) for advanced actions.*
+_On macOS, also check out [Shortcutie](/shortcutie) for advanced actions._
 
 ---
 
@@ -60,7 +60,7 @@ If you have any questions about how to use the different actions or for what, tr
 - Create Menu Item
 - Create URL
 - Create URL Shortcut File
-	<span class="list-description">Create [`.url` or `.webloc`](https://en.wikipedia.org/wiki/Shortcut_(computing)) files that open websites when double-clicked. Primarily for macOS.</span>
+  <span class="list-description">Create [`.url` or `.webloc`](<https://en.wikipedia.org/wiki/Shortcut_(computing)>) files that open websites when double-clicked. Primarily for macOS.</span>
 - Download File
 - Edit URL
 - Encrypt File
@@ -76,7 +76,7 @@ If you have any questions about how to use the different actions or for what, tr
 - Format Number — Compact
 - Format Person Name
 - Format Text List
-	<span class="list-description">`["A", "B", "C"]` → `A, B, and C`</span>
+  <span class="list-description">`["A", "B", "C"]` → `A, B, and C`</span>
 - Generate CSV
 - Generate Haptic Feedback <sup>(iOS-only)</sup>
 - Generate Random Data
@@ -93,20 +93,20 @@ If you have any questions about how to use the different actions or for what, tr
 - Get Compass Heading <sup>(iOS-only)</sup>
 - Get Default Browser <sup>(macOS-only)</sup>
 - Get Device Details (Extended)
-	- Uptime (not including sleep)
-	- Uptime (including sleep)
-	- Active processor count
-	- Physical memory
-	- Time zone
-	- Hostname
-	- Thermal state
-	- Total storage capacity
-	- Available storage capacity
-	- Battery condition <sup>(macOS-only)</sup>
-	- Battery health <sup>(macOS-only)</sup>
-	- Serial number <sup>(macOS-only)</sup>
+  - Uptime (not including sleep)
+  - Uptime (including sleep)
+  - Active processor count
+  - Physical memory
+  - Time zone
+  - Hostname
+  - Thermal state
+  - Total storage capacity
+  - Available storage capacity
+  - Battery condition <sup>(macOS-only)</sup>
+  - Battery health <sup>(macOS-only)</sup>
+  - Serial number <sup>(macOS-only)</sup>
 - Get Device Motion Activity
-	<span class="list-description">(stationary, walking, running, cycling, automotive, etc.)</span>
+  <span class="list-description">(stationary, walking, running, cycling, automotive, etc.)</span>
 - Get Device Motion Data <sup>(iOS-only)</sup>
 - Get Device Orientation
 - Get Dominant Colors of Image
@@ -135,21 +135,21 @@ If you have any questions about how to use the different actions or for what, tr
 - Get System Color
 - Get Title of URL
 - Get User Details
-	- Username <sup>(macOS-only)</sup>
-	- Full Name
-	- Given Name
-	- Family Name
-	- Initials
-	- Shell
-	- Language Code
-	- Idle Time <sup>(macOS-only)</sup>
-	- Administrator Status <sup>(macOS-only)</sup>
+  - Username <sup>(macOS-only)</sup>
+  - Full Name
+  - Given Name
+  - Family Name
+  - Initials
+  - Shell
+  - Language Code
+  - Idle Time <sup>(macOS-only)</sup>
+  - Administrator Status <sup>(macOS-only)</sup>
 - Get Values Using [JSONPath](https://en.wikipedia.org/wiki/JSONPath)
 - Get/Set Default Printer <sup>(macOS-only)</sup>
 - Get/Set File Extension Visibility <sup>(macOS-only)</sup>
-	<span class="list-description">Check and control whether file extensions are shown in Finder for specific files. Only works if the “Show all filename extensions” Finder setting is disabled.</span>
+  <span class="list-description">Check and control whether file extensions are shown in Finder for specific files. Only works if the “Show all filename extensions” Finder setting is disabled.</span>
 - Get/Set File Icon <sup>(macOS-only)</sup>
-	<span class="list-description">Get the icon of files and folders or set custom icons for them.</span>
+  <span class="list-description">Get the icon of files and folders or set custom icons for them.</span>
 - Get/Set File Tags
 - Get/Set Image Capture Date
 - Get/Set Image Location
@@ -158,7 +158,7 @@ If you have any questions about how to use the different actions or for what, tr
 - Hex Encode
 - Hide Shortcuts App
 - Invert Dictionary
-	<span class="list-description">`{"en": "Hello", "es": "Hola"}` → `{"Hello": "en", "Hola": "es"}`</span>
+  <span class="list-description">`{"en": "Hello", "es": "Hola"}` → `{"Hello": "en", "Hola": "es"}`</span>
 - Invert Images
 - Is Accessibility Feature On
 - Is Audio Playing <sup>(iOS-only)</sup>
@@ -192,12 +192,12 @@ If you have any questions about how to use the different actions or for what, tr
 - Named Clipboard <sup>(macOS-only)</sup>
 - Open URLs in Safari
 - Open URLs with App <sup>(macOS-only)</sup>
-	<span class="list-description">For example, open URLs in a specific browser.</span>
+  <span class="list-description">For example, open URLs in a specific browser.</span>
 - Overwrite File
 - Parse CSV
 - Parse JSON5
 - Pick Color
-	<span class="list-description">Pick a color using the system color picker, optionally from a reference image.</span>
+  <span class="list-description">Pick a color using the system color picker, optionally from a reference image.</span>
 - Play Alert Sound <sup>(macOS-only)</sup>
 - Pretty Print Dictionaries
 - Remove Duplicate Lines
@@ -209,13 +209,13 @@ If you have any questions about how to use the different actions or for what, tr
 - Reverse Lines
 - Reverse List
 - Round Number to Decimal Places
-	<span class="list-description">`3.14159` → `3.14`</span>
+  <span class="list-description">`3.14159` → `3.14`</span>
 - Round Number to Multiple
 - Sample Color from Screen <sup>(macOS-only)</sup>
 - Scan Documents <sup>(iOS-only)</sup>
 - Scan QR Codes in Image
 - Send Distributed Notification <sup>(macOS-only)</sup>
-	- [What are distributed notifications?](/apps/faq#distributed-notifications)
+  - [What are distributed notifications?](/apps/faq#distributed-notifications)
 - Set Creation and Modification Date of File
 - Set Dictionary Value Using [JSONPath](https://en.wikipedia.org/wiki/JSONPath)
 - Show Black Screen <sup>(iOS-only)</sup>
@@ -227,35 +227,35 @@ If you have any questions about how to use the different actions or for what, tr
 - Toggle Boolean
 - Transform Lists
 - Transform Text
-	- Camel case
-	- Pascal case
-	- Snake case
-	- Constant case
-	- Dash case
-	- Slugify
-	- Strip punctuation
-	- Strip quotation marks
-	- Strip HTML
-	- Strip diacritics
-	- Transliterate to Latin
-	- Transliterate Latin to Arabic
-	- Transliterate Latin to Cyrillic
-	- Transliterate Latin to Greek
-	- Transliterate Latin to Hebrew
-	- Transliterate Latin to Hangul
-	- Transliterate Latin to Hiragana
-	- Transliterate Latin to Thai
-	- Transliterate Hiragana to Katakana
-	- Transliterate Mandarin to Latin
+  - Camel case
+  - Pascal case
+  - Snake case
+  - Constant case
+  - Dash case
+  - Slugify
+  - Strip punctuation
+  - Strip quotation marks
+  - Strip HTML
+  - Strip diacritics
+  - Transliterate to Latin
+  - Transliterate Latin to Arabic
+  - Transliterate Latin to Cyrillic
+  - Transliterate Latin to Greek
+  - Transliterate Latin to Hebrew
+  - Transliterate Latin to Hangul
+  - Transliterate Latin to Hiragana
+  - Transliterate Latin to Thai
+  - Transliterate Hiragana to Katakana
+  - Transliterate Mandarin to Latin
 - Transform Text with JavaScript
 - Trim Whitespace
 - Truncate List
 - Truncate Number
 - Truncate Text
 - Use System Font in Rich Text
-	- [Example shortcut](https://www.icloud.com/shortcuts/03aecdb46eca496aaf996ebc625a0c54)
+  - [Example shortcut](https://www.icloud.com/shortcuts/03aecdb46eca496aaf996ebc625a0c54)
 - Wait for Distributed Notification <sup>(macOS-only)</sup>
-	- [What are distributed notifications?](/apps/faq#distributed-notifications)
+  - [What are distributed notifications?](/apps/faq#distributed-notifications)
 - Wait Milliseconds
 - Write or Edit Text
 
@@ -300,7 +300,7 @@ For these, I recommend sending a [feature request to Apple](https://feedbackassi
 
 #### I have a feature request, bug report, or some feedback
 
-Click the feedback button in the app or [send it here.](https://sindresorhus.com/feedback?product=Actions&referrer=Website-FAQ)
+Click the feedback button in the app or [send it here.](https://o9-9.github.io/feedback?product=Actions&referrer=Website-FAQ)
 
 #### The actions don't show up in the Shortcuts app {#actions-not-showing-up}
 
@@ -314,7 +314,7 @@ Some things you could try:
 1. Add [this shortcut](https://www.icloud.com/shortcuts/e3b39e37d8d6439db9119ebbff626958), copy the action, paste it into a new shortcut, and relaunch Shortcuts.
 1. Remove the app, install it again, and restart your device.
 
-*Please don't contact me about this issue. This is a problem with iOS/macOS and out of my control.*
+_Please don't contact me about this issue. This is a problem with iOS/macOS and out of my control._
 
 #### I get a “errorDomain error 2” error when running an action
 
@@ -340,4 +340,4 @@ iOS does not have a way to prevent individual apps from being offloaded (even th
 
 A special macOS version for users that cannot access the App Store. It won't receive automatic updates. I will update it here once a year.
 
-[Download](https://www.dropbox.com/scl/fi/p1mxfqhy35ih6semoh28b/Actions-3.6.0-1740482537.zip?rlkey=u9p8r3gpqtbkslti39ttte1pa&raw=1) *(3.6.0 · macOS 15+)*
+[Download](https://www.dropbox.com/scl/fi/p1mxfqhy35ih6semoh28b/Actions-3.6.0-1740482537.zip?rlkey=u9p8r3gpqtbkslti39ttte1pa&raw=1) _(3.6.0 · macOS 15+)_

@@ -8,8 +8,8 @@ isMenuBarApp: true
 appStoreId: 6443714928
 hasSentry: true
 olderMacOSVersions:
-  - '13'
-  - '14'
+  - "13"
+  - "14"
 ---
 
 The perfect companion to the built-in Calendar app. Just the events for today. Click an event to show it in the Calendar app. It also gives you a quick way to directly join an upcoming video call.
@@ -22,7 +22,7 @@ It integrates with Calendar, Fantastical, and BusyCal.
 
 #### I have a feature request, bug report, or some feedback
 
-[Send it here.](https://sindresorhus.com/feedback?product=Today&referrer=Website-FAQ)
+[Send it here.](https://o9-9.github.io/feedback?product=Today&referrer=Website-FAQ)
 
 #### The app does not show up in the menu bar
 
@@ -34,9 +34,10 @@ Press the <kbd>Option</kbd> key while opening the Today menu.
 
 #### It does not support the video call service I use
 
-I'm happy to add support for more services. Just [send me](https://sindresorhus.com/feedback?product=Today&referrer=Website-FAQ) an invitation link (replace a few characters at the end to anonymize it).
+I'm happy to add support for more services. Just [send me](https://o9-9.github.io/feedback?product=Today&referrer=Website-FAQ) an invitation link (replace a few characters at the end to anonymize it).
 
 The app can also detect the link of any video call service if you correctly add it in the Calendar app:
+
 - Create a new event.
 - Paste the video call link into the location field.
 - Accept the dropdown suggestion about it being a video call.
@@ -55,7 +56,7 @@ https://some-video-call-service.com/join/23423
 
 #### How can I open meeting links (Google Meet, Zoom, Microsoft Teams, etc.) in a specific browser?
 
-Check out my [Velja app](https://sindresorhus.com/velja). It has built-in support for this without any setup. It can even open links to Zoom and Microsoft Teams directly in their desktop app.
+Check out my [Velja app](https://o9-9.github.io/velja). It has built-in support for this without any setup. It can even open links to Zoom and Microsoft Teams directly in their desktop app.
 
 #### I have Fantastical set as my default calendar app but Today still opens Calendar
 
@@ -130,12 +131,12 @@ I don't plan to localize the app.
 ## Older Versions
 
 - [1.6.2](https://github.com/user-attachments/files/18873369/Today.1.6.2.-.macOS.14.zip) for macOS 14+
-- [1.5.0](https://github.com/sindresorhus/meta/files/13997505/Today.1.5.0.-.macOS.13.zip) for macOS 13+
+- [1.5.0](https://github.com/o9-9/meta/files/13997505/Today.1.5.0.-.macOS.13.zip) for macOS 13+
 
 ## Non-App Store Version
 
 A special version for users that cannot access the App Store. It won't receive automatic updates. I will update it here once a year.
 
-[Download](https://www.dropbox.com/scl/fi/r87w55w9hy6j2i54srg5c/Today-1.7.1-1749995609.zip?rlkey=4tv1ovsun17asiyfkgopp3fn8&raw=1) *(1.7.1)*
+[Download](https://www.dropbox.com/scl/fi/r87w55w9hy6j2i54srg5c/Today-1.7.1-1749995609.zip?rlkey=4tv1ovsun17asiyfkgopp3fn8&raw=1) _(1.7.1)_
 
-*Requires macOS 15 or later*
+_Requires macOS 15 or later_

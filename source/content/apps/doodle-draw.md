@@ -17,7 +17,7 @@ The app is intentionally simple.
 
 #### I have a feature request, bug report, or some feedback
 
-[Send it here.](https://sindresorhus.com/feedback?product=Doodle%20Draw&referrer=Website-FAQ)
+[Send it here.](https://o9-9.github.io/feedback?product=Doodle%20Draw&referrer=Website-FAQ)
 
 #### I can already access these drawing tools in the Notes and Freeform app
 

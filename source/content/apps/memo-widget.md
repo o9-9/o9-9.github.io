@@ -20,7 +20,7 @@ For macOS, it's only available for Apple silicon Macs running macOS 15 or later.
 
 #### I have a feature request, bug report, or some feedback
 
-[Send it here.](https://sindresorhus.com/feedback?product=Memo%20Widget&referrer=Website-FAQ)
+[Send it here.](https://o9-9.github.io/feedback?product=Memo%20Widget&referrer=Website-FAQ)
 
 #### How do I add the widget?
 

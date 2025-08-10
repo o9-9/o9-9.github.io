@@ -8,10 +8,10 @@ isMenuBarApp: true
 appStoreId: 1545870783
 hasSentry: true
 olderMacOSVersions:
-  - '11'
-  - '12'
-  - '13'
-  - '14'
+  - "11"
+  - "12"
+  - "13"
+  - "14"
 ---
 
 #### Features
@@ -29,7 +29,7 @@ olderMacOSVersions:
 
 ---
 
-*You may also like my [Simple Color Palette](/simple-color-palette) app.*
+_You may also like my [Simple Color Palette](/simple-color-palette) app._
 
 ---
 
@@ -50,7 +50,7 @@ You can use the following keyboard shortcuts in the app:
 - Copy as Unit RGB: <kbd>Shift</kbd> <kbd>Command</kbd> <kbd>u</kbd>
 - Copy as OKLCH: <kbd>Shift</kbd> <kbd>Command</kbd> <kbd>o</kbd>
 - Copy as LCH: <kbd>Shift</kbd> <kbd>Command</kbd> <kbd>l</kbd>
-- Paste color: <kbd>Shift</kbd> <kbd>Command</kbd> <kbd>v</kbd> *(In the format Hex, HSL, RGB, Unit RGB, OKLCH, or LCH)*
+- Paste color: <kbd>Shift</kbd> <kbd>Command</kbd> <kbd>v</kbd> _(In the format Hex, HSL, RGB, Unit RGB, OKLCH, or LCH)_
 - Reset opacity: <kbd>Control</kbd> <kbd>Shift</kbd> <kbd>o</kbd>
 
 ### Plugins
@@ -148,13 +148,13 @@ Tip: You can [run shortcuts from the command-line](https://support.apple.com/gui
 
 ## Older versions
 
-- [2.0.3](https://github.com/sindresorhus/System-Color-Picker/releases/download/older-releases/Color.Picker.2.0.3.-.macOS.14.zip) for macOS 14+
-- [1.15.0](https://github.com/sindresorhus/System-Color-Picker/releases/download/older-releases/Color.Picker.1.15.0.-.macOS.13.zip) for macOS 13+
-- [1.12.1](https://github.com/sindresorhus/System-Color-Picker/releases/download/older-releases/Color.Picker.1.12.1.-.macOS.12.zip) for macOS 12+
-- [1.9.6](https://github.com/sindresorhus/System-Color-Picker/releases/download/older-releases/Color.Picker.1.9.6.-.macOS.11.zip) for macOS 11+
+- [2.0.3](https://github.com/o9-9/System-Color-Picker/releases/download/older-releases/Color.Picker.2.0.3.-.macOS.14.zip) for macOS 14+
+- [1.15.0](https://github.com/o9-9/System-Color-Picker/releases/download/older-releases/Color.Picker.1.15.0.-.macOS.13.zip) for macOS 13+
+- [1.12.1](https://github.com/o9-9/System-Color-Picker/releases/download/older-releases/Color.Picker.1.12.1.-.macOS.12.zip) for macOS 12+
+- [1.9.6](https://github.com/o9-9/System-Color-Picker/releases/download/older-releases/Color.Picker.1.9.6.-.macOS.11.zip) for macOS 11+
 
 ## Non-App Store Version
 
 A special macOS version for users that cannot access the App Store. It won't receive automatic updates. I will update it here once a year.
 
-[Download](https://www.dropbox.com/scl/fi/2lvdt09widz0p3jzfrwd8/Color-Picker-2.1.0-1740424285.zip?rlkey=yuzrr4abjfty60oscd3pcdyvc&raw=1) *(2.1.0 · macOS 15+)*
+[Download](https://www.dropbox.com/scl/fi/2lvdt09widz0p3jzfrwd8/Color-Picker-2.1.0-1740424285.zip?rlkey=yuzrr4abjfty60oscd3pcdyvc&raw=1) _(2.1.0 · macOS 15+)_

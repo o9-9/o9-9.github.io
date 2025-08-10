@@ -7,9 +7,9 @@ platforms:
 isMenuBarApp: true
 appStoreId: 1604176982
 olderMacOSVersions:
-  - '12'
-  - '13'
-  - '14'
+  - "12"
+  - "13"
+  - "14"
 ---
 
 This can be a useful tool to help you focus on a single task.
@@ -42,15 +42,15 @@ However, what you use this space for is really up to you.
 - Click the menu bar item while pressing <kbd>shift</kbd> to clear the text.
 - Right-click the menu bar item to be able to quit the app quickly.
 - If the menu bar item text is truncated, hover over it to see the full text in a tooltip.
-- You can use [Markdown](https://www.markdownguide.org/basic-syntax/#emphasis) to [style the text](https://twitter.com/sindresorhus/status/1481818533294407680) (supports bold, italic, and strikethrough) and add links.
-- You can [drag & drop text](https://twitter.com/sindresorhus/status/1481862243755376642) onto the menu bar item to set it. For example, you could drag a todo item from the Reminders app or Things.
+- You can use [Markdown](https://www.markdownguide.org/basic-syntax/#emphasis) to [style the text](https://twitter.com/o9-9/status/1481818533294407680) (supports bold, italic, and strikethrough) and add links.
+- You can [drag & drop text](https://twitter.com/o9-9/status/1481862243755376642) onto the menu bar item to set it. For example, you could drag a todo item from the Reminders app or Things.
 - Select some text in any app, right-click, select “Services”, and click “Send to One Thing” to set One Thing to the selected text. You can also use the “Share” menu item if the app supports that.
 
 ## Frequently Asked Questions {#faq}
 
 #### I have a feature request, bug report, or some feedback
 
-[Send it here.](https://sindresorhus.com/feedback?product=One%20Thing&referrer=Website-FAQ)
+[Send it here.](https://o9-9.github.io/feedback?product=One%20Thing&referrer=Website-FAQ)
 
 #### The app does not show up in the menu bar
 
@@ -118,7 +118,7 @@ I plan to do it if the app takes off. So tell your friends.
 
 #### How can I export, import, sync, or back up the settings?
 
-[See this guide.](https://github.com/sindresorhus/guides/blob/main/backup-app-settings.md)
+[See this guide.](https://github.com/o9-9/guides/blob/main/backup-app-settings.md)
 
 #### Is the app native?
 
@@ -140,10 +140,10 @@ The app can be automated using the Shortcuts app or with a custom URL scheme.
 
 More integrations:
 
-- [Command-line tool](https://github.com/sindresorhus/one-thing)
-- [Node.js API](https://github.com/sindresorhus/one-thing)
+- [Command-line tool](https://github.com/o9-9/one-thing)
+- [Node.js API](https://github.com/o9-9/one-thing)
 - [Raycast commands](https://github.com/raycast/script-commands/tree/master/commands#one-thing)
-	- Note: Raycast commands are not the same as plugins. [How to install commands.](https://github.com/raycast/script-commands#install-script-commands-from-this-repository)
+  - Note: Raycast commands are not the same as plugins. [How to install commands.](https://github.com/raycast/script-commands#install-script-commands-from-this-repository)
 
 ### Shortcuts app
 
@@ -166,24 +166,24 @@ For example, in your terminal:
 open --background 'one-thing:?text=Exercise'
 ```
 
-*Don't forget to [URL encode](https://www.urlencoder.org) the value for the `text=` search parameter. For example, using [this](https://gist.github.com/cdown/1163649) Bash function.*
+_Don't forget to [URL encode](https://www.urlencoder.org) the value for the `text=` search parameter. For example, using [this](https://gist.github.com/cdown/1163649) Bash function._
 
 There is no way to get the text using the URL scheme, but if you are in the terminal, you can run this command:
 
 ```sh
-defaults read com.sindresorhus.One-Thing text
+defaults read com.o9-9.One-Thing text
 ```
 
 ## Older Versions
 
 - [1.12.2](https://github.com/user-attachments/files/19145029/One.Thing.1.12.2.-.macOS.14.zip) for macOS 14+
-- [1.11.3](https://github.com/sindresorhus/meta/files/14759175/One.Thing.1.11.3.-.macOS.13.zip) for macOS 13+
-- [1.9.0](https://github.com/sindresorhus/meta/files/11081660/One.Thing.1.9.0.-.macOS.12.zip) for macOS 12+
+- [1.11.3](https://github.com/o9-9/meta/files/14759175/One.Thing.1.11.3.-.macOS.13.zip) for macOS 13+
+- [1.9.0](https://github.com/o9-9/meta/files/11081660/One.Thing.1.9.0.-.macOS.12.zip) for macOS 12+
 
 ## Non-App Store Version
 
 A special version for users that cannot access the App Store. It won't receive automatic updates. I will update it here once a year.
 
-[Download](https://www.dropbox.com/scl/fi/q9rm992wh0ohloi84hnxa/One-Thing-1.13.1-1741673626.zip?rlkey=rxkvdki7glpvehvtve8e6pgg3&raw=1) *(1.13.1)*
+[Download](https://www.dropbox.com/scl/fi/q9rm992wh0ohloi84hnxa/One-Thing-1.13.1-1741673626.zip?rlkey=rxkvdki7glpvehvtve8e6pgg3&raw=1) _(1.13.1)_
 
-*Requires macOS 15 or later*
+_Requires macOS 15 or later_

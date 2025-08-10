@@ -7,8 +7,8 @@ platforms:
 isMenuBarApp: true
 appStoreId: 1666327168
 olderMacOSVersions:
-  - '13'
-  - '14'
+  - "13"
+  - "14"
 ---
 
 The app provides menu bar separators to group menu bar items for a more streamlined appearance.
@@ -27,7 +27,7 @@ You may also like my [Menu Bar Spacing](/menu-bar-spacing) app for changing the 
 
 #### I have a feature request, bug report, or some feedback
 
-[Send it here.](https://sindresorhus.com/feedback?product=Spaced&referrer=Website-FAQ)
+[Send it here.](https://o9-9.github.io/feedback?product=Spaced&referrer=Website-FAQ)
 
 #### The app does not show up in the menu bar
 
@@ -54,12 +54,12 @@ I don't plan to localize the app.
 ## Older Versions
 
 - [1.1.1](https://github.com/user-attachments/files/18212917/Spaced.1.1.1.-.macOS.14.zip) for macOS 14+
-- [1.0.4](https://github.com/sindresorhus/meta/files/13852708/Spaced.1.0.4.-.macOS.13.zip) for macOS 13+
+- [1.0.4](https://github.com/o9-9/meta/files/13852708/Spaced.1.0.4.-.macOS.13.zip) for macOS 13+
 
 ## Non-App Store Version
 
 A special version for users that cannot access the App Store. It won't receive automatic updates. I will update it here once a year.
 
-[Download](https://www.dropbox.com/scl/fi/b7kcnsg86u00gxpoum6ou/Spaced-1.2.0-1734711302.zip?rlkey=2tabe3k0tyalc5jjuehpyfro9&raw=1) *(1.2.0)*
+[Download](https://www.dropbox.com/scl/fi/b7kcnsg86u00gxpoum6ou/Spaced-1.2.0-1734711302.zip?rlkey=2tabe3k0tyalc5jjuehpyfro9&raw=1) _(1.2.0)_
 
-*Requires macOS 15 or later*
+_Requires macOS 15 or later_

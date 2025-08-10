@@ -10,7 +10,7 @@ platforms:
   - watchOS
 appStoreId: 6465745322
 olderMacOSVersions:
-  - '14'
+  - "14"
 ---
 
 Show a single task on your Home Screen, Lock Screen, or desktop.
@@ -47,7 +47,7 @@ For example, on macOS, select the tasks you want in Reminders or Things, right-c
 
 #### I have a feature request, bug report, or some feedback
 
-[Send it here.](https://sindresorhus.com/feedback?product=One%20Task&referrer=Website-FAQ)
+[Send it here.](https://o9-9.github.io/feedback?product=One%20Task&referrer=Website-FAQ)
 
 #### How is this different from your [One Thing](/one-thing) app? {#one-thing-difference}
 
@@ -58,6 +58,7 @@ One Thing is a minimalist note app that sits in the menu bar, displaying a singl
 [Troubleshooting.](/apps/faq#icloud-sync)
 
 Known issue:
+
 - Because of a macOS bug, the macOS app does not sync with iCloud while it's focused.
 
 #### How can I edit an item?
@@ -76,7 +77,7 @@ No. I want to keep this app super simple.
 
 However, you can achieve this using the Shortcuts app. Create a [shortcut](https://support.apple.com/guide/shortcuts/welcome/ios) that uses the “Add Task” action to add the tasks you want to be recurring. Then create an [automation](https://support.apple.com/guide/shortcuts/apdfbdbd7123/7.0/ios/17.0) to run the shortcut at a certain interval. For example, every morning.
 
-*(macOS does not yet have automations. You can use [Shortery](https://apps.apple.com/app/id1594183810) for now.)*
+_(macOS does not yet have automations. You can use [Shortery](https://apps.apple.com/app/id1594183810) for now.)_
 
 #### Does the app support task templates? {#task-templates}
 

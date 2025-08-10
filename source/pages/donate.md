@@ -25,22 +25,22 @@ title: Donate
 
 # Donate <span class="pl-2">❤️</span>
 
-I'm a full-time open-sourcerer and my work is funded by the community. [Read more about me and what I do.](https://github.com/sponsors/sindresorhus)
+I'm a full-time open-sourcerer and my work is funded by the community. [Read more about me and what I do.](https://github.com/sponsors/o9-9)
 
-If you or your company are using any of my projects, consider supporting me so I can continue [my open source work](https://github.com/sindresorhus).
+If you or your company are using any of my projects, consider supporting me so I can continue [my open source work](https://github.com/o9-9).
 
 ### Monthly donations
 
-- [GitHub Sponsors](https://github.com/sponsors/sindresorhus)
-- [Open Collective](https://opencollective.com/sindresorhus)
+- [GitHub Sponsors](https://github.com/sponsors/o9-9)
+- [Open Collective](https://opencollective.com/o9-9)
 
 ### One-time donations
 
-- [Stripe](https://donate.stripe.com/3cs6sq3rYfTlbTy9AA) *(Apple Pay, Google Pay, credit card, etc.)*
-- [BuyMeACoffee.com](https://www.buymeacoffee.com/sindresorhus)
-- [PayPal](https://www.paypal.me/sindresorhus)
-- [Open Collective](https://opencollective.com/sindresorhus)
-- [Alipay](/assets/alipay-qrcode.jpg) *(China)*
+- [Stripe](https://donate.stripe.com/3cs6sq3rYfTlbTy9AA) _(Apple Pay, Google Pay, credit card, etc.)_
+- [BuyMeACoffee.com](https://www.buymeacoffee.com/o9-9)
+- [PayPal](https://www.paypal.me/o9-9)
+- [Open Collective](https://opencollective.com/o9-9)
+- [Alipay](/assets/alipay-qrcode.jpg) _(China)_
 - BTC: `3FA1Wpk1SFFCZyQRYufyhLBCcdd9MRCHKf`
 - ETH: `0x44A3A86d8A2631aB82C1368889E75Df4E1c07068`
 

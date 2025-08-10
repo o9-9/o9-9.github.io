@@ -7,11 +7,11 @@ platforms:
 appStoreId: 1522267256
 hasSentry: true
 olderMacOSVersions:
-  - '10.15'
-  - '11'
-  - '12'
-  - '13'
-  - '14'
+  - "10.15"
+  - "11"
+  - "12"
+  - "13"
+  - "14"
 ---
 
 Shareful makes the system share menu even more useful by providing some commonly needed share services like copy and save.
@@ -20,13 +20,14 @@ Shareful makes the system share menu even more useful by providing some commonly
 
 #### I have a feature request, bug report, or some feedback
 
-Click the feedback button in the app or [send it here.](https://sindresorhus.com/feedback?product=Shareful&referrer=Website-FAQ)
+Click the feedback button in the app or [send it here.](https://o9-9.github.io/feedback?product=Shareful&referrer=Website-FAQ)
 
 #### The share services do not show up in System Settings
 
 Shareful provides share services (Copy, Open In, etc.) which macOS is supposed to pick up. Shareful has no control over how it works. In some rare cases, macOS can fail to pick up these share services. This is a problem with macOS not Shareful.
 
 Here are some things you could try:
+
 - Restart your computer
 - Reinstall the app
 - [Reset NVRAM](https://support.apple.com/en-us/HT204063)
@@ -51,15 +52,15 @@ I just enjoy making apps. Consider leaving a nice review on the App Store.
 ## Older Versions
 
 - [1.10.4](https://github.com/user-attachments/files/18914470/Shareful.1.10.4.-.macOS.14.zip) for macOS 14+
-- [1.9.1](https://github.com/sindresorhus/meta/files/14158056/Shareful.1.9.1.-.macOS.13.zip) for macOS 13+
-- [1.8.0](https://github.com/sindresorhus/meta/files/11297902/Shareful.1.8.0.-.macOS.12.zip) for macOS 12+
-- [1.6.0](https://github.com/sindresorhus/meta/files/8800088/Shareful.1.6.0.-.macOS.11.zip) for macOS 11+
-- [1.4.0](https://github.com/sindresorhus/meta/files/7119520/Shareful.1.4.0.-.macOS.10.15.zip) for macOS 10.15+
+- [1.9.1](https://github.com/o9-9/meta/files/14158056/Shareful.1.9.1.-.macOS.13.zip) for macOS 13+
+- [1.8.0](https://github.com/o9-9/meta/files/11297902/Shareful.1.8.0.-.macOS.12.zip) for macOS 12+
+- [1.6.0](https://github.com/o9-9/meta/files/8800088/Shareful.1.6.0.-.macOS.11.zip) for macOS 11+
+- [1.4.0](https://github.com/o9-9/meta/files/7119520/Shareful.1.4.0.-.macOS.10.15.zip) for macOS 10.15+
 
 ## Non-App Store Version
 
 A special version for users that cannot access the App Store. It won't receive automatic updates. I will update it here once a year.
 
-[Download](https://www.dropbox.com/scl/fi/4wko3a9hmmv756jn42tc1/Shareful-1.11.0-1740166187.zip?rlkey=rf6vjg4vdbxu04ikt9ic16gqq&raw=1) *(1.11.0)*
+[Download](https://www.dropbox.com/scl/fi/4wko3a9hmmv756jn42tc1/Shareful-1.11.0-1740166187.zip?rlkey=rf6vjg4vdbxu04ikt9ic16gqq&raw=1) _(1.11.0)_
 
-*Requires macOS 15 or later*
+_Requires macOS 15 or later_

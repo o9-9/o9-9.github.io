@@ -23,7 +23,7 @@ Syncs seamlessly across your devices with iCloud.
 
 <br>
 
-*You may also like [my similar app](/one-thing) for macOS.*
+_You may also like [my similar app](/one-thing) for macOS._
 
 ## Tips
 
@@ -34,7 +34,7 @@ You can style parts of the text bold, italic, or strikethrough using [Markdown](
 For example:
 
 - **Bold text** is created by wrapping text with double asterisks: `**bold**`
-- *Italic text* is created by wrapping text with single asterisks: `*italic*`
+- _Italic text_ is created by wrapping text with single asterisks: `*italic*`
 - ~~Strikethrough text~~ is created by wrapping text with double tildes: `~~strikethrough~~`
 
 ### Troubleshoot syncing {#troubleshoot-syncing}
@@ -46,7 +46,7 @@ For example:
 
 #### I have a feature request, bug report, or some feedback
 
-[Send it here.](https://sindresorhus.com/feedback?product=Any%20Text&referrer=Website-FAQ)
+[Send it here.](https://o9-9.github.io/feedback?product=Any%20Text&referrer=Website-FAQ)
 
 #### How do I add the widget?
 
@@ -61,8 +61,9 @@ The iOS widget system is quite buggy and can fail a lot. This is not a problem w
 #### The widget is blank
 
 Try this:
+
 - Restart your device.
-- Change the language of the device to something else  and then back.
+- Change the language of the device to something else and then back.
 - Ensure Lock Screen widgets are allowed to show content while the device is locked at “Settings › Face ID & Passcode › Allow Access When Locked › Lock Screen Widgets”.
 
 #### Can you support having multiple pieces of text that change during the day?
@@ -71,7 +72,7 @@ I would like to keep the app simple, so it's not something I plan to support bui
 
 You could also put multiple widgets in a [widget stack](https://support.apple.com/118610).
 
-*(macOS does not yet have automations. You can use [Shortery](https://apps.apple.com/app/id1594183810) for now.)*
+_(macOS does not yet have automations. You can use [Shortery](https://apps.apple.com/app/id1594183810) for now.)_
 
 #### Can you add support for user-installed fonts?
 
@@ -146,6 +147,7 @@ This is an iOS limitation and is out of my control. It shows a placeholder until
 This is because of iOS limitations. A widget can only open its own app when a user taps it. And the only way to run a shortcut is to open the Shortcuts app using a special URL. So when you tap the widget, the widget opens the main app, and the main app then opens the Shortcuts app. It's not a very good user experience, but only Apple can fix this.
 
 If you work at Apple, you know what to do:
+
 - [FB9745173](https://github.com/feedback-assistant/reports/issues/240)
 - [FB11516334](https://github.com/feedback-assistant/reports/issues/357)
 - [FB11516273](https://github.com/feedback-assistant/reports/issues/356)

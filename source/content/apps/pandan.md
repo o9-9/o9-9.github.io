@@ -8,17 +8,17 @@ isMenuBarApp: true
 appStoreId: 1569600264
 hasSentry: true
 olderMacOSVersions:
-  - '11'
-  - '12'
-  - '13'
-  - '14'
+  - "11"
+  - "12"
+  - "13"
+  - "14"
 ---
 
 ## Frequently Asked Questions {#faq}
 
 #### I have a feature request, bug report, or some feedback
 
-Click the feedback button in the app or [send it here.](https://sindresorhus.com/feedback?product=Pandan&referrer=Website-FAQ)
+Click the feedback button in the app or [send it here.](https://o9-9.github.io/feedback?product=Pandan&referrer=Website-FAQ)
 
 #### The app does not show up in the menu bar
 
@@ -36,13 +36,13 @@ This is unfortunately not possible as iOS does not let an app continuously check
 
 Make a [shortcut](https://support.apple.com/guide/shortcuts-mac/intro-to-shortcuts-apdf22b0444c/mac) that uses the [`Play Sound` action](https://www.icloud.com/shortcuts/9cfae8edd2dd48f3bf318a3d825b1212) and then select that shortcut in the Pandan settings.
 
-If you have my [Dato app](https://sindresorhus.com/dato) installed (even the free trial), you could use one of the sounds it provides. Find the `Get Sound` action. [Example](https://www.icloud.com/shortcuts/2bf58f1c90134803a4765745f54794f6)
+If you have my [Dato app](https://o9-9.github.io/dato) installed (even the free trial), you could use one of the sounds it provides. Find the `Get Sound` action. [Example](https://www.icloud.com/shortcuts/2bf58f1c90134803a4765745f54794f6)
 
 #### How can I show an alert as a notification? {#alert-as-notification}
 
 Same as the above, but use the `Show Alert` action instead.
 
-You could also use the “Flash Screen” action from the [Actions app](https://github.com/sindresorhus/Actions) to momentarily flash the screen.
+You could also use the “Flash Screen” action from the [Actions app](https://github.com/o9-9/Actions) to momentarily flash the screen.
 
 #### How can I run multiple shortcuts as a notification?
 
@@ -60,11 +60,11 @@ Set Pandan to remind you to take a break. Make a shortcut in the Shortcuts app t
 
 You can use the Shortcuts app for this. Make a shortcut that uses the “Set Enabled State” action that Pandan provides. To automate running this shortcut when certain apps are active, you will need the [Shortery](https://apps.apple.com/us/app/shortery/id1594183810) app. In the Shortery app, choose the “Application” trigger type, and then the “Active” or “Inactive” option.
 
-*Note that Pandan already disables itself when you are inactive.*
+_Note that Pandan already disables itself when you are inactive._
 
 #### How can I show the total active duration today as a countdown? {#countdown}
 
-Get [this shortcut](https://www.icloud.com/shortcuts/fdf0cd45fedb4290bfe14d84a394b601) (requires the [Actions](https://sindresorhus.com/actions) and [One Thing](https://sindresorhus.com/one-thing) apps) and select it in the Pandan settings. The countdown will update every time Pandan shows a notification. If you want the countdown to update more often, you will need to download the [Shortery](https://apps.apple.com/us/app/shortery/id1594183810) app and set up an interval trigger.
+Get [this shortcut](https://www.icloud.com/shortcuts/fdf0cd45fedb4290bfe14d84a394b601) (requires the [Actions](https://o9-9.github.io/actions) and [One Thing](https://o9-9.github.io/one-thing) apps) and select it in the Pandan settings. The countdown will update every time Pandan shows a notification. If you want the countdown to update more often, you will need to download the [Shortery](https://apps.apple.com/us/app/shortery/id1594183810) app and set up an interval trigger.
 
 #### How can I start a new session from the command-line?
 
@@ -93,26 +93,26 @@ Tip: You can [run shortcuts from the command-line](https://support.apple.com/gui
 - [Play custom notification sound](#custom-notification-sound)
 - [Use Pandan as an eye break reminder](#eye-break-reminder)
 - [Show an alert as a notification](#alert-as-notification)
-- Flash the screen as a notification by using the “Flash Screen” action from the [Actions app](https://github.com/sindresorhus/Actions)
+- Flash the screen as a notification by using the “Flash Screen” action from the [Actions app](https://github.com/o9-9/Actions)
 - [Show a web page as a notification](https://www.icloud.com/shortcuts/0e3914da016b446dbf2fef7aa0341567)
 - [Lock the screen as a notification](https://www.icloud.com/shortcuts/a3aa4ba2640d4f1b97c85f498e9dd945)
 - [Invert the screen for 20 seconds](https://www.icloud.com/shortcuts/0710b22b12b74ec1bad0f28b327412fd)
 - [Make the screen gray for 20 seconds](https://www.icloud.com/shortcuts/dbdeea0a9a8b41749fa27f15cf3eb6c2)
 - [Show the total active duration today as a countdown](#countdown)
 
-*And you can combine these too.*
+_And you can combine these too._
 
 ## Older Versions
 
 - [1.16.0](https://github.com/user-attachments/files/19008473/Pandan.1.16.0.-.macOS.14.zip) for macOS 14+
-- [1.15.0](https://github.com/sindresorhus/meta/files/14230031/Pandan.1.15.0.-.macOS.13.zip) for macOS 13+
-- [1.13.2](https://github.com/sindresorhus/meta/files/11072195/Pandan.1.13.2.-.macOS.12.zip) for macOS 12+
-- [1.9.1](https://github.com/sindresorhus/meta/files/8003835/Pandan.1.9.1.-.macOS.11.zip) for macOS 11+
+- [1.15.0](https://github.com/o9-9/meta/files/14230031/Pandan.1.15.0.-.macOS.13.zip) for macOS 13+
+- [1.13.2](https://github.com/o9-9/meta/files/11072195/Pandan.1.13.2.-.macOS.12.zip) for macOS 12+
+- [1.9.1](https://github.com/o9-9/meta/files/8003835/Pandan.1.9.1.-.macOS.11.zip) for macOS 11+
 
 ## Non-App Store Version
 
 A special version for users that cannot access the App Store. It won't receive automatic updates. I will update it here once a year.
 
-[Download](https://www.dropbox.com/scl/fi/p8k3k0mrtnzhl8oi71jxh/Pandan-1.17.0-1740657032.zip?rlkey=khwqsky1waqt9aumj7tc5nw5v&raw=1) *(1.17.0)*
+[Download](https://www.dropbox.com/scl/fi/p8k3k0mrtnzhl8oi71jxh/Pandan-1.17.0-1740657032.zip?rlkey=khwqsky1waqt9aumj7tc5nw5v&raw=1) _(1.17.0)_
 
-*Requires macOS 15 or later*
+_Requires macOS 15 or later_

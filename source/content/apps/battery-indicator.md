@@ -9,12 +9,12 @@ isPaid: true
 isMenuBarApp: true
 hasSentry: true
 olderMacOSVersions:
-  - '10.14'
-  - '10.15'
-  - '11'
-  - '12'
-  - '13'
-  - '14'
+  - "10.14"
+  - "10.15"
+  - "11"
+  - "12"
+  - "13"
+  - "14"
 ---
 
 Quickly glance the remaining battery time or percentage right in your menu bar.
@@ -23,7 +23,7 @@ Quickly glance the remaining battery time or percentage right in your menu bar.
 
 #### I have a feature request, bug report, or some feedback
 
-Click the feedback button in the app or [send it here.](https://sindresorhus.com/feedback?product=Battery%20Indicator&referrer=Website-FAQ)
+Click the feedback button in the app or [send it here.](https://o9-9.github.io/feedback?product=Battery%20Indicator&referrer=Website-FAQ)
 
 #### The app does not show up in the menu bar
 
@@ -68,10 +68,10 @@ This is a perfect use case for the built-in Shortcuts app. Create a shortcut tha
 ## Older Versions
 
 - [2.18.0](https://github.com/user-attachments/files/19015442/Battery.Indicator.2.18.0.-.macOS.14.zip) for macOS 14
-- [2.16.1](https://github.com/sindresorhus/meta/files/13942534/Battery.Indicator.2.16.1.-.macOS.13.zip) for macOS 13
-- [2.14.2](https://github.com/sindresorhus/meta/files/10759031/Battery.Indicator.2.14.2.-.macOS.12.zip) for macOS 12
-- [2.12.3](https://github.com/sindresorhus/meta/files/8759816/Battery.Indicator.2.12.3.-.macOS.11.zip) for macOS 11
-- [2.7.1](https://github.com/sindresorhus/meta/files/6565005/Battery.Indicator.2.7.1.-.macOS.10.15.zip) for macOS 10.15
-- [2.1.0](https://github.com/sindresorhus/meta/files/4127047/Battery-Indicator-2.1.0-Mojave.zip) for macOS 10.14
+- [2.16.1](https://github.com/o9-9/meta/files/13942534/Battery.Indicator.2.16.1.-.macOS.13.zip) for macOS 13
+- [2.14.2](https://github.com/o9-9/meta/files/10759031/Battery.Indicator.2.14.2.-.macOS.12.zip) for macOS 12
+- [2.12.3](https://github.com/o9-9/meta/files/8759816/Battery.Indicator.2.12.3.-.macOS.11.zip) for macOS 11
+- [2.7.1](https://github.com/o9-9/meta/files/6565005/Battery.Indicator.2.7.1.-.macOS.10.15.zip) for macOS 10.15
+- [2.1.0](https://github.com/o9-9/meta/files/4127047/Battery-Indicator-2.1.0-Mojave.zip) for macOS 10.14
 
 These are free for everyone but they will not run on newer macOS versions.

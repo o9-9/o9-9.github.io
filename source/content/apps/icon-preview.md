@@ -7,7 +7,7 @@ platforms:
 isMenuBarApp: true
 appStoreId: 6480373509
 olderMacOSVersions:
-  - '14'
+  - "14"
 ---
 
 Preview how your macOS app icon will look in the Dock and how your menu bar item icon will appear.
@@ -27,19 +27,19 @@ An essential tool for developers and designers to perfect the look of their macO
 
 #### Preview multiple icons
 
-You can utilize the Shortcuts app to display various icons sequentially, each for three seconds. Add [this shortcut](https://www.icloud.com/shortcuts/8824dbd68a8f4dc9a38b850dccd9179e) for app icons or [this one](https://www.icloud.com/shortcuts/72dcea993b1e4b9686003c8e01133c1b) for menu bar icons. Then, navigate to Finder, select the desired icons, right-click, and select "Quick Actions › Preview App Icons". [Preview](https://twitter.com/sindresorhus/status/1783036121234165808)
+You can utilize the Shortcuts app to display various icons sequentially, each for three seconds. Add [this shortcut](https://www.icloud.com/shortcuts/8824dbd68a8f4dc9a38b850dccd9179e) for app icons or [this one](https://www.icloud.com/shortcuts/72dcea993b1e4b9686003c8e01133c1b) for menu bar icons. Then, navigate to Finder, select the desired icons, right-click, and select "Quick Actions › Preview App Icons". [Preview](https://twitter.com/o9-9/status/1783036121234165808)
 
 #### Sketch integration {#sketch}
 
-You can drag an artboard directly from Sketch onto the Dock icon. [Preview](https://twitter.com/sindresorhus/status/1783399434182955083)
+You can drag an artboard directly from Sketch onto the Dock icon. [Preview](https://twitter.com/o9-9/status/1783399434182955083)
 
-There is also a [Sketch plugin](https://github.com/sindresorhus/sketch-icon-preview) that updates the Dock icon automatically when you save.
+There is also a [Sketch plugin](https://github.com/o9-9/sketch-icon-preview) that updates the Dock icon automatically when you save.
 
 ## Frequently Asked Questions {#faq}
 
 #### I have a feature request, bug report, or some feedback
 
-Click the feedback button in the app or [send it here](https://sindresorhus.com/feedback?product=Icon%20Preview&referrer=Website-FAQ).
+Click the feedback button in the app or [send it here](https://o9-9.github.io/feedback?product=Icon%20Preview&referrer=Website-FAQ).
 
 #### The app does not show up in the menu bar
 
@@ -75,6 +75,6 @@ I just enjoy making apps. I earn money on other apps. Consider leaving a nice re
 
 A special version for users that cannot access the App Store. It won't receive automatic updates. I will update it here once a year.
 
-[Download](https://www.dropbox.com/scl/fi/gv4q4i67fayf4rfbjzo72/Icon-Preview-1.1.0-1734642559.zip?rlkey=l9325l2shb225h3o43mgmbf4p&raw=1) *(1.1.0)*
+[Download](https://www.dropbox.com/scl/fi/gv4q4i67fayf4rfbjzo72/Icon-Preview-1.1.0-1734642559.zip?rlkey=l9325l2shb225h3o43mgmbf4p&raw=1) _(1.1.0)_
 
-*Requires macOS 15 or later*
+_Requires macOS 15 or later_

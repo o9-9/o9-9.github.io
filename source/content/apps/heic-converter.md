@@ -7,13 +7,13 @@ platforms:
 appStoreId: 1294126402
 hasSentry: true
 olderMacOSVersions:
-  - '10.13'
-  - '10.14'
-  - '10.15'
-  - '11'
-  - '12'
-  - '13'
-  - '14'
+  - "10.13"
+  - "10.14"
+  - "10.15"
+  - "11"
+  - "12"
+  - "13"
+  - "14"
 ---
 
 HEIC Converter is a macOS app that makes it easy to quickly convert images in the [HEIC](https://www.macworld.co.uk/feature/iphone/what-is-heic-3660408/) format to JPEG or PNG. HEIC is Apple's new default image format since iOS 11, replacing JPEG. HEIC uses more advanced and modern compression methods to achieve much smaller file sizes with the same visual quality. Unfortunately, HEIC is a very new format and not yet supported outside of iOS and macOS. This app makes it possible to share your HEIC images on the web or with non-Apple users.
@@ -24,7 +24,7 @@ If you don't have any HEIC images, you can try the app out with [this one](/apps
 
 #### I have a feature request, bug report, or some feedback
 
-[Send it here.](https://sindresorhus.com/feedback?product=HEIC+Converter&referrer=Website-FAQ)
+[Send it here.](https://o9-9.github.io/feedback?product=HEIC+Converter&referrer=Website-FAQ)
 
 #### Does it preserve 10-bit depth?
 
@@ -54,17 +54,17 @@ I just enjoy making apps. Consider leaving a nice review on the App Store.
 ## Older Versions
 
 - [3.3.0](https://github.com/user-attachments/files/18555573/HEIC.Converter.3.3.0.-.macOS.14.zip) for macOS 14+
-- [3.2.0](https://github.com/sindresorhus/meta/files/13981994/HEIC.Converter.3.2.0.-.macOS.13.zip) for macOS 13+
-- [3.0.1](https://github.com/sindresorhus/meta/files/11401710/HEIC.Converter.3.0.1.-.macOS.12.zip) for macOS 12+
-- [2.1.5](https://github.com/sindresorhus/meta/files/9218007/HEIC.Converter.2.1.5.-.macOS.11.zip) for macOS 11+
-- [2.1.5](https://github.com/sindresorhus/meta/files/8817868/HEIC.Converter.2.1.5.-.macOS.10.15.zip) for macOS 10.15+
-- [1.9.0](https://github.com/sindresorhus/meta/files/6715716/HEIC.Converter.1.9.0.-.macOS.10.14.zip) for macOS 10.14+
-- [1.5.3](https://github.com/sindresorhus/meta/files/13539124/HEIC-Converter-for-macOS-10.13.zip) for macOS 10.13+
+- [3.2.0](https://github.com/o9-9/meta/files/13981994/HEIC.Converter.3.2.0.-.macOS.13.zip) for macOS 13+
+- [3.0.1](https://github.com/o9-9/meta/files/11401710/HEIC.Converter.3.0.1.-.macOS.12.zip) for macOS 12+
+- [2.1.5](https://github.com/o9-9/meta/files/9218007/HEIC.Converter.2.1.5.-.macOS.11.zip) for macOS 11+
+- [2.1.5](https://github.com/o9-9/meta/files/8817868/HEIC.Converter.2.1.5.-.macOS.10.15.zip) for macOS 10.15+
+- [1.9.0](https://github.com/o9-9/meta/files/6715716/HEIC.Converter.1.9.0.-.macOS.10.14.zip) for macOS 10.14+
+- [1.5.3](https://github.com/o9-9/meta/files/13539124/HEIC-Converter-for-macOS-10.13.zip) for macOS 10.13+
 
 ## Non-App Store Version
 
 A special version for users that cannot access the App Store. It won't receive automatic updates. I will update it here once a year.
 
-[Download](https://www.dropbox.com/scl/fi/67yxnp1eav42osqt2mlil/HEIC-Converter-3.4.0-1737966500.zip?rlkey=idqv2y6fmgyzwjlmkukr5ch26&raw=1) *(3.4.0)*
+[Download](https://www.dropbox.com/scl/fi/67yxnp1eav42osqt2mlil/HEIC-Converter-3.4.0-1737966500.zip?rlkey=idqv2y6fmgyzwjlmkukr5ch26&raw=1) _(3.4.0)_
 
-*Requires macOS 15 or later*
+_Requires macOS 15 or later_

@@ -8,11 +8,11 @@ isMenuBarApp: true
 appStoreId: 1529006487
 hasSentry: true
 olderMacOSVersions:
-  - '10.15'
-  - '11'
-  - '12'
-  - '13'
-  - '14'
+  - "10.15"
+  - "11"
+  - "12"
+  - "13"
+  - "14"
 ---
 
 Record audio directly from the menu bar or with a global keyboard shortcut.
@@ -21,7 +21,7 @@ Record audio directly from the menu bar or with a global keyboard shortcut.
 
 #### I have a feature request, bug report, or some feedback
 
-Click the feedback button in the app or [send it here.](https://sindresorhus.com/feedback?product=Recordia&referrer=Website-FAQ)
+Click the feedback button in the app or [send it here.](https://o9-9.github.io/feedback?product=Recordia&referrer=Website-FAQ)
 
 #### The app does not show up in the menu bar
 
@@ -72,15 +72,15 @@ Yes, follow the guide [here](https://www.switchingtomac.com/tutorials/how-to-use
 ## Older Versions
 
 - [2.9.0](https://github.com/user-attachments/files/18787741/Recordia.2.9.0.-.macOS.14.zip) for macOS 14+
-- [2.7.0](https://github.com/sindresorhus/meta/files/13975939/Recordia.2.7.0.-.macOS.13.zip) for macOS 13+
-- [2.6.1](https://github.com/sindresorhus/meta/files/11053013/Recordia.2.6.1.-.macOS.12.zip) for macOS 12
-- [2.3.0](https://github.com/sindresorhus/meta/files/8798113/Recordia.2.3.0.-.macOS.11.zip) for macOS 11
-- [1.5.1](https://github.com/sindresorhus/meta/files/6538283/Recordia.1.5.1.-.macOS.10.15.zip) for macOS 10.15
+- [2.7.0](https://github.com/o9-9/meta/files/13975939/Recordia.2.7.0.-.macOS.13.zip) for macOS 13+
+- [2.6.1](https://github.com/o9-9/meta/files/11053013/Recordia.2.6.1.-.macOS.12.zip) for macOS 12
+- [2.3.0](https://github.com/o9-9/meta/files/8798113/Recordia.2.3.0.-.macOS.11.zip) for macOS 11
+- [1.5.1](https://github.com/o9-9/meta/files/6538283/Recordia.1.5.1.-.macOS.10.15.zip) for macOS 10.15
 
 ## Non-App Store Version
 
 A special version for users that cannot access the App Store. It won't receive automatic updates. I will update it here once a year.
 
-[Download](https://www.dropbox.com/scl/fi/hybu606ij6o262q7u2m2m/Recordia-2.10.0-1739467077.zip?rlkey=4f5ce8z2arx4q1i7xi5nkacao&raw=1) *(2.10.0)*
+[Download](https://www.dropbox.com/scl/fi/hybu606ij6o262q7u2m2m/Recordia-2.10.0-1739467077.zip?rlkey=4f5ce8z2arx4q1i7xi5nkacao&raw=1) _(2.10.0)_
 
-*Requires macOS 15 or later*
+_Requires macOS 15 or later_

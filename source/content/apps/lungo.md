@@ -10,13 +10,13 @@ isMenuBarApp: true
 appStoreId: 1263070803
 setappId: 270
 olderMacOSVersions:
-  - '10.13'
-  - '10.14'
-  - '10.15'
-  - '11'
-  - '12'
-  - '13'
-  - '14'
+  - "10.13"
+  - "10.14"
+  - "10.15"
+  - "11"
+  - "12"
+  - "13"
+  - "14"
 ---
 
 Lungo prevents your Mac from falling asleep and your screen from dimming.
@@ -25,7 +25,7 @@ Lungo prevents your Mac from falling asleep and your screen from dimming.
 
 #### I have a feature request, bug report, or some feedback
 
-Click the feedback button in the app or [send it here.](https://sindresorhus.com/feedback?product=Lungo&referrer=Website-FAQ)
+Click the feedback button in the app or [send it here.](https://o9-9.github.io/feedback?product=Lungo&referrer=Website-FAQ)
 
 #### The app does not show up in the menu bar
 
@@ -40,9 +40,10 @@ macOS hides menu bar apps when there is no space left in the menu bar. This is a
 - If you have set a sleep schedule in “System Preferences › Battery › Schedule”, it will take priority over Lungo. This is out of Lungo's control.
 - If you have set the computer to log out after a certain amount of time in “System Preferences › Security & Privacy › Advanced”, it will take priority over Lungo. This is out of Lungo's control.
 - If you see apps open again when you wake up your computer, it means your computer was restarted for some reason. Lungo cannot keep your computer from restarting. Some common reasons it may have restarted are a power outage, macOS crash, or scheduled shutdown/restart (in Battery system settings).
-	+ You can [check how long your computer has been awake and when it was last rebooted](https://www.macobserver.com/tips/quick-tip/mac-system-uptime-terminal/) to narrow down the problem. You can also check when the computer was last logged in by typing the command `last` in the Terminal app.
+  - You can [check how long your computer has been awake and when it was last rebooted](https://www.macobserver.com/tips/quick-tip/mac-system-uptime-terminal/) to narrow down the problem. You can also check when the computer was last logged in by typing the command `last` in the Terminal app.
 
 Some things you could try:
+
 - Make sure you are on the latest macOS and Lungo versions.
 - [Reset NVRAM](https://support.apple.com/en-us/HT204063)
 - [Reset SMC](https://support.apple.com/en-us/HT201295)
@@ -98,13 +99,13 @@ No, that's not the purpose of this app. Different apps use different techniques 
 Run this command in the Terminal app:
 
 ```sh
-defaults export com.sindresorhus.Lungo - | defaults import com.sindresorhus.Lungo-setapp -
+defaults export com.o9-9.Lungo - | defaults import com.o9-9.Lungo-setapp -
 ```
 
 And to transfer the other way:
 
 ```sh
-defaults export com.sindresorhus.Lungo-setapp - | defaults import com.sindresorhus.Lungo -
+defaults export com.o9-9.Lungo-setapp - | defaults import com.o9-9.Lungo -
 ```
 
 #### Can you localize the app into my language?
@@ -121,15 +122,15 @@ Amphetamine has lots of features. Most of which I would never use. It ships with
 
 You can control Lungo using anything that supports opening a URL with a custom scheme.
 
-*Lungo also comes with support for Shortcuts.*
+_Lungo also comes with support for Shortcuts._
 
 Tip: You can [run shortcuts from the command-line](https://support.apple.com/guide/shortcuts-mac/run-shortcuts-from-the-command-line-apd455c82f02/mac).
 
 ### Integrations
 
-- [lungo-cli](https://github.com/sindresorhus/lungo-cli) - Command-line tool.
+- [lungo-cli](https://github.com/o9-9/lungo-cli) - Command-line tool.
 - [Raycast commands](https://github.com/raycast/script-commands/tree/master/commands#lungo)
-	- Note: Raycast commands are not the same as plugins. [How to install commands.](https://github.com/raycast/script-commands#install-script-commands-from-this-repository)
+  - Note: Raycast commands are not the same as plugins. [How to install commands.](https://github.com/raycast/script-commands#install-script-commands-from-this-repository)
 
 ### Custom URL scheme
 
@@ -147,7 +148,7 @@ open --background 'lungo:activate?minutes=10'
 
 The `activate` and `toggle` commands support the parameters `hours` and `minutes`, which can be used together or individually. If you don't specify a duration, it will use the default duration you have set in Lungo.
 
-*(Use [`lungo-cli`](https://github.com/sindresorhus/lungo-cli) if you need to get the active state)*
+_(Use [`lungo-cli`](https://github.com/o9-9/lungo-cli) if you need to get the active state)_
 
 #### Examples
 
@@ -173,9 +174,9 @@ open --background 'lungo:toggle?minutes=10'
 ##### Node.js
 
 ```js
-import {execFileSync} from 'node:child_process';
+import { execFileSync } from "node:child_process";
 
-execFileSync('open', ['--background', 'lungo:toggle']);
+execFileSync("open", ["--background", "lungo:toggle"]);
 ```
 
 ##### Swift
@@ -206,12 +207,12 @@ subprocess.run(['open', '--background', 'lungo:toggle'])
 
 ## Older Versions
 
-- [2.6.0](https://github.com/sindresorhus/sindresorhus.github.com/releases/download/v1.0.0/Lungo.2.6.0.-.macOS.14.zip) for macOS 14
-- [2.4.2](https://github.com/sindresorhus/meta/files/14276605/Lungo.2.4.2.-.macOS.13.zip) for macOS 13
-- [2.2.2](https://github.com/sindresorhus/meta/files/11292407/Lungo.2.2.2.-.macOS.12.zip) for macOS 12
-- [2.0.4](https://github.com/sindresorhus/meta/files/8870132/Lungo.2.0.4.-.macOS.11.zip) for macOS 11
-- [1.9.0](https://github.com/sindresorhus/meta/files/7404362/Lungo.1.9.0.-.macOS.10.15.zip) for macOS 10.15
-- [1.7.0](https://github.com/sindresorhus/meta/files/5507155/Lungo-1-7-0.zip) for macOS 10.14
-- [1.6.0](https://github.com/sindresorhus/meta/files/4556911/Lungo-1.6.0-High-Sierra.zip) for macOS 10.13
+- [2.6.0](https://github.com/o9-9/o9-9.github.com/releases/download/v1.0.0/Lungo.2.6.0.-.macOS.14.zip) for macOS 14
+- [2.4.2](https://github.com/o9-9/meta/files/14276605/Lungo.2.4.2.-.macOS.13.zip) for macOS 13
+- [2.2.2](https://github.com/o9-9/meta/files/11292407/Lungo.2.2.2.-.macOS.12.zip) for macOS 12
+- [2.0.4](https://github.com/o9-9/meta/files/8870132/Lungo.2.0.4.-.macOS.11.zip) for macOS 11
+- [1.9.0](https://github.com/o9-9/meta/files/7404362/Lungo.1.9.0.-.macOS.10.15.zip) for macOS 10.15
+- [1.7.0](https://github.com/o9-9/meta/files/5507155/Lungo-1-7-0.zip) for macOS 10.14
+- [1.6.0](https://github.com/o9-9/meta/files/4556911/Lungo-1.6.0-High-Sierra.zip) for macOS 10.13
 
 These are free for everyone but they will not run on newer macOS versions.

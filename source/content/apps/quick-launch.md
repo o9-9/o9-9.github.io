@@ -24,7 +24,7 @@ Here are [some more ideas](https://github.com/bhagyas/app-urls) of what you coul
 
 #### I have a feature request, bug report, or some feedback
 
-[Send it here.](https://sindresorhus.com/feedback?product=Quick%20Launch&referrer=Website-FAQ)
+[Send it here.](https://o9-9.github.io/feedback?product=Quick%20Launch&referrer=Website-FAQ)
 
 #### How do I add the widget to the Lock Screen?
 
@@ -42,7 +42,7 @@ This is unfortunately not possible. iOS enforces that Lock Screen widgets are si
 
 #### Can you support more actions when tapping a widget?
 
-Sure. I'm happy to consider requests. [Send it here.](https://sindresorhus.com/feedback?product=Quick%20Launch&referrer=Website-FAQ)
+Sure. I'm happy to consider requests. [Send it here.](https://o9-9.github.io/feedback?product=Quick%20Launch&referrer=Website-FAQ)
 
 #### How does it compare to other similar Lock Screen launchers?
 
@@ -53,6 +53,7 @@ It can open any app, not just from a predefined list, and it has more icon choic
 This is because of iOS limitations. A widget can only open its own app when a user taps it. And the only way to run a shortcut is to open the Shortcuts app using a special URL. So when you tap the widget, the widget opens the main app, and the main app then opens the Shortcuts app. It's not a very good user experience, but only Apple can fix this.
 
 If you work at Apple, you know what to do:
+
 - [FB9745173](https://github.com/feedback-assistant/reports/issues/240)
 - [FB11516334](https://github.com/feedback-assistant/reports/issues/357)
 - [FB11516273](https://github.com/feedback-assistant/reports/issues/356)

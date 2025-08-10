@@ -17,12 +17,12 @@ This can be useful when developing support for [system services](https://www.com
 
 - [Screenshot](https://user-images.githubusercontent.com/170270/169027027-fa16e965-5104-4601-9098-08facddc116f.png)
 - [Download](https://www.dropbox.com/scl/fi/3qdpxtqwkciyajwom5igc/Services-Debug-1.1.0-1718895316.zip?rlkey=2nvjh7gmpo2j4nmkaw8h3ismv&raw=1)\
-  *Requires macOS 14 or later*
+  _Requires macOS 14 or later_
 
-## [Copy URL](https://github.com/sindresorhus/copy-url)
+## [Copy URL](https://github.com/o9-9/copy-url)
 
 Adds copy functionality to browser picker apps.
 
-## [Safari Private](https://github.com/sindresorhus/Safari-Private)
+## [Safari Private](https://github.com/o9-9/Safari-Private)
 
 Open the given URL in a private Safari window.

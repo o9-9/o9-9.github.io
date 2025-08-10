@@ -7,7 +7,7 @@ platforms:
 hasSentry: true
 releasesRepo: app-buddy-meta
 mainLinks:
-  'Download': https://github.com/sindresorhus/app-buddy-meta/releases/latest/download/App.Buddy.zip
+  "Download": https://github.com/o9-9/app-buddy-meta/releases/latest/download/App.Buddy.zip
 # olderMacOSVersions:
 #   - '15'
 ---
@@ -18,15 +18,15 @@ This app provides support functionality for [my apps](/apps). It offers easy way
 
 I welcome suggestions for what more useful support tools it could contain. Some things I have planned are: delete app data and uninstall.
 
-*I also have future plans to make this app provide extra functionality for my sandboxed apps.*
+_I also have future plans to make this app provide extra functionality for my sandboxed apps._
 
-![Download count](https://img.shields.io/github/downloads/sindresorhus/app-buddy-meta/total?color=3e65d0)
+![Download count](https://img.shields.io/github/downloads/o9-9/app-buddy-meta/total?color=3e65d0)
 
 ## Frequently Asked Questions {#faq}
 
 #### I have a feature request, bug report, or some feedback
 
-Click the feedback button in the app or [send it here.](https://sindresorhus.com/feedback?product=App%20Buddy&referrer=Website-FAQ)
+Click the feedback button in the app or [send it here.](https://o9-9.github.io/feedback?product=App%20Buddy&referrer=Website-FAQ)
 
 #### Can it support apps other than yours?
 

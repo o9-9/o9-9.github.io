@@ -16,7 +16,7 @@ The app is simple by design.
 
 #### I have a feature request, bug report, or some feedback
 
-[Send it here.](https://sindresorhus.com/feedback?product=Floating%20Clock&referrer=Website-FAQ)
+[Send it here.](https://o9-9.github.io/feedback?product=Floating%20Clock&referrer=Website-FAQ)
 
 #### Can it support showing an analog clock?
 

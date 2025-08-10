@@ -8,11 +8,11 @@ isPaid: true
 appStoreId: 1319884285
 hasSentry: true
 olderMacOSVersions:
-  - '10.15'
-  - '11'
-  - '12'
-  - '13'
-  - '14'
+  - "10.15"
+  - "11"
+  - "12"
+  - "13"
+  - "14"
 ---
 
 This app can be useful when you want to post a screenshot or photo on the web that contains some information you don’t want to be revealed. Maybe you want to share a screenshot of a Slack conversation on Twitter but hide some private information. It also removes all metadata, like when and where a photo was captured.
@@ -21,7 +21,7 @@ This app can be useful when you want to post a screenshot or photo on the web th
 
 #### I have a feature request, bug report, or some feedback
 
-[Send it here.](https://sindresorhus.com/feedback?product=Black%20Out%20One&referrer=Website-FAQ)
+[Send it here.](https://o9-9.github.io/feedback?product=Black%20Out%20One&referrer=Website-FAQ)
 
 #### Can you support blurring and pixelation?
 
@@ -44,9 +44,9 @@ It’s from Apple’s inspirational [“Here’s to the Crazy Ones” TV commerc
 ## Older Versions
 
 - [2.4.0](https://github.com/user-attachments/files/18210600/Black.Out.2.4.0.-.macOS.14.zip) for macOS 14
-- [2.3.1](https://github.com/sindresorhus/meta/files/13923936/Black.Out.2.3.1.-.macOS.13.zip) for macOS 13
-- [2.2.0](https://github.com/sindresorhus/meta/files/10773680/Black.Out.2.2.0.-.macOS.12.zip) for macOS 12
-- [2.0.4](https://github.com/sindresorhus/meta/files/8759655/Black.Out.2.0.4.-.macOS.11.zip) for macOS 11
-- [1.8.2](https://github.com/sindresorhus/meta/files/7454156/Black.Out.1.8.2.-.macOS.10.15.zip) for macOS 10.15
+- [2.3.1](https://github.com/o9-9/meta/files/13923936/Black.Out.2.3.1.-.macOS.13.zip) for macOS 13
+- [2.2.0](https://github.com/o9-9/meta/files/10773680/Black.Out.2.2.0.-.macOS.12.zip) for macOS 12
+- [2.0.4](https://github.com/o9-9/meta/files/8759655/Black.Out.2.0.4.-.macOS.11.zip) for macOS 11
+- [1.8.2](https://github.com/o9-9/meta/files/7454156/Black.Out.1.8.2.-.macOS.10.15.zip) for macOS 10.15
 
 These are free for everyone but they will not run on newer macOS versions.

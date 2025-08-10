@@ -10,8 +10,6 @@ const parser = new MarkdownIt({
 	typographer: true,
 });
 
-// TODO: Deduplicate between here and RSS.
-
 export async function getStaticPaths() {
 	const apps = await fetchApps({includeUnlisted: true});
 
@@ -30,7 +28,7 @@ export async function getStaticPaths() {
 const {app} = Astro.props;
 const {title: appTitle, slug, releasesRepo} = app;
 
-const response = await fetch(`https://api.github.com/repos/sindresorhus/${releasesRepo}/releases`, {
+const response = await fetch(`https://api.github.com/repos/o9-9/${releasesRepo}/releases`, {
 	headers: {
 		Accept: 'application/vnd.github.v3+json',
 		...(import.meta.env.GITHUB_TOKEN ? {
@@ -41,7 +39,8 @@ const response = await fetch(`https://api.github.com/repos/sindresorhus/${releas
 
 let releases = await response.json();
 
-releases = releases.filter(release => !release.draft && !release.prerelease);
+// Ensure releases is an array
+releases = Array.isArray(releases) ? releases.filter(release => !release.draft && !release.prerelease) : [];
 
 const meta = {
 	title: `Release Notes — ${appTitle}`,

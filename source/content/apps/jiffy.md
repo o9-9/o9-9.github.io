@@ -80,7 +80,7 @@ Jiffy lets you quickly search and discover GIFs from GIPHY. When you have found 
 
 <!-- #### I have a feature request, bug report, or some feedback
 
-[Send it here.](https://sindresorhus.com/feedback?product=Jiffy&referrer=Website-FAQ) -->
+[Send it here.](https://o9-9.github.io/feedback?product=Jiffy&referrer=Website-FAQ) -->
 
 #### The app does not show up in the menu bar
 
@@ -100,10 +100,10 @@ I just enjoy making apps. Consider leaving a nice review on the App Store. -->
 
 ## Older Versions
 
-- [2.5.0](https://github.com/sindresorhus/meta/files/13931098/Jiffy.2.5.0.-.macOS.13.zip) for macOS 13+
-- [2.4.2](https://github.com/sindresorhus/meta/files/10773759/Jiffy.2.4.2.-.macOS.12.zip) for macOS 12+
-- [2.1.1](https://github.com/sindresorhus/meta/files/7511993/Jiffy.2.1.1.-.macOS.11.zip) for macOS 11+
-- [1.3.3](https://github.com/sindresorhus/meta/files/6626336/Jiffy.1.3.3.-.macOS.10.15.zip) for macOS 10.15+
+- [2.5.0](https://github.com/o9-9/meta/files/13931098/Jiffy.2.5.0.-.macOS.13.zip) for macOS 13+
+- [2.4.2](https://github.com/o9-9/meta/files/10773759/Jiffy.2.4.2.-.macOS.12.zip) for macOS 12+
+- [2.1.1](https://github.com/o9-9/meta/files/7511993/Jiffy.2.1.1.-.macOS.11.zip) for macOS 11+
+- [1.3.3](https://github.com/o9-9/meta/files/6626336/Jiffy.1.3.3.-.macOS.10.15.zip) for macOS 10.15+
 
 ## Non-App Store Version
 

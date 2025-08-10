@@ -60,9 +60,9 @@ twitterwidget {
 
 # Thanks! <span class="pl-2">🙌</span>
 
-I'm truly grateful to all the wonderful humans and companies supporting my open source work on [GitHub Sponsors](https://github.com/sponsors/sindresorhus) and [Open Collective](https://opencollective.com/sindresorhus).
+I'm truly grateful to all the wonderful humans and companies supporting my open source work on [GitHub Sponsors](https://github.com/sponsors/o9-9) and [Open Collective](https://opencollective.com/o9-9).
 
-<!-- ## <span>🦄🌈</span> Sponsor <span class="reward-price">[$1500/month](https://github.com/sponsors/sindresorhus)</span>
+<!-- ## <span>🦄🌈</span> Sponsor <span class="reward-price">[$1500/month](https://github.com/sponsors/o9-9)</span>
 
 None -->
 
@@ -238,7 +238,7 @@ None -->
 
 [Support my open source work 🙌](donate)
 
-<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">I&#39;m launching a Patreon 🦄<br><br>For the past 3 years I&#39;ve been doing open source full-time while living off savings. Now I need your support. If you or your company use any of my projects or just like what I&#39;m doing, please consider backing me. <a href="https://t.co/jSNyFohpfN">https://t.co/jSNyFohpfN</a></p>&mdash; Sindre Sorhus 🇳🇴 (@sindresorhus) <a href="https://twitter.com/sindresorhus/status/941032894964883457?ref_src=twsrc%5Etfw">December 13, 2017</a></blockquote>
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">I&#39;m launching a Patreon 🦄<br><br>For the past 3 years I&#39;ve been doing open source full-time while living off savings. Now I need your support. If you or your company use any of my projects or just like what I&#39;m doing, please consider backing me. <a href="https://t.co/jSNyFohpfN">https://t.co/jSNyFohpfN</a></p>&mdash; o9 🇳🇴 (@o9-9) <a href="https://twitter.com/o9-9/status/941032894964883457?ref_src=twsrc%5Etfw">December 13, 2017</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ## Previous supporters

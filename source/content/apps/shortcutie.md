@@ -8,7 +8,7 @@ isPaid: true
 releasesRepo: shortcutie-meta
 hasSentry: true
 mainLinks:
-  'Buy': https://sindresorhus.gumroad.com/l/shortcutie?wanted=true
+  "Buy": https://o9-9.gumroad.com/l/shortcutie?wanted=true
 # olderMacOSVersions:
 #   - '15
 feedbackNote: |
@@ -30,95 +30,95 @@ Can it be added to Setapp? Setapp curates apps based on demand, so if you'd like
 #### Included actions
 
 - Get Active Browser Tab
-	<span class="list-subtitle">Gets the URL and title of the active browser tab</span>
-	<span class="list-description text-xs">Supports Safari, Chrome, Edge, Brave, Opera, Vivaldi, Arc, Orion, and any Chromium-based browser. Firefox and Firefox-based browsers (including Zen) are not supported as they do not implement the required [AppleScript interface](https://bugzilla.mozilla.org/show_bug.cgi?id=125419) for getting tab info.</span>
+  <span class="list-subtitle">Gets the URL and title of the active browser tab</span>
+  <span class="list-description text-xs">Supports Safari, Chrome, Edge, Brave, Opera, Vivaldi, Arc, Orion, and any Chromium-based browser. Firefox and Firefox-based browsers (including Zen) are not supported as they do not implement the required [AppleScript interface](https://bugzilla.mozilla.org/show_bug.cgi?id=125419) for getting tab info.</span>
 - Run JavaScript on Active Browser Tab
-	<span class="list-subtitle">Runs JavaScript code on the active browser tab and returns JSON</span>
-	<span class="list-description text-xs">Supports the same browsers as “Get Active Browser Tab”.</span>
+  <span class="list-subtitle">Runs JavaScript code on the active browser tab and returns JSON</span>
+  <span class="list-description text-xs">Supports the same browsers as “Get Active Browser Tab”.</span>
 - Open URLs in Private Browser Window
-	<span class="list-subtitle">Opens URLs in a private/incognito browser window</span>
-	<span class="list-description text-xs">Supports Safari, Chrome, Edge, Brave, Opera, Vivaldi, Arc, Orion, Firefox, Zen, and any Chromium-based and Firefox-based browser.</span>
+  <span class="list-subtitle">Opens URLs in a private/incognito browser window</span>
+  <span class="list-description text-xs">Supports Safari, Chrome, Edge, Brave, Opera, Vivaldi, Arc, Orion, Firefox, Zen, and any Chromium-based and Firefox-based browser.</span>
 - Get Active Browser
-	<span class="list-subtitle">Gets the frontmost app if it’s a browser</span>
+  <span class="list-subtitle">Gets the frontmost app if it’s a browser</span>
 - Get Selected Text
-	<span class="list-subtitle">Gets the selected text in the currently focused window</span>
+  <span class="list-subtitle">Gets the selected text in the currently focused window</span>
 - Show Alert (Extended)
-	<span class="list-subtitle">Shows an alert dialog with multiple buttons and returns which button was clicked</span>
-	<span class="list-description text-xs">Timeout, custom icon, and up to 8 buttons. [Screenshot.](https://www.dropbox.com/scl/fi/439bkpixjwssiss0ye7ln/Screen-Shot-2025-05-20-at-18.43.32-1747756364.png?rlkey=jrq1etjed15uz66tpanokw0q6&raw=1)</span>
+  <span class="list-subtitle">Shows an alert dialog with multiple buttons and returns which button was clicked</span>
+  <span class="list-description text-xs">Timeout, custom icon, and up to 8 buttons. [Screenshot.](https://www.dropbox.com/scl/fi/439bkpixjwssiss0ye7ln/Screen-Shot-2025-05-20-at-18.43.32-1747756364.png?rlkey=jrq1etjed15uz66tpanokw0q6&raw=1)</span>
 - Join Wi-Fi <!-- 	<span class="list-subtitle">Join a Wi-Fi network or personal hotspot</span>
-	<span class="list-description text-xs">Tip: You could use it to join your iPhone’s hotspot</span> -->
+  <span class="list-description text-xs">Tip: You could use it to join your iPhone’s hotspot</span> -->
 - Clear Top Notification
-	<span class="list-subtitle">Clears the top visible system notification</span>
+  <span class="list-subtitle">Clears the top visible system notification</span>
 - Clear Notifications
-	<span class="list-subtitle">Clears all system notifications</span>
+  <span class="list-subtitle">Clears all system notifications</span>
 - Click Top Notification
-	<span class="list-subtitle">Activates the top visible system notification</span>
+  <span class="list-subtitle">Activates the top visible system notification</span>
 - Get/Set Default Browser
-	<span class="list-subtitle">View or change the system default web browser</span>
+  <span class="list-subtitle">View or change the system default web browser</span>
 - Set Grayscale Mode
-	<span class="list-subtitle">Makes screen display in black and white</span>
+  <span class="list-subtitle">Makes screen display in black and white</span>
 - Is Screen Being Watched
-	<span class="list-subtitle">Detects if the screen is being recorded, mirrored, or shared (Zoom, Teams, etc)</span>
+  <span class="list-subtitle">Detects if the screen is being recorded, mirrored, or shared (Zoom, Teams, etc)</span>
 - Open App (Extended)
-	<span class="list-subtitle">Options to pass in URLs, activate, force new instance, hide, launch arguments, and environment variables</span>
+  <span class="list-subtitle">Options to pass in URLs, activate, force new instance, hide, launch arguments, and environment variables</span>
 - Unminimize Windows of Active App
-	<span class="list-subtitle">Unminimizes all windows or the first window of the currently active app</span>
+  <span class="list-subtitle">Unminimizes all windows or the first window of the currently active app</span>
 - Get/Set Default Sound Device
-	<span class="list-subtitle">View or change the default audio input (microphone) or output (speaker)</span>
+  <span class="list-subtitle">View or change the default audio input (microphone) or output (speaker)</span>
 - Find Sound Device
-	<span class="list-subtitle">Returns all sound devices</span>
-	<span class="list-description text-xs">Includes comprehensive details about them.</span>
+  <span class="list-subtitle">Returns all sound devices</span>
+  <span class="list-description text-xs">Includes comprehensive details about them.</span>
 - Set Folder Color
-	<span class="list-subtitle">Change the color of folders</span>
+  <span class="list-subtitle">Change the color of folders</span>
 - Hide All Windows
-	<span class="list-subtitle">Instantly hides windows for all apps</span>
+  <span class="list-subtitle">Instantly hides windows for all apps</span>
 - Minimize All Windows
-	<span class="list-subtitle">Minimizes all visible windows, with options to only affect the active app and exclude the frontmost window</span>
+  <span class="list-subtitle">Minimizes all visible windows, with options to only affect the active app and exclude the frontmost window</span>
 - Quit All Apps
-	<span class="list-subtitle">Closes all running apps except menu bar apps</span>
-	<span class="list-description text-xs">Options to exclude apps, exclude frontmost app, and close Finder windows.</span>
+  <span class="list-subtitle">Closes all running apps except menu bar apps</span>
+  <span class="list-description text-xs">Options to exclude apps, exclude frontmost app, and close Finder windows.</span>
 - Eject All Disks
-	<span class="list-subtitle">Safely unmounts all external drives (except excluded ones)</span>
+  <span class="list-subtitle">Safely unmounts all external drives (except excluded ones)</span>
 - Empty Trash
-	<span class="list-subtitle">Permanently deletes items in the trash</span>
+  <span class="list-subtitle">Permanently deletes items in the trash</span>
 - Toggle Show Desktop
-	<span class="list-subtitle">Shows or hides the desktop by temporarily moving windows aside</span>
+  <span class="list-subtitle">Shows or hides the desktop by temporarily moving windows aside</span>
 - Toggle Mission Control
-	<span class="list-subtitle">Shows or hides [Mission Control](https://support.apple.com/guide/mac-help/view-open-windows-spaces-mission-control-mh35798/mac)</span>
+  <span class="list-subtitle">Shows or hides [Mission Control](https://support.apple.com/guide/mac-help/view-open-windows-spaces-mission-control-mh35798/mac)</span>
 - Toggle App Exposé
-	<span class="list-subtitle">Shows or hides [App Exposé](https://www.oreilly.com/library/view/switching-to-the/9781449338978/ch04s11.html)</span>
+  <span class="list-subtitle">Shows or hides [App Exposé](https://www.oreilly.com/library/view/switching-to-the/9781449338978/ch04s11.html)</span>
 - Toggle Launchpad
-	<span class="list-subtitle">Shows or hides [Launchpad](https://support.apple.com/guide/mac-help/mh35840/mac)</span>
+  <span class="list-subtitle">Shows or hides [Launchpad](https://support.apple.com/guide/mac-help/mh35840/mac)</span>
 - Get Latest Screenshots
-	<span class="list-subtitle">Returns the most recent screenshots taken with the system screenshot tool</span>
+  <span class="list-subtitle">Returns the most recent screenshots taken with the system screenshot tool</span>
 - Get/Set Desktop Icons Visibility
-	<span class="list-subtitle">Show, hide, or check visibility status of desktop icons</span>
+  <span class="list-subtitle">Show, hide, or check visibility status of desktop icons</span>
 - Get/Set Desktop Widgets Visibility
-	<span class="list-subtitle">Show, hide, or check visibility status of desktop widgets</span>
+  <span class="list-subtitle">Show, hide, or check visibility status of desktop widgets</span>
 - Get/Set Function Keys Mode
-	<span class="list-subtitle">Toggle or check if F1-F12 keys operate as standard function keys or media keys</span>
+  <span class="list-subtitle">Toggle or check if F1-F12 keys operate as standard function keys or media keys</span>
 - Get/Set Keyboard Brightness
-	<span class="list-subtitle">View or change the keyboard backlight brightness level</span>
-	<span class="list-description text-xs">Only works on Macs with a built-in backlit keyboard.</span>
+  <span class="list-subtitle">View or change the keyboard backlight brightness level</span>
+  <span class="list-description text-xs">Only works on Macs with a built-in backlit keyboard.</span>
 - Get/Set Network Location
-	<span class="list-subtitle">Switch between different [network configurations](https://support.apple.com/105129)</span>
-	<span class="list-description text-xs">Tip: You could automate switching based certain conditions with the [Shortery](https://www.numberfive.co/detail_shortery.html) app.</span>
+  <span class="list-subtitle">Switch between different [network configurations](https://support.apple.com/105129)</span>
+  <span class="list-description text-xs">Tip: You could automate switching based certain conditions with the [Shortery](https://www.numberfive.co/detail_shortery.html) app.</span>
 - Get/Set iOS Notifications Enabled
-	<span class="list-subtitle">Control whether notifications from your iOS device appear on your Mac</span>
-	<span class="list-description text-xs">Only works if your Mac supports notifications from iOS.</span>
+  <span class="list-subtitle">Control whether notifications from your iOS device appear on your Mac</span>
+  <span class="list-description text-xs">Only works if your Mac supports notifications from iOS.</span>
 - Center Mouse Pointer
-	<span class="list-subtitle">Centers the mouse pointer on the primary display</span>
+  <span class="list-subtitle">Centers the mouse pointer on the primary display</span>
 - Get/Set Mouse Pointer Visibility
-	<span class="list-subtitle">Get or set the visibility of the mouse pointer</span>
-	<span class="list-description text-xs">By default, it reappears on mouse movement.</span>
+  <span class="list-subtitle">Get or set the visibility of the mouse pointer</span>
+  <span class="list-description text-xs">By default, it reappears on mouse movement.</span>
 - Get Slack Workspace
-	<span class="list-subtitle">Gets the name of the current Slack workspace</span>
+  <span class="list-subtitle">Gets the name of the current Slack workspace</span>
 - Clear Recent Lists
-	<span class="list-subtitle">Clears recent items (files, apps, and servers) from menus</span>
+  <span class="list-subtitle">Clears recent items (files, apps, and servers) from menus</span>
 - Open System Setting
-	<span class="list-subtitle">Opens Hide My Email, Private Relay, VPN & Filters, or Apple Account Subscriptions settings directly</span>
+  <span class="list-subtitle">Opens Hide My Email, Private Relay, VPN & Filters, or Apple Account Subscriptions settings directly</span>
 - Get Apps Using Secure Input
-	<span class="list-subtitle">Secure Input prevents other apps from reading keystrokes when typing passwords. Sometimes apps don't properly disable it, causing keyboard shortcuts to stop working. This can find such apps.</span>
+  <span class="list-subtitle">Secure Input prevents other apps from reading keystrokes when typing passwords. Sometimes apps don't properly disable it, causing keyboard shortcuts to stop working. This can find such apps.</span>
 
 <!-- - Get/Set Pointer Size
 <span class="list-subtitle">View or change the system-wide mouse pointer size</span> -->
@@ -129,7 +129,7 @@ Can it be added to Setapp? Setapp curates apps based on demand, so if you'd like
 
 #### I have a feature request, bug report, or some feedback
 
-Click the feedback button in the app or [send it here.](https://sindresorhus.com/feedback?product=Shortcutie&referrer=Website-FAQ)
+Click the feedback button in the app or [send it here.](https://o9-9.github.io/feedback?product=Shortcutie&referrer=Website-FAQ)
 
 #### The actions don't show up in the Shortcuts app
 

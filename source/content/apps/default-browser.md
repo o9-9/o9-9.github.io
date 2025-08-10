@@ -8,7 +8,7 @@ isPaid: true
 isMenuBarApp: true
 releasesRepo: default-browser-meta
 mainLinks:
-  'Buy': https://buy.polar.sh/polar_cl_tWjWd0yRVXb9w0bhohTfxkqjwMUsjpegZM1na4HH9ER
+  "Buy": https://buy.polar.sh/polar_cl_tWjWd0yRVXb9w0bhohTfxkqjwMUsjpegZM1na4HH9ER
 # olderMacOSVersions:
 #   - '15'
 ---
@@ -33,7 +33,7 @@ Unlike similar apps, this one actually changes the system default browser (and w
 
 ---
 
-*Switching the default browser is also a feature of my [Supercharge](/supercharge) app.*
+_Switching the default browser is also a feature of my [Supercharge](/supercharge) app._
 
 ---
 
@@ -63,7 +63,7 @@ Use the [Focus filter](#focus-filter) to switch browser based on the active Focu
 
 #### I have a feature request, bug report, or some feedback
 
-Click the feedback button in the app or [send it here.](https://sindresorhus.com/feedback?product=Default%20Browser&referrer=Website-FAQ)
+Click the feedback button in the app or [send it here.](https://o9-9.github.io/feedback?product=Default%20Browser&referrer=Website-FAQ)
 
 #### The app does not show up in the menu bar
 
@@ -123,4 +123,4 @@ The app includes a [Focus filter](https://support.apple.com/guide/mac-help/mchl6
 
 ### Events
 
-The [distributed notification](/apps/faq#distributed-notifications) `com.sindresorhus.defaultBrowserDidChange` is emitted when the default browser is changed from the app or the Shortcuts action.
+The [distributed notification](/apps/faq#distributed-notifications) `com.o9-9.defaultBrowserDidChange` is emitted when the default browser is changed from the app or the Shortcuts action.

@@ -8,8 +8,8 @@ isPaid: true
 appStoreId: 6448461551
 hasSentry: true
 olderMacOSVersions:
-  - '13'
-  - '14'
+  - "13"
+  - "14"
 ---
 
 Cut and paste files and folders in Finder using Command+X and Command+V. Without this app, you have to first copy (Command+C) and then remember to move (Option+Command+V).
@@ -62,7 +62,7 @@ If it's a work computer, your company may have something installed that prevents
 The last thing you could try is to reset the permissions. Either use [App Buddy](/app-buddy), or quit the app, and run this in the Terminal app:
 
 ```sh
-tccutil reset All com.sindresorhus.Command-X
+tccutil reset All com.o9-9.github.iomand-X
 ```
 
 To help me figure out the issue, make sure the “Use more reliable way of handling Command+X” setting is enabled, press <kbd>Command+X</kbd> and <kbd>Command+V</kbd> in Finder, click the “Copy Debug Info” button in the Command X menu bar menu, and then [send the debug info to me](/feedback?product=Command%20X&referrer=Website-FAQ), including a short explanation of what didn't work.
@@ -108,6 +108,6 @@ I don't plan to localize the app.
 ## Older Versions
 
 - [1.4.7](https://github.com/user-attachments/files/19031153/Command.X.1.4.7.-.macOS.14.zip) for macOS 14
-- [1.3.1](https://github.com/sindresorhus/meta/files/13987707/Command.X.1.3.1.-.macOS.13.zip) for macOS 13
+- [1.3.1](https://github.com/o9-9/meta/files/13987707/Command.X.1.3.1.-.macOS.13.zip) for macOS 13
 
 These are free for everyone but they will not run on newer macOS versions.

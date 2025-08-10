@@ -10,8 +10,8 @@ appStoreId: 6450280202
 # links:
 #   'TestFlight': https://testflight.apple.com/join/mFx764Kp
 olderMacOSVersions:
-  - '13'
-  - '14'
+  - "13"
+  - "14"
 ---
 
 Use this as a visual cue to stay motivated and manage time more efficiently.
@@ -48,13 +48,13 @@ Unfortunately, it's not possible to fully hide the built-in menu bar clock. Howe
 
 ### Events
 
-The [distributed notification](/apps/faq#distributed-notifications) `com.sindresorhus.Day-Progress.dayEnded` is emitted when a progress finishes.
+The [distributed notification](/apps/faq#distributed-notifications) `com.o9-9.Day-Progress.dayEnded` is emitted when a progress finishes.
 
 ## Frequently Asked Questions {#faq}
 
 #### I have a feature request, bug report, or some feedback
 
-Click the feedback button in the app or [send it here.](https://sindresorhus.com/feedback?product=Day%20Progress&referrer=Website-FAQ)
+Click the feedback button in the app or [send it here.](https://o9-9.github.io/feedback?product=Day%20Progress&referrer=Website-FAQ)
 
 #### The app does not show up in the menu bar
 
@@ -97,6 +97,6 @@ I do not plan to localize the app.
 ## Older Versions
 
 - [1.4.0](https://github.com/user-attachments/files/18767518/Day.Progress.1.4.0.-.macOS.14.zip) for macOS 14
-- [1.3.0](https://github.com/sindresorhus/meta/files/13979415/Day.Progress.1.3.0.-.macOS.13.zip) for macOS 13
+- [1.3.0](https://github.com/o9-9/meta/files/13979415/Day.Progress.1.3.0.-.macOS.13.zip) for macOS 13
 
 These are free for everyone but they will not run on newer macOS versions.

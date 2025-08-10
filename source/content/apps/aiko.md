@@ -9,8 +9,8 @@ platforms:
 isPaid: true
 appStoreId: 1672085276
 olderMacOSVersions:
-  - '13'
-  - '14'
+  - "13"
+  - "14"
 feedbackNote: |
   [Refunds](/apps/faq#refund)
 
@@ -145,7 +145,7 @@ The app uses the Whisper large v2 model on macOS and the medium or small model o
 
 Try Aiko free for 14 days via [TestFlight](https://testflight.apple.com/join/P1qnhHCC). It's the full app, no limitations. No auto-charges or commitment. Simply purchase it from the App Store after the trial if you want to continue using it.
 
-*Disregard where it says how many days there are left. It means the days left of the current TestFlight build, not how long you have left on your trial.*
+_Disregard where it says how many days there are left. It means the days left of the current TestFlight build, not how long you have left on your trial._
 
 ## Tips
 
@@ -173,7 +173,7 @@ Get [this (iOS)](https://www.icloud.com/shortcuts/f790a41e23ae4222920277b4fe9d12
 
 ### Transcribe files directly in Finder
 
-On macOS, you can transcribe files simply by right-clicking audio files in Finder and choosing [this shortcut](https://www.icloud.com/shortcuts/d03bb8e17513432190a1ed711f99d423) (add it first) in "Quick Actions". [Preview.](https://twitter.com/sindresorhus/status/1789957043912093954) In the shortcut you can choose whether you want text or subtitles.
+On macOS, you can transcribe files simply by right-clicking audio files in Finder and choosing [this shortcut](https://www.icloud.com/shortcuts/d03bb8e17513432190a1ed711f99d423) (add it first) in "Quick Actions". [Preview.](https://twitter.com/o9-9/status/1789957043912093954) In the shortcut you can choose whether you want text or subtitles.
 
 ### Record and transcribe by pressing the iPhone action button
 
@@ -201,7 +201,7 @@ You can use [this shortcut](https://www.icloud.com/shortcuts/e43220d72f3343659e0
 
 #### I have a feature request, bug report, or some feedback
 
-[Send it here.](https://sindresorhus.com/feedback?product=Aiko&referrer=Website-FAQ)
+[Send it here.](https://o9-9.github.io/feedback?product=Aiko&referrer=Website-FAQ)
 
 #### Can you use the large v3 model for the Mac app?
 
@@ -250,6 +250,7 @@ I have no control over the supported languages. You could try to request it [her
 This is unfortunately a flaw in the Whisper AI model and out of my control. This is usually caused by the audio not being clean (for example, a lot of background noise).
 
 Some things you could try:
+
 - Restart your device.
 - Try enabling the “Reduce repetitions” setting.
 - Try enabling the “Reduce repetitions even more” setting.
@@ -350,19 +351,21 @@ Drag and drop the voice note into Aiko.
 Telegram voice notes are stored in the format [Ogg](https://en.wikipedia.org/wiki/Ogg), which macOS/iOS cannot handle.
 
 Workaround for iOS:
+
 1. Download [this app](https://apps.apple.com/app/id889643660).
 2. In Telegram, share the voice note to “Audio Converter”.
 3. Select “AAC” as output format and tap the convert button.
 4. Tap the share button and then choose Aiko.
 
 Workaround for macOS:
+
 1. Download [this app](https://apps.apple.com/app/id1081480270)
 2. In Telegram, right-click the voice note and save it.
 3. Open the saved voice note with the “Audio Converter” app.
 4. Select “AAC” as output format and tap the convert button.
 5. Save the converted file and open it with Aiko.
 
-*I would also recommend sending feedback to Telegram that they should support M4A for voice notes.*
+_I would also recommend sending feedback to Telegram that they should support M4A for voice notes._
 
 #### How can I export the transcription as subtitles (SRT)?
 

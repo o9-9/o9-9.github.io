@@ -3,5 +3,5 @@
 title: Supercharge + Setapp = ❤️
 description: My Supercharge app is now available on Setapp.
 pubDate: 2025-01-13
-redirectUrl: https://sindresorhus.com/supercharge
+redirectUrl: https://o9-9.github.io/supercharge
 ---

@@ -16,7 +16,7 @@ It is time to move on.
 
 ## The Plan
 
-I intend to move [all my packages](https://github.com/search?q=owner%3Asindresorhus+%22node%3Abuffer%22&type=code) from using `Buffer` to `Uint8Array`. If you are a maintainer of a JavaScript package, I encourage you to do the same.
+I intend to move [all my packages](https://github.com/search?q=owner%3Ao9-9+%22node%3Abuffer%22&type=code) from using `Buffer` to `Uint8Array`. If you are a maintainer of a JavaScript package, I encourage you to do the same.
 
 `Buffer` will never be removed, and probably never even deprecated, but at least the community can slowly move away from it. My hope is that the Node.js team will at least start discouraging the use of `Buffer`.
 
@@ -24,7 +24,7 @@ I intend to move [all my packages](https://github.com/search?q=owner%3Asindresor
 
 First, familiarize yourself with the [subtle incompatibilities](https://nodejs.org/api/buffer.html#buffers-and-typedarrays) between `Uint8Array` and `Buffer`.
 
-I have made the [`uint8array-extras` package](https://github.com/sindresorhus/uint8array-extras) to make the transition easier. Pull requests are welcome for additional utilities.
+I have made the [`uint8array-extras` package](https://github.com/o9-9/uint8array-extras) to make the transition easier. Pull requests are welcome for additional utilities.
 
 If your code accepts a `Buffer` and doesn't use any `Buffer`-specific methods, you can simply update your docs and types to `Uint8Array`. Changing the input type from `Buffer` to `Uint8Array` is a non-breaking change since `Buffer` is an instance of `Uint8Array`.
 
@@ -47,7 +47,7 @@ The primary transition steps are:
 
 #### How can I convert to and from Base64 with `Uint8Array`?
 
-You can use my [`uint8array-extras` package](https://github.com/sindresorhus/uint8array-extras) for now. It will most likely eventually be [supported natively](https://github.com/tc39/proposal-arraybuffer-base64/issues) in JavaScript.
+You can use my [`uint8array-extras` package](https://github.com/o9-9/uint8array-extras) for now. It will most likely eventually be [supported natively](https://github.com/tc39/proposal-arraybuffer-base64/issues) in JavaScript.
 
 #### How do I handle Node.js APIs that return a `Buffer`, like the `fs` methods?
 
@@ -161,9 +161,9 @@ If you use [XO](https://github.com/xojs/xo), it comes with this config by defaul
 
 [Voice your support](https://github.com/nodejs/node/issues/41588) for Node.js using `Uint8Array` for new APIs.
 
-Help me move [my packages](https://github.com/search?q=owner%3Asindresorhus+%22node%3Abuffer%22&type=code) to `Uint8Array`. Pick one and give it a go.
+Help me move [my packages](https://github.com/search?q=owner%3Ao9-9+%22node%3Abuffer%22&type=code) to `Uint8Array`. Pick one and give it a go.
 
-Help us make a [lint rule](https://github.com/sindresorhus/eslint-plugin-unicorn/issues/1808) to prevent the use of `Buffer` methods.
+Help us make a [lint rule](https://github.com/o9-9/eslint-plugin-unicorn/issues/1808) to prevent the use of `Buffer` methods.
 
 ## Future
 
@@ -177,4 +177,4 @@ Consider proposing missing bits to [TC39](https://github.com/tc39/proposals).
 
 Let's make the JavaScript package ecosystem more cross-platform. Thanks for reading.
 
-[Discuss](https://github.com/sindresorhus/meta/discussions/22)
+[Discuss](https://github.com/o9-9/meta/discussions/22)

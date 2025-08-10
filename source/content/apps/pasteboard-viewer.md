@@ -6,14 +6,14 @@ platforms:
   - macOS
   - iOS
   - visionOS
-repoUrl: https://github.com/sindresorhus/Pasteboard-Viewer
+repoUrl: https://github.com/o9-9/Pasteboard-Viewer
 appStoreId: 1499215709
 links:
-  'Older Versions': https://github.com/sindresorhus/Pasteboard-Viewer#download
+  "Older Versions": https://github.com/o9-9/Pasteboard-Viewer#download
 olderMacOSVersions:
-  - '10.15'
-  - '11'
-  - '12'
-  - '13'
-  - '14'
+  - "10.15"
+  - "11"
+  - "12"
+  - "13"
+  - "14"
 ---

@@ -8,9 +8,9 @@ isMenuBarApp: true
 appStoreId: 1615988943
 hasSentry: true
 olderMacOSVersions:
-  - '12'
-  - '13'
-  - '14'
+  - "12"
+  - "13"
+  - "14"
 feedbackNote: |
   If the app is not working after updating to macOS 15, restart your computer once more and it should work. This is a macOS 15 bug.
 ---
@@ -27,7 +27,7 @@ Make sure you read the below tips and FAQ.
 
 - Click a file or folder in the menu to open it. Folders open in Finder.
 - Click a file while pressing the <kbd>Option</kbd> key to show it in Finder.
-- Click the folder title ([the top menu item](https://github.com/sindresorhus/meta/assets/170270/79c4e9c7-8abf-49da-b8fb-3a942017442e)) to open the folder.
+- Click the folder title ([the top menu item](https://github.com/o9-9/meta/assets/170270/79c4e9c7-8abf-49da-b8fb-3a942017442e)) to open the folder.
 - You can drag and drop the file thumbnail in the file submenu. Press the <kbd>Option</kbd> key while dragging to copy instead of moving.
 - Press the <kbd>Option</kbd> key when viewing the file details to copy the path or image/video dimensions.
 - You can use the Shortcuts support to show/hide certain folders depending on what project you are working on.
@@ -49,7 +49,7 @@ You could add the “Desktop” folder to Folder Peek and then [hide the desktop
 
 #### I have a feature request, bug report, or some feedback
 
-[Send it here.](https://sindresorhus.com/feedback?product=Folder%20Peek&referrer=Website-FAQ)
+[Send it here.](https://o9-9.github.io/feedback?product=Folder%20Peek&referrer=Website-FAQ)
 
 #### The app does not show up in the menu bar
 
@@ -158,7 +158,7 @@ For other apps, follow [this guide](https://binarynights.com/manual#fileviewer),
 There is a hidden setting for it. Run the following command in the Terminal app:
 
 ```sh
-defaults write com.sindresorhus.Folder-Peek showFolderMoreMenu -bool false
+defaults write com.o9-9.Folder-Peek showFolderMoreMenu -bool false
 ```
 
 You can show the `…` menu item again by pressing the <kbd>Option</kbd> key.
@@ -193,7 +193,7 @@ You can show the `…` menu item again by pressing the <kbd>Option</kbd> key.
 
 #### How can I export, import, sync, or back up the settings?
 
-[See this guide.](https://github.com/sindresorhus/guides/blob/main/backup-app-settings.md)
+[See this guide.](https://github.com/o9-9/guides/blob/main/backup-app-settings.md)
 
 #### Why is this free without ads?
 
@@ -208,13 +208,13 @@ I don't plan to localize the app.
 ## Older Versions
 
 - [1.11.5](https://github.com/user-attachments/files/18925258/Folder.Peek.1.11.5.-.macOS.14.zip) for macOS 14+
-- [1.9.2](https://github.com/sindresorhus/meta/files/13980050/Folder.Peek.1.9.2.-.macOS.13.zip) for macOS 13+
-- [1.6.1](https://github.com/sindresorhus/meta/files/10901140/Folder.Peek.1.6.1.-.macOS.12.zip) for macOS 12+
+- [1.9.2](https://github.com/o9-9/meta/files/13980050/Folder.Peek.1.9.2.-.macOS.13.zip) for macOS 13+
+- [1.6.1](https://github.com/o9-9/meta/files/10901140/Folder.Peek.1.6.1.-.macOS.12.zip) for macOS 12+
 
 ## Non-App Store Version
 
 A special version for users that cannot access the App Store. It won't receive automatic updates. I will update it here once a year.
 
-[Download](https://www.dropbox.com/scl/fi/30gu98tp3nati88qjeojs/Folder-Peek-1.12.0-1740254505.zip?rlkey=ajsfxew6c1izfsvgk78twj8ia&raw=1) *(1.12.0)*
+[Download](https://www.dropbox.com/scl/fi/30gu98tp3nati88qjeojs/Folder-Peek-1.12.0-1740254505.zip?rlkey=ajsfxew6c1izfsvgk78twj8ia&raw=1) _(1.12.0)_
 
-*Requires macOS 15 or later*
+_Requires macOS 15 or later_

@@ -7,7 +7,7 @@ platforms:
 isMenuBarApp: true
 appStoreId: 6502579523
 olderMacOSVersions:
-  - '14'
+  - "14"
 ---
 
 **Features**
@@ -29,7 +29,7 @@ Check out [Dato](/dato) for week number in the menu bar and more features and se
 
 #### I have a feature request, bug report, or some feedback
 
-Click the feedback button in the app or [send it here](https://sindresorhus.com/feedback?product=Week%20Number&referrer=Website-FAQ).
+Click the feedback button in the app or [send it here](https://o9-9.github.io/feedback?product=Week%20Number&referrer=Website-FAQ).
 
 #### The app does not show up in the menu bar
 
@@ -65,6 +65,6 @@ Change [this system setting](https://apple.stackexchange.com/questions/191445/st
 
 A special version for users that cannot access the App Store. It won't receive automatic updates. I will update it here once a year.
 
-[Download](https://www.dropbox.com/scl/fi/l2yr5m6il2wqjnftl6uoi/Week-Number-1.2.0-1734647649.zip?rlkey=ehuk5cftyrumqsrxwi6d8am94&raw=1) *(1.2.0)*
+[Download](https://www.dropbox.com/scl/fi/l2yr5m6il2wqjnftl6uoi/Week-Number-1.2.0-1734647649.zip?rlkey=ehuk5cftyrumqsrxwi6d8am94&raw=1) _(1.2.0)_
 
-*Requires macOS 15 or later*
+_Requires macOS 15 or later_

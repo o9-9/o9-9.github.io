@@ -7,7 +7,7 @@ platforms:
 isMenuBarApp: true
 appStoreId: 6450279539
 olderMacOSVersions:
-  - '14'
+  - "14"
 ---
 
 The app is simple by design.
@@ -18,7 +18,7 @@ Check out [Dato](/dato) for more features and settings or [UTC Time](/utc-time) 
 
 #### I have a feature request, bug report, or some feedback
 
-Click the feedback button in the app or [send it here.](https://sindresorhus.com/feedback?product=Second%20Clock&referrer=Website-FAQ)
+Click the feedback button in the app or [send it here.](https://o9-9.github.io/feedback?product=Second%20Clock&referrer=Website-FAQ)
 
 #### The app does not show up in the menu bar
 
@@ -26,7 +26,7 @@ macOS hides menu bar apps when there is no space left in the menu bar. This is a
 
 #### Can it show a flag in front of the time?
 
-You can set a [flag emoji](https://emojipedia.org/flags) in the “Prefix text” setting. [Example.](https://twitter.com/sindresorhus/status/1742975880031543330)
+You can set a [flag emoji](https://emojipedia.org/flags) in the “Prefix text” setting. [Example.](https://twitter.com/o9-9/status/1742975880031543330)
 
 #### Can it show an icon in front of the time?
 
@@ -50,13 +50,13 @@ I have no plans to support that.
 
 I don't plan to support that directly, but here are additional builds of the app with different identifiers so they can all run at the same time:
 
-- [Second Clock 2](https://github.com/sindresorhus/meta/files/13830079/Second.Clock.2.zip)
-- [Second Clock 3](https://github.com/sindresorhus/meta/files/13830078/Second.Clock.3.zip)
-- [Second Clock 4](https://github.com/sindresorhus/meta/files/13830077/Second.Clock.4.zip)
-- [Second Clock 5](https://github.com/sindresorhus/meta/files/13830075/Second.Clock.5.zip)
-- [Second Clock 6](https://github.com/sindresorhus/meta/files/13830074/Second.Clock.6.zip)
+- [Second Clock 2](https://github.com/o9-9/meta/files/13830079/Second.Clock.2.zip)
+- [Second Clock 3](https://github.com/o9-9/meta/files/13830078/Second.Clock.3.zip)
+- [Second Clock 4](https://github.com/o9-9/meta/files/13830077/Second.Clock.4.zip)
+- [Second Clock 5](https://github.com/o9-9/meta/files/13830075/Second.Clock.5.zip)
+- [Second Clock 6](https://github.com/o9-9/meta/files/13830074/Second.Clock.6.zip)
 
-*Requires macOS 14 or later*
+_Requires macOS 14 or later_
 
 My [Dato](/dato) app supports unlimited time zone clocks with settings like color and size.
 
@@ -82,6 +82,6 @@ I just enjoy making apps. Consider leaving a nice review on the App Store.
 
 A special version for users that cannot access the App Store. It won't receive automatic updates. I will update it here once a year.
 
-[Download](https://www.dropbox.com/scl/fi/v4owb8qukgdupn4zugztn/Second-Clock-1.1.0-1738865055.zip?rlkey=0qc40wcxbe2bjszi47xv31zw6&raw=1) *(1.1.0)*
+[Download](https://www.dropbox.com/scl/fi/v4owb8qukgdupn4zugztn/Second-Clock-1.1.0-1738865055.zip?rlkey=0qc40wcxbe2bjszi47xv31zw6&raw=1) _(1.1.0)_
 
-*Requires macOS 15 or later*
+_Requires macOS 15 or later_

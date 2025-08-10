@@ -10,13 +10,13 @@ hasSentry: true
 setappId: 742
 releasesRepo: supercharge-meta
 mainLinks:
-  'Buy': https://sindresorhus.gumroad.com/l/supercharge?wanted=true
+  "Buy": https://o9-9.gumroad.com/l/supercharge?wanted=true
 # olderMacOSVersions:
 #   - '15'
 feedbackNote: |
   When reporting bugs, try quitting Supercharge, and if the issue disappears, it is likely not an issue with Supercharge. If the issue is still there, try turning off things in the “Tweaks” settings tab until it does not happen anymore, to narrow down which feature is causing the issue, and let me know.
 
-  If the issue is that a keyboard shortcut is not working, it could be [this](https://sindresorhus.com/apps/faq#secure-input-problem).
+  If the issue is that a keyboard shortcut is not working, it could be [this](https://o9-9.github.io/apps/faq#secure-input-problem).
 
   The Finder context menu items will not show up in any [sync folder like iCloud, Dropbox, etc](#finder-context-menu-icloud).
 ---
@@ -25,7 +25,7 @@ feedbackNote: |
 
 Improve your Mac experience with a bunch of useful functionality:
 
-*(Every feature is opt-in, so you can enable only what you need)*
+_(Every feature is opt-in, so you can enable only what you need)_
 
 - Clear notifications with a keyboard shortcut or from the menu
 - Click top visible notification with a keyboard shortcut
@@ -42,54 +42,54 @@ Improve your Mac experience with a bunch of useful functionality:
 - [Clicking yellow traffic light button hides app instead of minimizing window](#yellow-traffic-light-button-hide)
 - [Scan QR codes and barcodes from anywhere on screen](#scan-qr-codes)
 - [Cleaning Mode](https://www.dropbox.com/scl/fi/6vm94elcusix6oqe5su78/434266737-572f4e43-d42a-49c2-925f-4db90ebbfd06-1748011610.mp4?rlkey=r538vzwv0k9ba5rjqhw4goaa7&raw=1)
-	<span class="list-description">Makes your screen black and disables keyboard and mouse to let you safely clean your device.</span>
+  <span class="list-description">Makes your screen black and disables keyboard and mouse to let you safely clean your device.</span>
 - Quit apps when closing their last window (clicking the red traffic light button or <kbd>Command+W</kbd>) (similar to Swift Quit and RedQuits apps)
-	- (beta - try the [trial](#trial))
+  - (beta - try the [trial](#trial))
 - [Run shortcuts from the menu](#run-shortcuts)
-	<span class="list-description">Show your favorite shortcuts from the Shortcuts app in the menu.</span>
+  <span class="list-description">Show your favorite shortcuts from the Shortcuts app in the menu.</span>
 - Move files received through AirDrop to a specified folder
-	<span class="list-description">Automatically move files from the Downloads folder as soon as they are received.</span>
+  <span class="list-description">Automatically move files from the Downloads folder as soon as they are received.</span>
 - [Keep computer awake](#keep-awake)
 - [Automatically clear clipboard for improved privacy](#automatic-clipboard-clearing)
 - [Prevent accidental window closing for certain apps](#prevent-accidental-window-closing)
 - Prevent Dock from showing when moving mouse to screen edge
-	<span class="list-description">Useful if you want to hide the Dock entirely or only show it with a keyboard shortcut. Does not apply to fullscreen.</span>
+  <span class="list-description">Useful if you want to hide the Dock entirely or only show it with a keyboard shortcut. Does not apply to fullscreen.</span>
 - Open new window by Shift+clicking a running app in the Dock
-	<span class="list-description">Makes it easy to open a new window for an app, similar to Windows. Works by simulating Command+N in the app, so it may not work correctly in all apps.</span>
-	- (beta)
+  <span class="list-description">Makes it easy to open a new window for an app, similar to Windows. Works by simulating Command+N in the app, so it may not work correctly in all apps.</span>
+  - (beta)
 - Finder: Move files by cutting[^commandx] (<kbd>Command+X</kbd>) and pasting (<kbd>Command+V</kbd>)
 - Finder: Open files with <kbd>Return</kbd> (you can then rename with <kbd>Shift+Return</kbd> or <kbd>F2</kbd>)
-- Finder: Create new text file with <kbd>Option+N</kbd> *([video](https://github.com/user-attachments/assets/cb2c4606-12eb-4915-a64c-9b8ac3e123cf))* or from the [context menu](#finder-context-menu)
-	<span class="list-description">Set default extension, auto-open after naming, and choose app.</span>
+- Finder: Create new text file with <kbd>Option+N</kbd> _([video](https://github.com/user-attachments/assets/cb2c4606-12eb-4915-a64c-9b8ac3e123cf))_ or from the [context menu](#finder-context-menu)
+  <span class="list-description">Set default extension, auto-open after naming, and choose app.</span>
 - Finder: Move files to the trash with <kbd>⌫</kbd> (Delete) instead of <kbd>⌘⌫</kbd>
 - Finder: Go back to the previous folder with <kbd>⌫</kbd> (Delete)
 - [Finder: Adds many useful actions to the context menu:](#finder-context-menu) copy path, move to, open folder with, AirDrop, folder colors, etc.
 - Finder: Auto-adjust column widths to filenames in column view, or do it once with a keyboard shortcut
-	- Known (unfixable) issues:
-		- Columns may not adjust correctly in synced folders due to sync status icons.
-		- Columns may not expand fully if the Finder window is narrow. A workaround is to make the Finder window very wide.
-	- **If you are buying Supercharge just for this feature. Please try out the [trial](#trial) first.**
+  - Known (unfixable) issues:
+    - Columns may not adjust correctly in synced folders due to sync status icons.
+    - Columns may not expand fully if the Finder window is narrow. A workaround is to make the Finder window very wide.
+  - **If you are buying Supercharge just for this feature. Please try out the [trial](#trial) first.**
 - Finder: Invert selection (deselects what's currently selected and selects everything that wasn't selected)
 - Finder: Open new window when activating without windows
-	<span class="list-description">By default, when you <kbd>Command-Tab</kbd> to Finder without any windows open, nothing happens. This ensures a new window opens automatically.</span>
+  <span class="list-description">By default, when you <kbd>Command-Tab</kbd> to Finder without any windows open, nothing happens. This ensures a new window opens automatically.</span>
 - Finder: Make <kbd>⌘Q</kbd> close all windows and hide Finder
-	<span class="list-description">By default, <kbd>⌘Q</kbd> does nothing in Finder.</span>
+  <span class="list-description">By default, <kbd>⌘Q</kbd> does nothing in Finder.</span>
 - [Adds many useful services to “Services” in context menus (like in Finder):](#macos-services) copy path, move to, AirDrop, etc.
 - Exclude AirDrop, Mail, and Messages from the system Share menu
   <span class="list-description">These are usually forced to be shown by macOS.</span>
 - Center mouse pointer on primary display when waking and unlocking
-	<span class="list-description">Helps you quickly locate the mouse pointer after returning to your Mac. Also available via keyboard shortcut.</span>
+  <span class="list-description">Helps you quickly locate the mouse pointer after returning to your Mac. Also available via keyboard shortcut.</span>
 - Disable delay when showing Dock.
-	<span class="list-description">Does not apply to fullscreen.</span>
+  <span class="list-description">Does not apply to fullscreen.</span>
 - Minimize all windows or just all except frontmost with keyboard shortcuts and from the menu.
 - Minimize all windows of the active app except frontmost with keyboard shortcuts and from the menu.
 - Unminimize all windows or first window of active app with keyboard shortcut.
 - [Show markup tools by default in screenshot preview](https://github.com/user-attachments/assets/20b0cfe8-d588-4329-9132-9120b32da7ff)
 - Auto-open screenshot preview after capturing
 - [Show input devices in the Sound menu bar item menu](https://github.com/user-attachments/assets/e6015206-c927-4c97-8f66-7408231d4f23)
-	<span class="list-description">By default, it only shows output devices.</span>
+  <span class="list-description">By default, it only shows output devices.</span>
 - Archive old items in the Downloads folder automatically
-	<span class="list-description">Keeps your Downloads folder tidy by moving older items to a separate location based on when they were added.</span>
+  <span class="list-description">Keeps your Downloads folder tidy by moving older items to a separate location based on when they were added.</span>
 - [Mail: Copy message link](#mail-copy-message-link)
 - [Notes: Copy note link](#notes-copy-note-link)
 - Safari: Use <kbd>Delete</kbd> and <kbd>Shift+Delete</kbd> to navigate back and forward
@@ -98,33 +98,33 @@ Improve your Mac experience with a bunch of useful functionality:
 - Show the [menu bar window](https://github.com/user-attachments/assets/567bbbf5-12a1-45be-8ffa-93712574d4a0) for the Weather app with a keyboard shortcut
 - Show the window for the “Now Playing” menu bar item with a keyboard shortcut
 - [Change default browser](https://github.com/user-attachments/assets/b58a04da-2bdc-4bd0-bed4-ba62ba456491) (without a prompt)
-	- Also available as an [independent app](/default-browser).
+  - Also available as an [independent app](/default-browser).
 - Auto-open downloaded calendar event (`.ics`) files and move them to trash after import
-	<span class="list-description">Optionally remove alarms from events.</span>
+  <span class="list-description">Optionally remove alarms from events.</span>
 - Lowercase file extension of files in Downloads folders
-	<span class="list-description">For example, images from iPhone, which usually have `.JPG` or `.HEIC` extensions. Applies to both the local Downloads folder and the Downloads folder in iCloud Drive.</span>
+  <span class="list-description">For example, images from iPhone, which usually have `.JPG` or `.HEIC` extensions. Applies to both the local Downloads folder and the Downloads folder in iCloud Drive.</span>
 - [Make volume key adjustments more precise with half and quarter-step increments](https://github.com/user-attachments/assets/e994755b-94ca-4e3c-8f70-5d3bffc3aed1)
-- Export/import (backup) settings for any apps *([video](https://github.com/user-attachments/assets/82727408-3acb-4c18-91c6-428f1e0ad8c5))*
+- Export/import (backup) settings for any apps _([video](https://github.com/user-attachments/assets/82727408-3acb-4c18-91c6-428f1e0ad8c5))_
 - Toggle Terminal with a keyboard shortcut
 - [Offers to install apps from mounted DMG files](https://github.com/user-attachments/assets/5ecb9b0b-5719-4382-98a0-c3316bd20a6b)
 - Toggle Stage Manager directly from its menu bar item
-	<span class="list-description">Normally, clicking it would open a window with a toggle. This saves one click.</span>
+  <span class="list-description">Normally, clicking it would open a window with a toggle. This saves one click.</span>
 - Hide mouse pointer with keyboard shortcut
-	<span class="list-description">Reappears on movement or when the shortcut is pressed again.</span>
+  <span class="list-description">Reappears on movement or when the shortcut is pressed again.</span>
 - Show desktop (menu action)
 - Sleep displays (menu action and keyboard shortcut)
-	<span class="list-description">Puts all your Mac’s screens to sleep.</span>
+  <span class="list-description">Puts all your Mac’s screens to sleep.</span>
 - Quit all apps (menu action and keyboard shortcut)
-	<span class="list-description">Optionally exclude specific apps.</span>
+  <span class="list-description">Optionally exclude specific apps.</span>
 - Quit all apps except frontmost (menu action and keyboard shortcut)
-	<span class="list-description">Optionally exclude specific apps.</span>
+  <span class="list-description">Optionally exclude specific apps.</span>
 - Eject all disks (menu action and keyboard shortcut) (optionally exclude some)
 - Dim icons of hidden apps in the Dock
 - Pick color on screen and copy (menu action and keyboard shortcut) (Hex, RGB, OKLCH)
 - Toggle mute sound
-	<span class="list-description">Mute or unmute your Mac sound with a keyboard shortcut, from the menu, or using Shortcuts.</span>
+  <span class="list-description">Mute or unmute your Mac sound with a keyboard shortcut, from the menu, or using Shortcuts.</span>
 - Toggle mute microphone
-	<span class="list-description">Mute or unmute your microphone with a keyboard shortcut, from the menu, or using Shortcuts. Can show a menu bar icon for the current state. [Screenshot.](https://www.dropbox.com/scl/fi/dh8qprcekcjftnjc1hy2l/Mute-microphone-Screen-Shot-2025-07-31-at-19.16.08-1753983397.mp4?rlkey=i9c1ehd348v07g72t2ahpqcsz&raw=1)</span>
+  <span class="list-description">Mute or unmute your microphone with a keyboard shortcut, from the menu, or using Shortcuts. Can show a menu bar icon for the current state. [Screenshot.](https://www.dropbox.com/scl/fi/dh8qprcekcjftnjc1hy2l/Mute-microphone-Screen-Shot-2025-07-31-at-19.16.08-1753983397.mp4?rlkey=i9c1ehd348v07g72t2ahpqcsz&raw=1)</span>
 - Toggle dark mode
 - Toggle [Night Shift](https://support.apple.com/en-us/102191)
 - Toggle [True Tone](https://support.apple.com/en-us/102147)
@@ -132,18 +132,18 @@ Improve your Mac experience with a bunch of useful functionality:
 - Toggle grayscale mode[^grayscale]
 - Toggle desktop icons and widgets visibility
 - Toggle function keys (switch between using F1, F2, etc., as standard function keys or media keys)
-	<span class="list-description">Only supported for the built-in MacBook keyboard and Magic Keyboard.</span>
+  <span class="list-description">Only supported for the built-in MacBook keyboard and Magic Keyboard.</span>
 - Toggle iOS notifications
-	<span class="list-description">Only works if your Mac supports notifications from iOS.</span>
+  <span class="list-description">Only works if your Mac supports notifications from iOS.</span>
 - Control keyboard brightness with customizable keyboard shortcuts
-	<span class="list-description">Only supported for the built-in MacBook keyboard.</span>
+  <span class="list-description">Only supported for the built-in MacBook keyboard.</span>
 - Clear clipboard
 - Empty trash keyboard shortcut
 - [Clicking a Dock folder reveals it in Finder instead of showing its contents](#dock-folder-click)
 - Open system settings directly (usually requires a lot of clicks):
-	- Hide My Email
-	- Private Relay
-	- VPN & Filters
+  - Hide My Email
+  - Private Relay
+  - VPN & Filters
 - [Show seconds hand in the Clock app's Dock icon](https://github.com/user-attachments/assets/b1d025dc-0465-4d0f-adf8-48bc079ad438)
 - [Only show sound menu bar icon when either muted or unmuted](https://github.com/user-attachments/assets/10447e39-f288-406b-a504-6ab7b8fcf261)
 - [Keyboard shortcut inspector](#keyboard-shortcut-inspector)
@@ -152,12 +152,12 @@ Improve your Mac experience with a bunch of useful functionality:
 - Reset [privacy permissions](https://support.apple.com/en-vn/guide/mac-help/mchl211c911f/mac) for any apps
 - Flush DNS cache
 - Shortcuts actions
-- *More planned…*
+- _More planned…_
 
 This is my playground for supercharging macOS. It's just the start. Come along for the ride.
 
 - [**Video review**](https://www.youtube.com/watch?v=hp-WMYZQ75U)
-	- [Follow-up](https://www.youtube.com/watch?v=srZH0eTjylU)
+  - [Follow-up](https://www.youtube.com/watch?v=srZH0eTjylU)
 - [**Article about the app**](https://todayonmac.com/supercharge/)
 
 [^commandx]: Without this feature, you have to first copy (<kbd>Command+C</kbd>) and then remember to move (<kbd>Option+Command+V</kbd>). The feature works by overriding the normal cut <kbd>⌘X</kbd> keyboard shortcut when Finder is active and executes a copy <kbd>⌘C</kbd> instead. When you then paste <kbd>⌘V</kbd>, it executes the native move <kbd>⌥⌘V</kbd> keyboard shortcut. So really, it's Finder moving the files. This app just makes the keyboard shortcuts more intuitive. If you don't paste, the files just stay in place. This feature also works with the Forklift app.
@@ -187,6 +187,7 @@ Launch apps, run scripts, automate tasks — anything Shortcuts can do, now just
 [Screenshot](https://www.dropbox.com/scl/fi/ny886w93chpav0b325ioi/441329057-67290c47-4d78-490f-b0b8-f263ebc1022d-1748012141.png?rlkey=kf2ha9ygkvd4iu3zme8a0wo07&raw=1)
 
 Example shortcuts:
+
 - [Toggle “Do Not Disturb”](https://www.icloud.com/shortcuts/17a79c58e70446c5a0f1c1c89653a4aa)
 - [Flush DNS cache](https://www.icloud.com/shortcuts/a91b36f037d74cd7a647284e8c376f3d)
 
@@ -222,7 +223,7 @@ Makes clicking the green traffic light button fill the window to fit the screen 
 
 [Screenshot](https://github.com/user-attachments/assets/41dd0f46-05f7-46f2-b9a5-a5ae441da8a9)
 
-*It requires the “Displays have separate Spaces” system setting to be enabled because it relies on the window tile functionality, which is only available then.*
+_It requires the “Displays have separate Spaces” system setting to be enabled because it relies on the window tile functionality, which is only available then._
 
 #### Clicking yellow traffic light button hides app instead of minimizing window {#yellow-traffic-light-button-hide}
 
@@ -245,6 +246,7 @@ Detects which apps are listening to or have registered a certain global keyboard
 The clipboard is a common privacy risk as it can retain sensitive content (passwords, credit card numbers, private messages) long after you've copied it. Any app on your Mac can silently read the clipboard at any time.
 
 When enabled, it automatically clears the clipboard:
+
 - About one minute after copying (timer restarts on new copy)
 - When your Mac sleeps or locks
 <!-- - 10 seconds after pasting with Command+V -->
@@ -263,7 +265,7 @@ Available as a menu action, a customizable keyboard shortcut, and as a Shortcuts
 
 Creates visual separators in the Finder sidebar to help organize your folders into groups. Simply drag the spacer between two folders in the sidebar. The spacer appears as an invisible folder.
 
-*NOTE: The spacer still shows a folder icon. It's not possible to hide this.*
+_NOTE: The spacer still shows a folder icon. It's not possible to hide this._
 
 [Screenshot](https://www.dropbox.com/scl/fi/7ndp0sdiocgf0n7xdbolz/441615369-d929e3fe-6605-46f6-a99f-6f0f3486a88e-1748012169.png?rlkey=xr7716dr9xiyim0pu80qv6n5x&raw=1)
 
@@ -272,114 +274,114 @@ Creates visual separators in the Finder sidebar to help organize your folders in
 Adds the following actions (can be customized) directly in the right-click menu in Finder:
 
 - New Text File
-	<span class="list-description">Shown only when right-clicking an empty area in Finder.</span>
+  <span class="list-description">Shown only when right-clicking an empty area in Finder.</span>
 - New From Template
-	<span class="list-description">Creates new files from templates. For example, a Markdown or Excel file. Templates can be organized in subfolders. Click a folder to copy its entire structure, or navigate into it to select individual files. Shown only when right-clicking an empty area in Finder, not a file. Supports dynamic placeholders in filenames (like `Diary {datetime-fixed}` → `Diary 2025-02-14 15.30`). And you can even have the file automatically open after naming it. [Screenshot.](https://github.com/user-attachments/assets/cb401a0e-2e40-4714-9493-b91563a7b387)</span>
+  <span class="list-description">Creates new files from templates. For example, a Markdown or Excel file. Templates can be organized in subfolders. Click a folder to copy its entire structure, or navigate into it to select individual files. Shown only when right-clicking an empty area in Finder, not a file. Supports dynamic placeholders in filenames (like `Diary {datetime-fixed}` → `Diary 2025-02-14 15.30`). And you can even have the file automatically open after naming it. [Screenshot.](https://github.com/user-attachments/assets/cb401a0e-2e40-4714-9493-b91563a7b387)</span>
 - Open in New Window
-	<span class="list-description">Opens the folder in a new window instead of a tab, even if you have set new windows to open as tabs. This action also shows up in the context menu for sidebar items. Useful when you want to view multiple folders side by side or drag items between locations.</span>
+  <span class="list-description">Opens the folder in a new window instead of a tab, even if you have set new windows to open as tabs. This action also shows up in the context menu for sidebar items. Useful when you want to view multiple folders side by side or drag items between locations.</span>
 - Image/Video Dimensions
 - File Size
 - Copy Path
 - Copy Filename
 - Copy File URL
-	<span class="list-description">Useful for deep links. Clicking such link reveals it in Finder.</span>
+  <span class="list-description">Useful for deep links. Clicking such link reveals it in Finder.</span>
 - Copy Markdown Link
-	<span class="list-description">Useful for deep links. Clicking such link reveals it in Finder.</span>
+  <span class="list-description">Useful for deep links. Clicking such link reveals it in Finder.</span>
 - Copy Contents
-	<span class="list-description">Copies the contents of text files to the clipboard.</span>
+  <span class="list-description">Copies the contents of text files to the clipboard.</span>
 - Open Folder With
-	<span class="list-description">[Missing apps?](https://sindresorhus.com/supercharge#add-app-open-folder-with)</span>
+  <span class="list-description">[Missing apps?](https://o9-9.github.io/supercharge#add-app-open-folder-with)</span>
 - Make Symlink
 - Move To
-	<span class="list-description">Moves files and folders to a chosen location.</span>
+  <span class="list-description">Moves files and folders to a chosen location.</span>
 - Copy To
-	<span class="list-description">Copies files and folders to a chosen location.</span>
+  <span class="list-description">Copies files and folders to a chosen location.</span>
 - Share
-	<span class="list-description">Shows the old-style Share item that is a submenu instead of a separate popover, which is faster to access. You can exclude AirDrop, Messages, and Mail from the menu, which are normally forced to be shown. However, there is no way to hide the existing Share item.</span>
+  <span class="list-description">Shows the old-style Share item that is a submenu instead of a separate popover, which is faster to access. You can exclude AirDrop, Messages, and Mail from the menu, which are normally forced to be shown. However, there is no way to hide the existing Share item.</span>
 - Open in App
-	<span class="list-description">Adds menu items like “Open in Visual Studio Code” directly to the Finder context menu. Text editors show up for folders and text files, while other apps only show up for types they support. [Screenshot.](https://github.com/user-attachments/assets/980340bc-a257-475c-9a02-7b98853df9a7)</span>
+  <span class="list-description">Adds menu items like “Open in Visual Studio Code” directly to the Finder context menu. Text editors show up for folders and text files, while other apps only show up for types they support. [Screenshot.](https://github.com/user-attachments/assets/980340bc-a257-475c-9a02-7b98853df9a7)</span>
 - Open in Terminal
-	<span class="list-description">Shown only when right-clicking a folder or an empty area in Finder. Supports Terminal, iTerm, Ghostty, kitty, WezTerm, Alacritty, and Warp.</span>
+  <span class="list-description">Shown only when right-clicking a folder or an empty area in Finder. Supports Terminal, iTerm, Ghostty, kitty, WezTerm, Alacritty, and Warp.</span>
 - AirDrop
-	<span class="list-description">Shares files via AirDrop.</span>
+  <span class="list-description">Shares files via AirDrop.</span>
 - Run Shortcut
-	<span class="list-description">Shares files with a shortcut from the Shortcuts app.</span>
+  <span class="list-description">Shares files with a shortcut from the Shortcuts app.</span>
 - Update Modified Date
 - Folder Color
-	<span class="list-description">Changes the color of folders. [Screenshot.](https://github.com/user-attachments/assets/0687455b-61d3-4fdd-a863-1e378a3701d5)</span>
+  <span class="list-description">Changes the color of folders. [Screenshot.](https://github.com/user-attachments/assets/0687455b-61d3-4fdd-a863-1e378a3701d5)</span>
 - Toggle Hidden Files
-	<span class="list-description">Toggles visibility of hidden files.</span>
+  <span class="list-description">Toggles visibility of hidden files.</span>
 - Make Executable
-	<span class="list-description">Makes files executable, similar to `chmod +x` in the terminal. Useful for shell scripts.</span>
+  <span class="list-description">Makes files executable, similar to `chmod +x` in the terminal. Useful for shell scripts.</span>
 - Invert Selection
-	<span class="list-description">Selects the files and folders in Finder that are not selected.</span>
+  <span class="list-description">Selects the files and folders in Finder that are not selected.</span>
 - Delete Immediately
-	<span class="list-description">Permanently deletes files and folders without sending them to the Trash.</span>
+  <span class="list-description">Permanently deletes files and folders without sending them to the Trash.</span>
 - Copy Checksum
-	<span class="list-description">SHA-1, SHA-256, SHA-384, SHA-512, MD5, CRC32</span>
+  <span class="list-description">SHA-1, SHA-256, SHA-384, SHA-512, MD5, CRC32</span>
 - Unquarantine
-	<span class="list-description">Removes the quarantine flag that macOS adds to downloaded files and apps. This removes [security prompts](https://github.com/user-attachments/assets/adbf3c7e-8fee-4cd9-9a90-3958badfa94e) and restrictions for trusted items.</span>
+  <span class="list-description">Removes the quarantine flag that macOS adds to downloaded files and apps. This removes [security prompts](https://github.com/user-attachments/assets/adbf3c7e-8fee-4cd9-9a90-3958badfa94e) and restrictions for trusted items.</span>
 - Scan QR Code
-	<span class="list-description">Scans QR codes in images and copies the content to the clipboard. Only shown when right-clicking image files.</span>
+  <span class="list-description">Scans QR codes in images and copies the content to the clipboard. Only shown when right-clicking image files.</span>
 - Print
-	<span class="list-description">Prints files directly with the default printer without showing any dialog.</span>
+  <span class="list-description">Prints files directly with the default printer without showing any dialog.</span>
 - Remove Location Metadata
-	<span class="list-description">Removes GPS location metadata from images to protect your privacy.</span>
+  <span class="list-description">Removes GPS location metadata from images to protect your privacy.</span>
 - Remove All Metadata
-	<span class="list-description">Removes all metadata (EXIF, GPS, etc.) from images.</span>
+  <span class="list-description">Removes all metadata (EXIF, GPS, etc.) from images.</span>
 
-*They appear at the bottom of the context menu. There is no way to change that. [They also won't appear in iCloud, Dropbox, or any other sync folder.](#finder-context-menu-icloud)*
+_They appear at the bottom of the context menu. There is no way to change that. [They also won't appear in iCloud, Dropbox, or any other sync folder.](#finder-context-menu-icloud)_
 
 #### Services {#macos-services}
 
 - Copy Path
 - Copy Filename
 - Copy File URL
-	<span class="list-description">Useful for deep links. Clicking such link reveals it in Finder.</span>
+  <span class="list-description">Useful for deep links. Clicking such link reveals it in Finder.</span>
 - Copy Markdown Link
-	<span class="list-description">Useful for deep links. Clicking such link reveals it in Finder.</span>
+  <span class="list-description">Useful for deep links. Clicking such link reveals it in Finder.</span>
 - Copy File Contents
-	<span class="list-description">Copies the contents of text files to the clipboard.</span>
+  <span class="list-description">Copies the contents of text files to the clipboard.</span>
 - Copy Checksum (SHA-1, SHA-256, SHA-384, SHA-512, MD5, CRC32)
-	<span class="list-description">Copies checksums of files.</span>
+  <span class="list-description">Copies checksums of files.</span>
 - AirDrop
-	<span class="list-description">Shares files via AirDrop.</span>
+  <span class="list-description">Shares files via AirDrop.</span>
 - Run Shortcut
-	<span class="list-description">Shares files with a shortcut from the Shortcuts app.</span>
+  <span class="list-description">Shares files with a shortcut from the Shortcuts app.</span>
 - Scan QR Code
-	<span class="list-description">Scans QR codes from images and copies their content to the clipboard.</span>
+<span class="list-description">Scans QR codes from images and copies their content to the clipboard.</span>
 <!-- - Remove Location Metadata
 	<span class="list-description">Remove GPS location metadata from images.</span>
 - Remove All Metadata
-	<span class="list-description">Remove all metadata (EXIF, GPS, etc.) from images.</span> -->
+  <span class="list-description">Remove all metadata (EXIF, GPS, etc.) from images.</span> -->
 
 Finder-specific services:
 
 - Move To…
-	<span class="list-description">Moves files and folders to a chosen location.</span>
+  <span class="list-description">Moves files and folders to a chosen location.</span>
 - Copy To…
-	<span class="list-description">Copies files and folders to a chosen location.</span>
+  <span class="list-description">Copies files and folders to a chosen location.</span>
 - Open in Terminal
-	<span class="list-description">Shown only when right-clicking a folder in Finder. Supports Terminal, iTerm, Ghostty, kitty, WezTerm, Alacritty, and Warp.</span>
+  <span class="list-description">Shown only when right-clicking a folder in Finder. Supports Terminal, iTerm, Ghostty, kitty, WezTerm, Alacritty, and Warp.</span>
 - Update Modified Date
-	<span class="list-description">Updates the modified date of files and folders to the current time.</span>
+  <span class="list-description">Updates the modified date of files and folders to the current time.</span>
 - Make Symlink
 - Unquarantine
-	<span class="list-description">Removes the quarantine flag that macOS adds to downloaded files and apps. This removes [security prompts](https://github.com/user-attachments/assets/adbf3c7e-8fee-4cd9-9a90-3958badfa94e) and restrictions for trusted items.</span>
+  <span class="list-description">Removes the quarantine flag that macOS adds to downloaded files and apps. This removes [security prompts](https://github.com/user-attachments/assets/adbf3c7e-8fee-4cd9-9a90-3958badfa94e) and restrictions for trusted items.</span>
 - Make Executable
-	<span class="list-description">Makes files executable, similar to `chmod +x` in the terminal. Useful for shell scripts.</span>
+  <span class="list-description">Makes files executable, similar to `chmod +x` in the terminal. Useful for shell scripts.</span>
 - New Text File in Finder
-	<span class="list-description">Creates a new text file in the current folder. You must right-click an existing file or folder to access it.</span>
+  <span class="list-description">Creates a new text file in the current folder. You must right-click an existing file or folder to access it.</span>
 - Invert Selection in Finder
-	<span class="list-description">Selects the files and folders in Finder that are not selected.</span>
+  <span class="list-description">Selects the files and folders in Finder that are not selected.</span>
 - Toggle Hidden Files in Finder
-	<span class="list-description">Toggles visibility of hidden files.</span>
-<!-- - Open in New Finder Window
-	<span class="list-description">Opens the folder in a new window instead of a tab, even if you have set new windows to open as tabs.</span> -->
-<!-- - Delete Immediately
-	<span class="list-description">Permanently delete files and folders without moving to Trash.</span> -->
+  <span class="list-description">Toggles visibility of hidden files.</span>
+  <!-- - Open in New Finder Window
+  	<span class="list-description">Opens the folder in a new window instead of a tab, even if you have set new windows to open as tabs.</span> -->
+  <!-- - Delete Immediately
+  	<span class="list-description">Permanently delete files and folders without moving to Trash.</span> -->
 
-*[macOS Services](https://macreports.com/what-is-the-services-menu-in-macos/?utm_source=chatgpt.com) are built-in quick actions available in right-click and app menus system-wide. They let you perform tasks like copying file info or text without leaving your current app. Supercharge adds extra, genuinely useful services to make these menus even more powerful.*
+_[macOS Services](https://macreports.com/what-is-the-services-menu-in-macos/?utm_source=chatgpt.com) are built-in quick actions available in right-click and app menus system-wide. They let you perform tasks like copying file info or text without leaving your current app. Supercharge adds extra, genuinely useful services to make these menus even more powerful._
 
 #### Capture and translate text from anywhere on screen {#capture-translate-text}
 
@@ -501,7 +503,7 @@ Some things you can already do that you may not know about:
 
 #### I have a feature request, bug report, or some feedback
 
-Click the feedback button in the app or [send it here.](https://sindresorhus.com/feedback?product=Supercharge&referrer=Website-FAQ)
+Click the feedback button in the app or [send it here.](https://o9-9.github.io/feedback?product=Supercharge&referrer=Website-FAQ)
 
 Some things are not possible though:
 
@@ -516,9 +518,9 @@ Some things are not possible though:
 Some things are not planned:
 
 - Keep awake
-	- Check out [Lungo](/lungo).
+  - Check out [Lungo](/lungo).
 - Memory cleaner
-	- Apps like these are a scam. macOS handles memory efficiently. There is no need for an app like this.
+  - Apps like these are a scam. macOS handles memory efficiently. There is no need for an app like this.
 
 #### The app does not show up in the menu bar
 
@@ -554,7 +556,7 @@ I'm happy to consider requests, but I don't intend for this app to turn into a �
 Some toggles I don't plan to add:
 
 - AirPods
-- Keep awake *(check out [Lungo](/lungo))*
+- Keep awake _(check out [Lungo](/lungo))_
 
 #### Does the app consume a lot of system resources?
 
@@ -591,11 +593,11 @@ The developer will need to add `public.folder` to `LSItemContentTypes` in their 
 </array>
 ```
 
-*(If the app already contains `public.directory`, it will still have to add `public.folder`)*
+_(If the app already contains `public.directory`, it will still have to add `public.folder`)_
 
 [Example report.](https://github.com/coteditor/CotEditor/issues/1809)
 
-If you know the app supports opening folders but it doesn't show up, it may be that the app has not properly declared support for it. Contact the app developer about adding the above. You could also [contact me](https://sindresorhus.com/feedback?product=Supercharge), and I can manually add the app.
+If you know the app supports opening folders but it doesn't show up, it may be that the app has not properly declared support for it. Contact the app developer about adding the above. You could also [contact me](https://o9-9.github.io/feedback?product=Supercharge), and I can manually add the app.
 
 #### Can you add support keyboard shortcuts to change default browser?
 
@@ -653,7 +655,7 @@ Much of the functionality would not be possible in the App Store because of [san
 
 #### Events
 
-The [distributed notification](/apps/faq#distributed-notifications) `com.sindresorhus.defaultBrowserDidChange` is emitted when the default browser is changed from the app or the Shortcuts action.
+The [distributed notification](/apps/faq#distributed-notifications) `com.o9-9.defaultBrowserDidChange` is emitted when the default browser is changed from the app or the Shortcuts action.
 
 <!-- ## Older Versions
 

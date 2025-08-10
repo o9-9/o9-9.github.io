@@ -7,7 +7,7 @@
 - [iPhone & iPad](/apps/ios) - Apps that run on iPhone and iPad
 - [Apple Watch](/apps/watchos) - Apps that run on Apple Watch
 - [Apple Vision](/apps/visionos) - Apps that run on Apple Vision
-- [Open Source](https://github.com/search?q=user%3Asindresorhus+language%3Aswift+topic%3Aapp+archived%3Afalse&type=repositories) - Apps with the source code available
+- [Open Source](https://github.com/search?q=user%3Ao9-9+language%3Aswift+topic%3Aapp+archived%3Afalse&type=repositories) - Apps with the source code available
 - [Random](/apps/random) - Show a random app
 
 ## More

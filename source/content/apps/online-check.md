@@ -8,7 +8,7 @@ isMenuBarApp: true
 isPaid: true
 appStoreId: 6504709660
 olderMacOSVersions:
-  - '14'
+  - "14"
 ---
 
 Check if you are online directly from the menu bar. The menu bar icon turns red when you are offline, and the app can optionally show a notification.
@@ -29,7 +29,7 @@ You could also restart the Wi-Fi when it becomes offline. Add [this shortcut](ht
 
 #### I have a feature request, bug report, or some feedback
 
-Click the feedback button in the app or [send it here](https://sindresorhus.com/feedback?product=Online%20Check&referrer=Website-FAQ).
+Click the feedback button in the app or [send it here](https://o9-9.github.io/feedback?product=Online%20Check&referrer=Website-FAQ).
 
 #### The app does not show up in the menu bar
 

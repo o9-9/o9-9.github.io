@@ -9,8 +9,8 @@ platforms:
 isPaid: true
 appStoreId: 6444667067
 olderMacOSVersions:
-  - '13'
-  - '14'
+  - "13"
+  - "14"
 feedbackNote: |
   If you are having problems with sync, [read this](/hyperduck#troubleshooting).
 ---
@@ -107,7 +107,7 @@ You can then tap “Download on Mac” in the share sheet on your iOS device, an
 
 #### I have a feature request, bug report, or some feedback
 
-Click the feedback button in the app or [send it here.](https://sindresorhus.com/feedback?product=Hyperduck&referrer=Website-FAQ)
+Click the feedback button in the app or [send it here.](https://o9-9.github.io/feedback?product=Hyperduck&referrer=Website-FAQ)
 
 #### How is it better than AirDrop? {#airdrop}
 
@@ -239,6 +239,6 @@ I don't plan to localize the app.
 ## Older Versions
 
 - [1.2.3](https://github.com/user-attachments/files/18591073/Hyperduck.1.2.3.-.macOS.14.zip) for macOS 14
-- [1.0.7](https://github.com/sindresorhus/meta/files/14292936/Hyperduck.1.0.7.-.macOS.13.zip) for macOS 13
+- [1.0.7](https://github.com/o9-9/meta/files/14292936/Hyperduck.1.0.7.-.macOS.13.zip) for macOS 13
 
 These are free for everyone but they will not run on newer macOS versions.

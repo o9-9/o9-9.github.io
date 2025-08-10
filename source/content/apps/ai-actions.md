@@ -8,7 +8,7 @@ platforms:
   - visionOS
 appStoreId: 6465250302
 olderMacOSVersions:
-  - '14'
+  - "14"
 feedbackNote: |
   I cannot provide support for general Shortcuts questions. Use [Reddit](https://www.reddit.com/r/shortcuts) for that.
 ---
@@ -25,13 +25,13 @@ Your API key is securely stored in your keychain, not in a shortcut.
 It also supports many more models through [Ollama and Groq](#alternative-providers).
 
 **The macOS version on the App Store requires an Apple silicon Mac.** For Intel Macs, use the [non-App Store version](#non-app-store-version).\
-*(This is because Apple only accepted the iOS version and not the macOS version, so on macOS, the iOS version of the app is used, which only runs on Apple silicon Macs)*
+_(This is because Apple only accepted the iOS version and not the macOS version, so on macOS, the iOS version of the app is used, which only runs on Apple silicon Macs)_
 
 <!-- **Apple is currently blocking updates for the iOS app, so I won't be able to submit an update for some time... I plan to get it [published to an alternative App Store](https://appleinsider.com/articles/23/08/15/setapp-plans-to-launch-eu-only-alternative-ios-app-store) in 2024.** -->
 
 <br>
 
-*You may also like my [Actions](/actions) app.*
+_You may also like my [Actions](/actions) app._
 
 ## Tips
 
@@ -51,7 +51,7 @@ For [Gemini](https://ai.google.dev/gemini-api/docs/openai), specify `https://gen
 
 #### I have a feature request, bug report, or some feedback
 
-[Send it here.](https://sindresorhus.com/feedback?product=AI%20Actions&referrer=Website-FAQ)
+[Send it here.](https://o9-9.github.io/feedback?product=AI%20Actions&referrer=Website-FAQ)
 
 #### The actions do not show up in the Shortcuts app
 
@@ -91,6 +91,6 @@ I don't plan to localize the app.
 
 A special version for users that cannot access the App Store. It won't receive automatic updates. I will update it here once a year.
 
-[Download](https://www.dropbox.com/scl/fi/vvdbfnnptzvsa3yduid79/AI-Actions-1.4.1-1743425376.zip?rlkey=xxkjgbzvjrrsny08m2v8d4ygg&raw=1) *(1.4.1)*
+[Download](https://www.dropbox.com/scl/fi/vvdbfnnptzvsa3yduid79/AI-Actions-1.4.1-1743425376.zip?rlkey=xxkjgbzvjrrsny08m2v8d4ygg&raw=1) _(1.4.1)_
 
-*Requires macOS 15 or later*
+_Requires macOS 15 or later_

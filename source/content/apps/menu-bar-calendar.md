@@ -7,8 +7,8 @@ platforms:
 isMenuBarApp: true
 appStoreId: 1558360383
 olderMacOSVersions:
-  - '13'
-  - '14'
+  - "13"
+  - "14"
 ---
 
 Quickly access a monthly calendar from your menu bar.
@@ -34,7 +34,7 @@ The calendar displays dates and days in your language, but the rest of the app i
 
 #### I have a feature request, bug report, or some feedback
 
-Click the feedback button in the app or [send it here.](https://sindresorhus.com/feedback?product=Menu%20Bar%20Calendar&referrer=Website-FAQ)
+Click the feedback button in the app or [send it here.](https://o9-9.github.io/feedback?product=Menu%20Bar%20Calendar&referrer=Website-FAQ)
 
 #### The app does not show up in the menu bar
 
@@ -80,7 +80,7 @@ Change [this system setting](https://apple.stackexchange.com/questions/191445/st
 
 #### How can I open Google Calendar in a specific browser?
 
-Use my [Velja app](https://sindresorhus.com/velja). You can create a rule to open any link clicked in this app in your chosen browser.
+Use my [Velja app](https://o9-9.github.io/velja). You can create a rule to open any link clicked in this app in your chosen browser.
 
 #### Can you localize the app into my language?
 
@@ -95,12 +95,12 @@ I just enjoy making apps. I earn money on other apps. Consider leaving a nice re
 ## Older Versions
 
 - [1.4.1](https://www.dropbox.com/scl/fi/ldlznw1f2oo04i6j2hcnt/Menu-Bar-Calendar-1.4.1-macOS-14-1737700069.zip?rlkey=arklgyyq4k9dcodg1sq1us65n&raw=1) for macOS 14+
-- [1.2.0](https://github.com/sindresorhus/meta/files/13922546/Menu.Bar.Calendar.1.2.0.-.macOS.13.zip) for macOS 13+
+- [1.2.0](https://github.com/o9-9/meta/files/13922546/Menu.Bar.Calendar.1.2.0.-.macOS.13.zip) for macOS 13+
 
 ## Non-App Store Version
 
 A special version for users that cannot access the App Store. It won't receive automatic updates. I will update it here once a year.
 
-[Download](https://www.dropbox.com/scl/fi/g5qhxtrn54faq6eozuoq3/Menu-Bar-Calendar-1.5.0-1737699710.zip?rlkey=xt5ccdhhix969o7ts2isu5qci&raw=1) *(1.5.0)*
+[Download](https://www.dropbox.com/scl/fi/g5qhxtrn54faq6eozuoq3/Menu-Bar-Calendar-1.5.0-1737699710.zip?rlkey=xt5ccdhhix969o7ts2isu5qci&raw=1) _(1.5.0)_
 
-*Requires macOS 15 or later*
+_Requires macOS 15 or later_

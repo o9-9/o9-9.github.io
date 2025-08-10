@@ -7,9 +7,9 @@ platforms:
 appStoreId: 1596706466
 hasSentry: true
 olderMacOSVersions:
-  - '12'
-  - '13'
-  - '14'
+  - "12"
+  - "13"
+  - "14"
 ---
 
 Quickly check your internet connection speed, ping, and [RPM](#rpm).
@@ -18,9 +18,9 @@ Quickly check your internet connection speed, ping, and [RPM](#rpm).
 
 ### Show the current internet speed in the menu bar {#menu-bar-output}
 
-<img src="https://github.com/sindresorhus/meta/assets/170270/a7ffaf8f-6fb0-4c90-822f-446ec5ff8960" alt="Speediness output in the menu bar" width="230">
+<img src="https://github.com/o9-9/meta/assets/170270/a7ffaf8f-6fb0-4c90-822f-446ec5ff8960" alt="Speediness output in the menu bar" width="230">
 
-You will need the [One Thing](https://sindresorhus.com/one-thing) and [Shortery](https://apps.apple.com/app/id1594183810) app.
+You will need the [One Thing](https://o9-9.github.io/one-thing) and [Shortery](https://apps.apple.com/app/id1594183810) app.
 
 Add [this shortcut](https://www.icloud.com/shortcuts/d073ad4fd89f4c9cb110795780ed2377) and then create a new time trigger in Shortery. I would recommend an interval higher than 10 minutes.
 
@@ -30,7 +30,7 @@ Tip: If you have limited space in the menu bar, you could switch the info shown 
 
 #### I have a feature request, bug report, or some feedback
 
-Click the feedback button in the app or [send it here.](https://sindresorhus.com/feedback?product=Speediness&referrer=Website-FAQ)
+Click the feedback button in the app or [send it here.](https://o9-9.github.io/feedback?product=Speediness&referrer=Website-FAQ)
 
 #### Why does it show different result from other tools? {#different-result}
 
@@ -103,13 +103,13 @@ I don't plan to localize the app.
 ## Older Versions
 
 - [1.7.2](https://github.com/user-attachments/files/18912491/Speediness.1.7.2.-.macOS.14.zip) for macOS 14+
-- [1.6.1](https://github.com/sindresorhus/meta/files/13965129/Speediness.1.6.1.-.macOS.13.zip) for macOS 13+
-- [1.5.0](https://github.com/sindresorhus/meta/files/10847708/Speediness.1.5.0.-.macOS.12.zip) for macOS 12+
+- [1.6.1](https://github.com/o9-9/meta/files/13965129/Speediness.1.6.1.-.macOS.13.zip) for macOS 13+
+- [1.5.0](https://github.com/o9-9/meta/files/10847708/Speediness.1.5.0.-.macOS.12.zip) for macOS 12+
 
 ## Non-App Store Version
 
 A special version for users that cannot access the App Store. It won't receive automatic updates. I will update it here once a year.
 
-[Download](https://www.dropbox.com/scl/fi/1n872jboa9mczjmq8prxf/Speediness-1.8.0-1740153967.zip?rlkey=pu6hjxy5smwbhpj61bhq3fpg9&raw=1) *(1.8.0)*
+[Download](https://www.dropbox.com/scl/fi/1n872jboa9mczjmq8prxf/Speediness-1.8.0-1740153967.zip?rlkey=pu6hjxy5smwbhpj61bhq3fpg9&raw=1) _(1.8.0)_
 
-*Requires macOS 15 or later*
+_Requires macOS 15 or later_
