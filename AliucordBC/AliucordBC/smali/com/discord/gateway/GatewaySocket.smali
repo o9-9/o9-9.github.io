@@ -1415,7 +1415,7 @@
 
     invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    const-string p1, "/?encoding=json&v=9&compress=zlib-stream"
+    const-string p1, "/?encoding=json&v=7&compress=zlib-stream"
 
     invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
