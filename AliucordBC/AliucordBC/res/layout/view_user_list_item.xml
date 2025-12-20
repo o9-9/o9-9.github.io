@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.facebook.drawee.view.SimpleDraweeView android:id="@id/user_list_item_avatar" android:layout_centerVertical="true" android:layout_marginEnd="24.0dip" style="@style/Avatar.Standard" />
+    <com.discord.views.StatusView android:id="@id/user_list_item_status" android:layout_width="16.0dip" android:layout_height="wrap_content" android:layout_alignBottom="@id/user_list_item_avatar" android:translationX="2.0dip" android:translationY="2.0dip" android:layout_alignEnd="@id/user_list_item_avatar" app:sv_background_color="?colorPrimary" app:sv_border_width="2.0dip" app:sv_corner_radius="4.0dip" />
+    <TextView android:textSize="15.0sp" android:textColor="?colorHeaderPrimary" android:gravity="center_vertical" android:id="@id/user_list_item_name" android:singleLine="true" android:layout_centerVertical="true" android:layout_toEndOf="@id/user_list_item_avatar" style="@style/UiKit.TextView.Semibold" />
+    <TextView android:textSize="15.0sp" android:textColor="?colorHeaderSecondary" android:gravity="center_vertical" android:id="@id/user_list_item_name_secondary" android:singleLine="true" android:layout_centerVertical="true" android:layout_marginStart="5.0dip" android:layout_toEndOf="@id/user_list_item_name" style="@style/UiKit.TextView" />
+</merge>

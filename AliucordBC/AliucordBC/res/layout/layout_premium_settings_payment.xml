@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/premium_settings_payment_container" android:background="?colorBackgroundSecondary" android:layout_marginTop="8.0dip" style="@style/UiKit.ViewGroup.LinearLayout"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/premium_settings_payment_header" android:background="?colorBackgroundPrimary" android:text="@string/billing_step_payment" style="@style/UiKit.Settings.Item.Header" />
+    <TextView android:textColor="?colorHeaderPrimary" android:paddingLeft="16.0dip" android:paddingTop="16.0dip" android:paddingRight="16.0dip" android:paddingBottom="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/premium_settings_billing_info" style="@style/UiKit.TextView.Semibold" />
+    <TextView android:textColor="?colorTextNormal" android:id="@id/premium_settings_billing_information" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="16.0dip" style="@style/UiKit.TextView" />
+    <TextView android:textColor="?colorTextLink" android:id="@id/premium_settings_google_play_manage" android:layout_width="fill_parent" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="16.0dip" android:text="@string/billing_manage_on_google_play" style="@style/UiKit.TextView" />
+    <View android:id="@id/premium_settings_billing_divider" android:background="?colorBackgroundPrimary" android:layout_height="1.0dip" android:layout_marginBottom="16.0dip" style="@style/UiKit.Divider" />
+    <com.google.android.material.button.MaterialButton android:id="@id/active_subscriptions_bottom_button" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="16.0dip" style="@style/UiKit.Material.Button.Secondary" />
+</LinearLayout>

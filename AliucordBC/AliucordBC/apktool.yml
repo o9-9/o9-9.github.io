@@ -1,0 +1,19 @@
+version: 2.12.1
+apkFileName: AliucordBC.apk
+usesFramework:
+  ids:
+  - 1
+sdkInfo:
+  minSdkVersion: 21
+  targetSdkVersion: 30
+packageInfo:
+  forcedPackageId: 127
+versionInfo:
+  versionCode: 126021
+  versionName: 126.21 - Stable
+doNotCompress:
+- arsc
+- jpeg
+- jpg
+- mp3
+- png

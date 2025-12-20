@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/UiKit.ViewGroup.Page.LinearLayout"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.discord.app.AppViewFlipper android:id="@id/claimPromoFlipper" android:paddingTop="32.0dip" android:paddingBottom="32.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="24.0dip" android:paddingEnd="24.0dip">
+        <FrameLayout android:id="@id/claimPromoLoading" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ProgressBar android:layout_gravity="center" android:padding="32.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </FrameLayout>
+        <androidx.appcompat.widget.LinearLayoutCompat android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/claimPromoSuccess" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="32.0dip" android:importantForAccessibility="no" app:srcCompat="@drawable/claim_promo_success" />
+            <TextView android:textSize="@dimen/uikit_textsize_xxlarge" android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" android:text="@string/outbound_promotion_redemption_modal_title" style="@style/UiKit.TextView.Bold" />
+            <TextView android:textSize="@dimen/uikit_textsize_large" android:gravity="center_horizontal" android:id="@id/claimPromoBody" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="20.0dip" android:lineSpacingMultiplier="1.0" style="@style/UiKit.TextView.Medium" />
+            <com.google.android.material.card.MaterialCardView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="32.0dip" app:cardBackgroundColor="?colorBackgroundSecondary" app:cardCornerRadius="8.0dip" app:cardElevation="0.0dip" app:contentPadding="12.0dip">
+                <androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="@dimen/uikit_textsize_large" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" android:text="@string/redemption_code" style="@style/UiKit.TextView.Semibold" />
+                    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/claimPromoCodeBox" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip">
+                        <FrameLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                            <HorizontalScrollView android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                                <TextView android:textSize="@dimen/uikit_textsize_medium" android:id="@id/claimPromoCode" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:textIsSelectable="true" android:paddingStart="8.0dip" android:paddingEnd="8.0dip" style="@style/UiKit.TextView.Medium" />
+                            </HorizontalScrollView>
+                            <ImageView android:layout_gravity="end" android:layout_width="16.0dip" android:layout_height="fill_parent" android:importantForAccessibility="no" app:srcCompat="@drawable/gradient_transparent_colorbackgroundsecondary" />
+                        </FrameLayout>
+                        <com.google.android.material.button.MaterialButton android:textSize="@dimen/uikit_textsize_small" android:id="@id/claimPromoCopyButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" android:minWidth="0.0dip" android:minHeight="0.0dip" android:text="@string/copy" android:insetTop="0.0dip" android:insetBottom="0.0dip" android:paddingStart="12.0dip" android:paddingEnd="12.0dip" android:layout_marginEnd="8.0dip" style="@style/UiKit.Material.Button" />
+                    </LinearLayout>
+                    <TextView android:textSize="@dimen/uikit_textsize_small" android:textColor="?colorTextMuted" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/outbound_promotion_code_confirmation_email" style="@style/UiKit.TextView.Medium" />
+                </androidx.appcompat.widget.LinearLayoutCompat>
+            </com.google.android.material.card.MaterialCardView>
+            <com.google.android.material.button.MaterialButton android:id="@id/claimPromoRedeemButton" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/redeem" style="@style/UiKit.Material.Button" />
+            <com.google.android.material.button.MaterialButton android:id="@id/claimPromoMaybeLaterButton" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/maybe_later" style="@style/UiKit.Material.Button.Transparent" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <androidx.appcompat.widget.LinearLayoutCompat android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/claimPromoFailure" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="32.0dip" android:importantForAccessibility="no" app:srcCompat="@drawable/img_premium_subscription_header_error" />
+            <TextView android:textSize="@dimen/uikit_textsize_xlarge" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" android:text="@string/generic_error_title" style="@style/UiKit.TextView.Bold" />
+            <TextView android:textSize="@dimen/uikit_textsize_large" android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="32.0dip" android:text="@string/generic_error_body" android:lineSpacingMultiplier="1.0" style="@style/UiKit.TextView.Medium" />
+            <com.google.android.material.button.MaterialButton android:id="@id/claimPromoFailureCloseButton" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/close" style="@style/UiKit.Material.Button" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </com.discord.app.AppViewFlipper>
+</androidx.appcompat.widget.LinearLayoutCompat>

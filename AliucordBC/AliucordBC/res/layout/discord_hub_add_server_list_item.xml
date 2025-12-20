@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.card.MaterialCardView android:id="@id/discord_u_add_server_list_item_layout" android:background="?colorBackgroundPrimary" android:layout_marginBottom="8.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" style="@style/Nux.GuildTemplates.Card">
+        <LinearLayout android:gravity="center_vertical" android:padding="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.discord.views.GuildView android:id="@id/discord_u_add_server_list_item_image" android:layout_width="40.0dip" android:layout_height="40.0dip" app:gv_text_size="16.0sp" style="@style/Avatar" />
+            <TextView android:id="@id/discord_u_add_server_list_item_text" android:layout_width="0.0dip" android:layout_weight="1.0" style="@style/Nux.GuildTemplates.Card.Action" />
+            <ImageView android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/icon_carrot" android:importantForAccessibility="no" />
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+</FrameLayout>

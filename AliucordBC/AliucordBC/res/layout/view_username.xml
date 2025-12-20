@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.facebook.drawee.span.SimpleDraweeSpanTextView android:textSize="@dimen/uikit_textsize_medium" android:gravity="start" android:id="@id/username_text" android:singleLine="true" android:shadowColor="@color/primary_light_100" android:lineSpacingMultiplier="1.0" app:layout_constrainedWidth="true" app:layout_constraintEnd_toStartOf="@id/username_tag" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/UiKit.TextView" />
+    <TextView android:textSize="9.5sp" android:textColor="@color/white" android:id="@id/username_tag" android:background="@drawable/drawable_tag_brand" android:paddingTop="0.5dip" android:paddingBottom="0.5dip" android:visibility="gone" android:singleLine="true" android:paddingStart="3.0dip" android:paddingEnd="3.0dip" android:layout_marginStart="4.0dip" app:layout_constraintBottom_toBottomOf="@id/username_text" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/username_text" app:layout_constraintTop_toTopOf="@id/username_text" style="@style/UiKit.TextView" />
+</merge>

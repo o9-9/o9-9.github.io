@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="?selectableItemBackground" android:paddingTop="4.0dip" android:paddingBottom="4.0dip" android:layout_marginBottom="16.0dip" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" style="@style/UiKit.ViewGroup.RelativeLayout"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_centerVertical="true" android:layout_toStartOf="@id/report_reason_radio" style="@style/UiKit.ViewGroup.LinearLayout">
+        <TextView android:id="@id/report_reason_header" style="@style/UiKit.TextView.H2" />
+        <TextView android:id="@id/report_reason_descriptipn" android:layout_marginTop="4.0dip" style="@style/UiKit.TextView.Subtext" />
+    </LinearLayout>
+    <com.google.android.material.radiobutton.MaterialRadioButton android:id="@id/report_reason_radio" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:paddingStart="0.0dip" android:paddingEnd="0.0dip" android:layout_marginStart="16.0dip" android:layout_alignParentEnd="true" />
+</RelativeLayout>

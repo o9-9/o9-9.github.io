@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:id="@id/server_settings_public_setting_selector" style="@style/UiKit.ViewGroup.LinearLayout"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_alignParentStart="true" style="@style/UiKit.ViewGroup.LinearLayout">
+            <TextView android:id="@id/server_settings_community_setting_selector_title" android:paddingBottom="4.0dip" android:text="@string/enable_public_modal_rules_channel_title" android:fontFamily="?font_primary_semibold" style="@style/UiKit.Settings.Item.Label" />
+            <TextView android:id="@id/server_settings_community_setting_selector_subtitle" android:visibility="gone" android:drawablePadding="2.0dip" style="@style/UiKit.Settings.Item.Addition" />
+        </LinearLayout>
+        <ImageView android:id="@id/server_settings_community_setting_selector_dropdown_icon" android:visibility="gone" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/ic_chevron_down_grey_12dp" android:layout_centerVertical="true" android:importantForAccessibility="no" android:layout_marginEnd="16.0dip" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <TextView android:id="@id/server_settings_community_setting_selector_description" android:paddingLeft="0.0dip" android:paddingTop="8.0dip" android:paddingRight="0.0dip" android:paddingBottom="0.0dip" android:text="@string/enable_public_modal_rules_channel_help" style="@style/UiKit.Settings.Item.SubText" />
+</merge>

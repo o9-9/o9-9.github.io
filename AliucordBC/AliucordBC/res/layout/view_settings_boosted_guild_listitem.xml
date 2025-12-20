@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:background="?colorBackgroundPrimary" android:layout_marginTop="16.0dip" style="@style/UiKit.ViewGroup.LinearLayout"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout style="@style/UiKit.ViewGroup">
+        <com.facebook.drawee.view.SimpleDraweeView android:id="@id/boosted_guild_banner" android:background="?bg_subscription_placeholder_pattern" android:layout_width="fill_parent" android:layout_height="0.0dip" android:importantForAccessibility="no" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <View android:id="@id/boosted_guild_gradient" android:background="@color/primary_700" android:layout_width="fill_parent" android:layout_height="0.0dip" android:alpha="0.65" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <com.discord.views.guildboost.GuildBoostProgressView android:id="@id/boosted_guild_progress_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:layout_marginBottom="24.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout android:background="?colorBackgroundFloating" android:paddingLeft="16.0dip" android:paddingTop="16.0dip" android:paddingRight="16.0dip" android:paddingBottom="16.0dip" style="@style/UiKit.ViewGroup.LinearLayout.Horizontal">
+        <com.facebook.drawee.view.SimpleDraweeView android:layout_gravity="center_vertical" android:id="@id/boosted_sample_guild_icon" android:layout_marginRight="8.0dip" style="@style/UiKit.GuildsListIcon" />
+        <LinearLayout style="@style/UiKit.ViewGroup.LinearLayout">
+            <TextView android:textSize="@dimen/uikit_textsize_large" android:textColor="?colorHeaderPrimary" android:ellipsize="end" android:id="@id/boosted_sample_guild_name" android:maxLines="1" style="@style/UiKit.TextView.Bold" />
+            <TextView android:textColor="?colorHeaderPrimary" android:id="@id/boosted_sample_guild_count" android:paddingTop="4.0dip" android:paddingBottom="4.0dip" android:drawablePadding="4.0dip" app:drawableStartCompat="@drawable/ic_boosted_badge_12dp" style="@style/UiKit.TextView" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

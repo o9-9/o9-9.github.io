@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:background="@drawable/drawable_bg_corners_4dp" android:visibility="gone" android:layout_width="wrap_content" android:elevation="4.0dip" android:backgroundTint="?colorBackgroundFloating" style="@style/UiKit.ViewGroup.LinearLayout.Horizontal"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.discord.views.sticker.StickerView android:id="@id/chat_input_suggested_sticker_1" android:paddingLeft="4.0dip" android:paddingTop="4.0dip" android:paddingBottom="4.0dip" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_marginRight="8.0dip" />
+    <com.discord.views.sticker.StickerView android:id="@id/chat_input_suggested_sticker_2" android:paddingTop="4.0dip" android:paddingBottom="4.0dip" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_marginRight="8.0dip" />
+    <com.discord.views.sticker.StickerView android:id="@id/chat_input_suggested_sticker_3" android:paddingTop="4.0dip" android:paddingBottom="4.0dip" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_marginRight="8.0dip" />
+    <com.discord.views.sticker.StickerView android:id="@id/chat_input_suggested_sticker_4" android:paddingTop="4.0dip" android:paddingBottom="4.0dip" android:layout_width="48.0dip" android:layout_height="48.0dip" />
+    <ImageView android:id="@id/chat_input_suggested_sticker_cancel" android:background="@drawable/ripple_brighten" android:paddingLeft="4.0dip" android:paddingRight="4.0dip" android:layout_width="36.0dip" android:layout_height="56.0dip" android:src="?ic_close_24dp" android:scaleType="center" android:contentDescription="@string/close" />
+</LinearLayout>

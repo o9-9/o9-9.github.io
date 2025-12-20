@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.fragment.app.FragmentContainerView android:name="com.discord.widgets.user.search.WidgetGlobalSearch" android:id="@id/widget_global_search_container" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/UiKit.ViewGroup"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

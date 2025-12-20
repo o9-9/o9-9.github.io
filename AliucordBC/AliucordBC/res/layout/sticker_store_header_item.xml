@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:paddingLeft="12.0dip" android:paddingTop="8.0dip" android:paddingRight="12.0dip" android:paddingBottom="12.0dip" style="@style/UiKit.ViewGroup.LinearLayout"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout style="@style/UiKit.ViewGroup.LinearLayout.Horizontal">
+        <com.google.android.material.chip.Chip android:textColor="@color/white" android:layout_gravity="center_vertical" android:id="@id/sticker_store_header_item_new" android:visibility="gone" android:text="@string/_new" android:layout_marginEnd="4.0dip" style="@style/UiKit.Chip.New" />
+        <TextView android:textAppearance="@style/UiKit.TextAppearance.Bold" android:textSize="@dimen/uikit_textsize_large" android:textColor="?colorHeaderPrimary" android:id="@id/sticker_store_header_item_title" style="@style/UiKit.TextView" />
+        <RelativeLayout android:layout_gravity="center_vertical" android:id="@id/sticker_store_header_item_container" android:paddingLeft="8.0dip" android:paddingTop="2.0dip" android:paddingRight="8.0dip" android:paddingBottom="2.0dip" android:layout_width="wrap_content" style="@style/UiKit.ViewGroup.RelativeLayout">
+            <FrameLayout android:id="@id/sticker_store_header_item_animated" android:background="?primary_200_circle" android:visibility="gone" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_centerVertical="true" android:layout_alignParentStart="true" android:backgroundTint="?colorBackgroundModifierAccent">
+                <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/ic_play_arrow_24dp" app:tint="?primary_300" />
+            </FrameLayout>
+            <FrameLayout android:layout_gravity="center_vertical" android:id="@id/sticker_store_header_item_premium" android:background="?primary_200_circle" android:visibility="gone" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_centerVertical="true" android:layout_marginStart="8.0dip" android:layout_toEndOf="@id/sticker_store_header_item_animated" android:backgroundTint="?colorBackgroundModifierAccent">
+                <ImageView android:padding="2.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/ic_nitro_badge_white" app:tint="?primary_300" />
+            </FrameLayout>
+        </RelativeLayout>
+    </LinearLayout>
+    <TextView android:textSize="@dimen/uikit_textsize_medium" android:textColor="?colorTextNormal" android:id="@id/sticker_store_header_item_description" style="@style/UiKit.TextView" />
+    <TextView android:textSize="@dimen/uikit_textsize_small" android:textColor="?colorHeaderSecondary" android:id="@id/sticker_store_header_item_subtitle" style="@style/UiKit.TextView" />
+</LinearLayout>

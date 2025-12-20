@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="8.0dip" app:cardCornerRadius="4.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:id="@id/container" android:background="?primary_630" android:minHeight="315.0dip" style="@style/UiKit.ViewGroup.LinearLayout">
+        <RelativeLayout android:id="@id/perks_level_header" android:background="?primary_700" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:ellipsize="end" android:gravity="center_vertical" android:id="@id/perks_level_header_text" android:layout_marginTop="12.0dip" android:layout_marginBottom="12.0dip" android:maxLines="1" android:drawablePadding="16.0dip" android:layout_centerVertical="true" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" android:layout_toStartOf="@id/perks_level_header_boosts_container" android:layout_alignParentStart="true" style="@style/UiKit.TextView" />
+            <FrameLayout android:id="@id/perks_level_header_boosts_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginEnd="16.0dip" android:layout_alignParentEnd="true">
+                <TextView android:textSize="@dimen/uikit_textsize_small" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/perks_level_header_boosts" android:drawablePadding="16.0dip" app:drawableEndCompat="@drawable/ic_perk_lock" style="@style/UiKit.TextView" />
+                <androidx.cardview.widget.CardView android:layout_gravity="center_vertical" android:id="@id/perks_level_header_unlocked" android:layout_width="wrap_content" android:layout_height="wrap_content" app:cardBackgroundColor="@color/white" app:cardCornerRadius="10.0dip">
+                    <TextView android:textSize="@dimen/uikit_textsize_small" android:textColor="?color_brand_500" android:gravity="center_vertical" android:layout_marginLeft="6.0dip" android:layout_marginRight="6.0dip" android:text="@string/guild_settings_premium_guild_unlocked" android:textAllCaps="true" style="@style/UiKit.TextView.Semibold" />
+                </androidx.cardview.widget.CardView>
+            </FrameLayout>
+        </RelativeLayout>
+        <TextView android:textSize="@dimen/uikit_textsize_small" android:id="@id/perks_level_contents_header" android:layout_marginLeft="16.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="8.0dip" style="@style/UiKit.TextView" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/perks_level_contents_recycler" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="16.0dip" android:nestedScrollingEnabled="false" style="@style/UiKit.ViewGroup.RecyclerView" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

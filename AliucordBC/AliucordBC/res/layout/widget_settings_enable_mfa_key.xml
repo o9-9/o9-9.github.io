@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_gravity="center" android:layout_margin="16.0dip" style="@style/UiKit.ViewGroup.Page.LinearLayout"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="24.0sp" android:textColor="?primary_100" android:layout_marginBottom="8.0dip" android:text="@string/user_settings_mfa_enable_code_label" style="@style/UiKit.TextView" />
+    <TextView android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" android:layout_marginBottom="24.0dip" android:text="@string/user_settings_mfa_enable_code_body" style="@style/UiKit.TextView" />
+    <TextView android:textSize="@dimen/uikit_textsize_large" android:gravity="center" android:id="@id/enable_mfa_key_code" android:background="?chat_embed_bg" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:foreground="?selectableItemBackground" android:drawablePadding="8.0dip" app:drawableRightCompat="?ic_copy" app:fontFamily="?font_monospace" style="@style/UiKit.TextView.Large" />
+    <TextView android:textColor="?color_brand_500" android:id="@id/enable_mfa_key_launch_authy" android:background="?selectableItemBackground" android:padding="16.0dip" android:visibility="invisible" android:layout_marginTop="16.0dip" style="@style/UiKit.TextView.Semibold" />
+    <TextView android:textColor="?color_brand_500" android:id="@id/enable_mfa_key_launch_google_auth" android:background="?selectableItemBackground" android:padding="16.0dip" android:visibility="invisible" style="@style/UiKit.TextView.Semibold" />
+</LinearLayout>

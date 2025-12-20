@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:background="?colorBackgroundPrimary" style="@style/UiKit.ViewGroup.LinearLayout"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_horizontal" android:padding="16.0dip" style="@style/UiKit.ViewGroup.LinearLayout">
+        <ImageView android:layout_width="280.0dip" android:layout_marginBottom="24.0dip" android:src="@drawable/img_krisp_onboarding" android:contentDescription="@string/mobile_noise_cancellation_popout_title" style="@style/UiKit.ImageView" />
+        <com.discord.views.ScreenTitleView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="24.0dip" app:stv_subtitle="@string/mobile_noise_cancellation_popout_description" app:stv_title="@string/mobile_noise_cancellation_popout_title" />
+        <TextView android:textColor="@color/link" android:gravity="center_vertical" android:id="@id/noise_cancellation_learn_more" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" android:text="@string/learn_more_link" android:drawablePadding="16.0dip" app:drawableStartCompat="?ic_krisp_logo" />
+        <com.google.android.material.button.MaterialButton android:id="@id/noise_cancellation_enable_button" android:layout_height="fill_parent" android:text="@string/enable_noise_cancellation" style="@style/UiKit.AuthButton.Material" />
+    </LinearLayout>
+</LinearLayout>

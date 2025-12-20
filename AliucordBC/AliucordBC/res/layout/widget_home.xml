@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/widget_home_container" android:background="?colorBackgroundTertiary" style="@style/UiKit.ViewGroup.Page"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/peek_transition_bitmap" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.discord.widgets.home.HomePanelsLayout android:id="@id/overlapping_panels" android:layout_width="fill_parent" android:layout_height="fill_parent" app:maxSidePanelNonFullScreenWidth="360.0dip">
+        <include android:id="@id/panel_left" layout="@layout/widget_home_panel_left" />
+        <include android:id="@id/panel_center" layout="@layout/widget_home_panel_center" />
+        <include android:id="@id/panel_right" layout="@layout/widget_home_panel_right" />
+    </com.discord.widgets.home.HomePanelsLayout>
+    <include android:id="@id/loading" layout="@layout/widget_home_panel_loading" />
+</FrameLayout>

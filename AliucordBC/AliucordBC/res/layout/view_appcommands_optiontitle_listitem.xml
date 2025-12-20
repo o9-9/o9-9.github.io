@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.facebook.drawee.view.SimpleDraweeView android:id="@id/appcommands_optiontitle_avatar" android:visibility="visible" android:layout_marginStart="16.0dip" app:layout_constraintBottom_toBottomOf="@id/appcommands_optiontitle" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="@id/appcommands_optiontitle" app:placeholderImage="@drawable/ic_slash_command_24dp" style="@style/Avatar.Medium" />
+    <TextView android:textAppearance="@style/UiKit.TextAppearance.Bold" android:textColor="?colorTextNormal" android:id="@id/appcommands_optiontitle" android:paddingTop="12.0dip" android:paddingBottom="12.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="4.0dip" android:paddingStart="12.0dip" android:paddingEnd="8.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toEndOf="@id/appcommands_optiontitle_avatar" app:layout_constraintTop_toTopOf="parent" style="@style/UiKit.TextView" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioGroup android:id="@id/member_verification_multiple_choice_radio_group" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="24.0dip" android:layout_marginHorizontal="16.0dip" style="@style/UiKit.ViewGroup"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

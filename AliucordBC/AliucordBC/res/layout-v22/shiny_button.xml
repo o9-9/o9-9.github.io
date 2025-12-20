@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/button_container" android:background="@drawable/drawable_button_green" android:paddingLeft="16.0dip" android:paddingTop="8.0dip" android:paddingRight="16.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_centerVertical="true" android:paddingHorizontal="16.0dip" android:paddingVertical="8.0dip">
+        <ImageView android:id="@id/icon" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginTop="0.5dip" android:src="@drawable/ic_nitro_badge_white" android:layout_marginEnd="4.0dip" />
+        <TextView android:textAppearance="@style/UiKit.TextAppearance.Button" android:textColor="@color/white" android:id="@id/text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/premium_settings_get" />
+    </LinearLayout>
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/premium_shine" android:layout_alignTop="@id/button_container" android:layout_alignBottom="@id/button_container" android:layout_centerHorizontal="true" android:paddingEnd="24.0dip" android:layout_alignStart="@id/button_container" android:layout_alignEnd="@id/button_container" />
+</merge>

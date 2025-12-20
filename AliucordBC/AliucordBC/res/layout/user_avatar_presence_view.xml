@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/user_avatar_presence_container" android:layout_width="fill_parent" style="@style/UiKit.ViewGroup.RelativeLayout"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/avatar_container" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center" android:id="@id/avatar_cutout" android:layout_width="0.0dip" android:layout_height="0.0dip" android:src="@drawable/drawable_circle_transparent" />
+        <com.facebook.drawee.view.SimpleDraweeView android:layout_gravity="center" android:id="@id/avatar" android:background="@drawable/drawable_circle_transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" app:actualImageScaleType="fitCenter" app:placeholderImage="?asset_default_avatar_80dp" app:roundWithOverlayColor="?primary_700" />
+    </FrameLayout>
+    <com.discord.views.StatusView android:id="@id/user_avatar_presence_status" android:layout_width="27.0dip" android:layout_height="wrap_content" android:layout_alignBottom="@id/avatar_container" android:translationX="3.0dip" android:translationY="3.0dip" android:layout_alignEnd="@id/avatar_container" app:sv_background_color="?colorBackgroundTertiary" app:sv_border_width="3.0dip" app:sv_corner_radius="4.0dip" />
+    <com.facebook.drawee.view.SimpleDraweeView android:id="@id/static_avatar" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+</RelativeLayout>

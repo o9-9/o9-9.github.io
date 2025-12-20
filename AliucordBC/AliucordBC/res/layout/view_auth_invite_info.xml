@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout style="@style/UiKit.ViewGroup.RelativeLayout"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.facebook.drawee.view.SimpleDraweeView android:background="?colorBackgroundTertiary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignTop="@id/auth_invite_info_content" android:layout_alignBottom="@id/auth_invite_info_content" android:layout_alignStart="@id/auth_invite_info_content" android:layout_alignEnd="@id/auth_invite_info_content" app:roundedCornerRadius="8.0dip" />
+    <LinearLayout android:id="@id/auth_invite_info_content" android:padding="16.0dip" style="@style/UiKit.ViewGroup.LinearLayout.Horizontal">
+        <com.facebook.drawee.view.SimpleDraweeView android:id="@id/auth_invite_info_guild_avatar" app:roundWithOverlayColor="?colorBackgroundTertiary" style="@style/Avatar.Large" />
+        <ImageView android:id="@id/auth_invite_info_template_icon" android:visibility="gone" android:src="@drawable/ic_template_32dp" android:importantForAccessibility="no" app:tint="?colorHeaderSecondary" style="@style/Avatar.Large" />
+        <LinearLayout android:layout_gravity="center_vertical" android:layout_marginStart="16.0dip" style="@style/UiKit.ViewGroup.LinearLayout">
+            <TextView android:textSize="@dimen/uikit_textsize_medium" android:textColor="?colorHeaderSecondary" android:id="@id/auth_invite_info_invited_text" android:layout_marginBottom="2.0dip" style="@style/UiKit.TextView" />
+            <TextView android:textAppearance="@style/UiKit.TextAppearance.Semibold" android:textSize="@dimen/uikit_textsize_large" android:textColor="?colorHeaderPrimary" android:ellipsize="end" android:id="@id/auth_invite_info_guild_name" android:maxLines="1" style="@style/UiKit.TextView" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

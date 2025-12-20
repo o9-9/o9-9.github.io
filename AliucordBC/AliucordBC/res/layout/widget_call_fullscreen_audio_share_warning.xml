@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView android:id="@id/call_streaming_audio_share_warning" android:layout_width="0.0dip" android:layout_height="wrap_content" android:elevation="0.0dip" app:cardBackgroundColor="@color/status_yellow_500_alpha_10" app:cardCornerRadius="4.0dip" app:layout_constraintBottom_toTopOf="@id/call_audio_share_warning_barrier" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_bias="0.0" app:strokeColor="@color/status_yellow" app:strokeWidth="1.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textAppearance="@style/UiKit.TextAppearance" android:textSize="@dimen/uikit_textsize_medium" android:textColor="@color/white" android:padding="8.0dip" android:text="@string/mobile_stream_active_soundshare_warning_android" android:drawablePadding="16.0dip" app:drawableStartCompat="@drawable/ic_warning_circle_24dp" style="@style/UiKit.TextView" />
+</com.google.android.material.card.MaterialCardView>

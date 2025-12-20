@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat style="@style/UiKit.ViewGroup.LinearLayout"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/settings_boost_no_guilds_image" android:src="?img_gem_hands_faded" android:importantForAccessibility="no" style="@style/UiKit.ImageView" />
+    <TextView android:textSize="@dimen/uikit_textsize_large" android:textColor="?colorHeaderPrimary" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/settings_boost_no_guilds_title" android:visibility="gone" android:layout_marginLeft="16.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="16.0dip" android:text="@string/premium_guild_subscription_marketing_guilds_empty_description_title" style="@style/UiKit.TextView.Bold" />
+    <TextView android:textSize="@dimen/uikit_textsize_large" android:textColor="?colorTextNormal" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/settings_boost_no_guilds_subtitle" android:visibility="gone" android:layout_marginLeft="16.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="16.0dip" android:text="@string/premium_guild_subscription_marketing_guilds_empty_description_text" style="@style/UiKit.TextView" />
+</androidx.appcompat.widget.LinearLayoutCompat>

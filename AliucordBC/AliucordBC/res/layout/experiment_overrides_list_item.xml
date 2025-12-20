@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="8.0dip" android:layout_marginBottom="8.0dip" app:cardBackgroundColor="?colorBackgroundSecondary" app:cardCornerRadius="4.0dip" app:contentPaddingBottom="8.0dip" app:contentPaddingLeft="16.0dip" app:contentPaddingRight="16.0dip" app:contentPaddingTop="8.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.discord.views.experiments.ExperimentOverrideView android:id="@id/experiment_overrides_list_item_experiment_override_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</androidx.cardview.widget.CardView>

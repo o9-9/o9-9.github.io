@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="bottom" android:orientation="vertical" android:background="?selectableItemBackground" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/chat_list_item_mention_footer_divider" android:layout_width="fill_parent" android:layout_height="0.25dip" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" style="@style/UiKit.Divider" />
+    <TextView android:textSize="13.75sp" android:textColor="?colorTextMuted" android:gravity="center" android:id="@id/chat_list_item_message_header_channel" android:paddingLeft="8.0dip" android:paddingTop="16.0dip" android:paddingRight="8.0dip" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:text="@string/no_recent_mentions" style="@style/UiKit.TextView.Semibold" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="198.0dip" android:layout_marginTop="32.0dip" android:layout_marginBottom="32.0dip">
+        <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <ImageView android:id="@id/chat_list_item_mention_footer_hand" android:layout_width="wrap_content" android:layout_height="198.0dip" android:src="?theme_chat_empty_mentions_hand" />
+        <View android:id="@id/tile" android:background="?theme_chat_empty_mentions_arm" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    </LinearLayout>
+    <com.google.android.material.card.MaterialCardView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/chat_cell_horizontal_spacing_padding" android:layout_marginRight="@dimen/chat_cell_horizontal_spacing_padding" android:layout_marginBottom="@dimen/chat_cell_horizontal_spacing_padding" android:transitionGroup="true" app:cardBackgroundColor="?colorBackgroundSecondary" app:cardCornerRadius="4.0dip">
+        <LinearLayout android:padding="8.0dip" style="@style/UiKit.ViewGroup.LinearLayout">
+            <TextView android:textColor="@color/status_green_600" android:gravity="center" android:paddingLeft="8.0dip" android:paddingTop="16.0dip" android:paddingRight="8.0dip" android:layout_width="fill_parent" android:text="@string/pinned_messages_pro_tip" android:singleLine="true" android:textAllCaps="true" style="@style/UiKit.TextView.Semibold" />
+            <TextView android:textSize="13.75sp" android:textColor="?colorTextNormal" android:gravity="center" android:paddingLeft="8.0dip" android:paddingTop="8.0dip" android:paddingRight="8.0dip" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:text="@string/recent_mentions_pro_tip" style="@style/UiKit.TextView" />
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+</LinearLayout>

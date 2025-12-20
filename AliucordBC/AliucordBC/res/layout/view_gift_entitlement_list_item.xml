@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/gift_entitlement_container" android:background="?primary_630_bg" style="@style/UiKit.ViewGroup"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:layout_gravity="bottom" android:id="@id/gift_entitlement_divider" android:background="?primary_700" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" />
+    <com.discord.app.AppViewFlipper android:id="@id/gift_entitlement_flipper" android:layout_width="fill_parent" android:layout_height="wrap_content" android:measureAllChildren="false">
+        <LinearLayout android:paddingLeft="16.0dip" android:paddingTop="16.0dip" android:paddingRight="16.0dip" style="@style/UiKit.ViewGroup.LinearLayout">
+            <RelativeLayout android:id="@id/gift_entitlement_code_container" android:background="?primary_660_bg_outline" android:paddingStart="8.0dip" style="@style/UiKit.ViewGroup">
+                <TextView android:textColor="?primary_000" android:ellipsize="end" android:id="@id/gift_entitlement_code" android:maxLines="1" android:layout_centerVertical="true" android:layout_marginEnd="8.0dip" android:layout_toStartOf="@id/gift_entitlement_copy" android:layout_alignParentStart="true" style="@style/UiKit.TextView" />
+                <com.google.android.material.button.MaterialButton android:textAppearance="@style/UiKit.TextAppearance.Button" android:textSize="@dimen/uikit_textsize_small" android:textColor="@color/uikit_btn_text_color_selector" android:id="@id/gift_entitlement_copy" android:layout_marginRight="6.0dip" android:minWidth="0.0dip" android:text="@string/copy" android:layout_centerVertical="true" android:textAllCaps="true" android:layout_alignParentEnd="true" android:backgroundTint="@color/uikit_btn_bg_color_selector_brand" style="@style/UiKit.Material.Button.Fit" />
+            </RelativeLayout>
+            <com.discord.utilities.view.text.LinkifiedTextView android:textSize="@dimen/uikit_textsize_small" android:textColor="?primary_400" android:id="@id/gift_entitlement_revoke" android:layout_marginTop="8.0dip" android:layout_marginBottom="12.0dip" style="@style/UiKit.TextView" />
+        </LinearLayout>
+        <RelativeLayout android:paddingLeft="16.0dip" android:paddingTop="16.0dip" android:paddingRight="16.0dip" android:paddingBottom="8.0dip" style="@style/UiKit.ViewGroup">
+            <com.google.android.material.button.MaterialButton android:id="@id/gift_entitlement_generate" android:text="@string/gift_inventory_generate_link_ios" android:layout_centerVertical="true" android:layout_alignParentEnd="true" style="@style/UiKit.Material.Button.Fit" />
+            <TextView android:text="@string/gift_inventory_generate_help" android:layout_centerInParent="true" android:layout_marginEnd="@dimen/avatar_size_medium" android:layout_toStartOf="@id/gift_entitlement_generate" android:layout_alignParentStart="true" style="@style/UiKit.TextView" />
+        </RelativeLayout>
+    </com.discord.app.AppViewFlipper>
+</FrameLayout>

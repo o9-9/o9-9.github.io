@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="?selectableItemBackground" android:paddingLeft="12.0dip" android:paddingTop="8.0dip" android:paddingRight="12.0dip" android:paddingBottom="8.0dip" style="@style/UiKit.ViewGroup.RelativeLayout"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.facebook.drawee.view.SimpleDraweeView android:id="@id/user_profile_adapter_item_avatar" style="@style/Avatar.Standard" />
+    <com.discord.views.StatusView android:id="@id/user_profile_adapter_item_status" android:visibility="gone" android:layout_width="16.0dip" android:layout_height="wrap_content" android:src="@drawable/ic_status_idle_16dp" android:layout_alignBottom="@id/user_profile_adapter_item_avatar" android:translationX="2.0dip" android:translationY="2.0dip" android:layout_alignEnd="@id/user_profile_adapter_item_avatar" app:sv_background_color="?colorPrimary" app:sv_border_width="2.0dip" app:sv_corner_radius="2.0dip" />
+    <LinearLayout android:orientation="horizontal" android:layout_centerVertical="true" android:layout_marginStart="16.0dip" android:layout_marginEnd="4.0dip" android:layout_toEndOf="@id/user_profile_adapter_item_avatar" style="@style/UiKit.ViewGroup.LinearLayout">
+        <TextView android:textAppearance="@style/UiKit.TextAppearance.Semibold" android:textSize="@dimen/uikit_textsize_medium" android:id="@id/user_profile_adapter_item_user_name" android:singleLine="true" style="@style/UiKit.TextView.Large" />
+        <TextView android:textSize="@dimen/uikit_textsize_small" android:id="@id/user_profile_adapter_item_discriminator" android:singleLine="true" android:alpha="0.6" android:paddingStart="2.0dip" android:paddingEnd="2.0dip" style="@style/UiKit.TextView.Medium" />
+    </LinearLayout>
+</RelativeLayout>

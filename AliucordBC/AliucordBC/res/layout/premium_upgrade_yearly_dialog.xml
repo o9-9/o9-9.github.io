@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/UiKit.ViewGroup.Page.LinearLayout"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:id="@id/premium_upsell_header" android:layout_marginTop="32.0dip" android:layout_marginBottom="32.0dip" android:importantForAccessibility="no" style="@style/UiKit.ImageView" />
+    <TextView android:textSize="@dimen/uikit_textsize_xxlarge" android:gravity="center" android:id="@id/premium_upsell_yearly_title" android:layout_width="fill_parent" android:layout_marginLeft="24.0dip" android:layout_marginRight="24.0dip" android:layout_marginBottom="8.0dip" style="@style/UiKit.TextView.H1.Bold" />
+    <TextView android:textSize="@dimen/uikit_textsize_large" android:gravity="center" android:id="@id/premium_upsell_yearly_description" android:layout_width="fill_parent" android:layout_marginLeft="24.0dip" android:layout_marginRight="24.0dip" android:layout_marginBottom="32.0dip" android:lineSpacingMultiplier="1.0" style="@style/UiKit.TextView" />
+    <LinearLayout android:layout_marginBottom="32.0dip" style="@style/UiKit.ViewGroup.LinearLayout">
+        <com.google.android.material.button.MaterialButton android:id="@id/purchase_premium_yearly" android:layout_marginLeft="24.0dip" android:layout_marginRight="24.0dip" android:layout_marginBottom="16.0dip" android:backgroundTint="@color/status_green_600" style="@style/UiKit.Dialog.Button" />
+        <TextView android:id="@id/purchase_premium_monthly" android:layout_marginLeft="24.0dip" android:layout_marginRight="24.0dip" android:text="@string/premium_upsell_continue_to_monthly" style="@style/UiKit.Dialog.TextView.Dismiss" />
+    </LinearLayout>
+</LinearLayout>

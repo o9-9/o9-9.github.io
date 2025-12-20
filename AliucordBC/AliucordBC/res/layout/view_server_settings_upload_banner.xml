@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/UiKit.ViewGroup.LinearLayout"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View style="@style/UiKit.Settings.Divider" />
+    <include android:id="@id/animated_banner_upsell" layout="@layout/view_server_settings_upload_banner_animated_upsell" />
+    <TextView android:text="@string/guild_settings_server_banner_background" style="@style/UiKit.Settings.Item.Header" />
+    <FrameLayout android:id="@id/server_settings_overview_upload_banner_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:foreground="?selectableItemBackground">
+        <com.facebook.drawee.view.SimpleDraweeView android:id="@id/upload_banner" android:background="?primary_630" android:layout_width="fill_parent" android:layout_height="wrap_content" app:roundWithOverlayColor="?colorBackgroundPrimary" app:roundedCornerRadius="4.0dip" app:viewAspectRatio="1.78" />
+        <com.google.android.material.floatingactionbutton.FloatingActionButton android:id="@id/upload_banner_fab" android:focusable="false" android:clickable="false" android:src="@drawable/ic_image_upload_padding" android:scaleType="centerCrop" android:contentDescription="@string/user_settings_upload_banner" app:backgroundTint="@color/white" app:fabCustomSize="32.0dip" app:maxImageSize="32.0dip" app:tint="@null" style="@style/Settings.FloatingActionButton" />
+        <TextView android:layout_gravity="center" android:id="@id/upload_banner_unlock" android:drawablePadding="8.0dip" android:textAllCaps="true" app:drawableTopCompat="@drawable/ic_perk_lock" style="@style/UiKit.TextView.Bold" />
+    </FrameLayout>
+    <TextView android:textAppearance="@style/UiKit.TextAppearance.Semibold" android:textColor="?color_brand_500" android:id="@id/server_settings_overview_upload_banner_remove" android:background="?selectableItemBackground" android:paddingLeft="16.0dip" android:paddingTop="8.0dip" android:paddingRight="16.0dip" android:paddingBottom="8.0dip" android:visibility="gone" android:layout_width="wrap_content" android:text="@string/remove" style="@style/UiKit.TextView.Subtext" />
+    <TextView android:id="@id/upload_banner_nitro_tier" android:paddingLeft="16.0dip" android:paddingTop="8.0dip" android:paddingRight="16.0dip" android:paddingBottom="8.0dip" android:visibility="gone" android:layout_width="fill_parent" android:drawablePadding="4.0dip" app:drawableStartCompat="@drawable/ic_nitro_badge_nitro_gradient_16dp" style="@style/UiKit.TextView" />
+    <TextView android:paddingBottom="4.0dip" android:text="@string/form_help_server_banner" style="@style/UiKit.Settings.Item.SubText" />
+    <com.discord.utilities.view.text.LinkifiedTextView android:id="@id/upload_banner_learn_more" android:paddingBottom="4.0dip" android:text="@string/guild_settings_banner_recommend" style="@style/UiKit.Settings.Item.SubText" />
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="?colorBackgroundPrimary" android:paddingLeft="16.0dip" android:paddingTop="8.0dip" android:paddingRight="16.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.discord.widgets.roles.RoleIconView android:id="@id/channel_members_list_item_header_role_icon" android:visibility="gone" android:layout_width="16.0sp" android:layout_height="16.0sp" android:layout_marginEnd="8.0dip" />
+    <TextView android:gravity="bottom" android:id="@id/channel_members_list_item_header_text" android:focusable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:singleLine="true" style="@style/UiKit.TextView.H6" />
+</LinearLayout>

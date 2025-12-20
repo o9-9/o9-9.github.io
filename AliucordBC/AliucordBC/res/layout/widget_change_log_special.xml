@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:fitsSystemWindows="true" style="@style/UiKit.ViewGroup.Page.LinearLayout"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.core.widget.NestedScrollView android:id="@id/change_log_special_scrollview" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:id="@id/change_log_special_contents" style="@style/UiKit.ViewGroup.LinearLayout">
+                <androidx.cardview.widget.CardView android:id="@id/changelog_special_header_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="-24.0dip" app:cardCornerRadius="24.0dip">
+                    <LinearLayout android:background="@drawable/bg_changelog_special_header" android:paddingTop="68.0dip" style="@style/UiKit.ViewGroup.LinearLayout">
+                        <TextView android:textSize="32.0sp" android:textColor="@color/white" android:layout_gravity="center" android:text="@string/changelog_stickers_header" style="@style/UiKit.TextView.H1.Bold" />
+                        <TextView android:textSize="@dimen/uikit_textsize_large" android:textStyle="italic" android:textColor="@color/white" android:layout_gravity="center" android:id="@id/change_log_special_date" android:paddingLeft="4.0dip" android:paddingRight="4.0dip" android:text="@string/change_log_md_date" style="@style/UiKit.TextView.Subtext" />
+                        <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/changelog_special_hero" android:scaleType="fitXY" android:adjustViewBounds="true" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView android:layout_gravity="center|bottom" android:id="@id/changelog_special_video" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="-24.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="16.0dip" app:cardBackgroundColor="@color/transparent" app:cardCornerRadius="8.0dip" app:cardElevation="8.0dip">
+                    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <VideoView android:id="@id/change_log_video" android:layout_width="fill_parent" android:layout_height="184.0dip" />
+                        <com.facebook.drawee.view.SimpleDraweeView android:layout_gravity="center" android:id="@id/change_log_thumbnail" android:visibility="gone" android:clickable="false" android:layout_width="fill_parent" android:layout_height="184.0dip" android:scaleType="fitXY" app:backgroundImage="@color/primary_900_alpha_60" />
+                        <com.facebook.drawee.view.SimpleDraweeView android:layout_gravity="center" android:id="@id/change_log_video_overlay" android:padding="8.0dip" android:clickable="false" android:layout_width="64.0dip" android:layout_height="64.0dip" app:backgroundImage="@color/primary_900_alpha_60" app:placeholderImage="@drawable/ic_play_arrow_grey_24dp" app:placeholderImageScaleType="fitCenter" app:roundAsCircle="true" />
+                    </FrameLayout>
+                </androidx.cardview.widget.CardView>
+                <com.discord.utilities.view.text.LinkifiedTextView android:textSize="@dimen/uikit_textsize_large" android:id="@id/change_log_body" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:focusable="true" android:clickable="true" android:layout_marginTop="-16.0dip" android:layout_marginBottom="16.0dip" android:text="@string/change_log_md_body" android:lineSpacingMultiplier="1.0" android:fontFamily="?font_primary_normal" style="@style/UiKit.TextView" />
+                <androidx.cardview.widget.CardView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="16.0dip" app:cardBackgroundColor="?colorBackgroundTertiary" app:cardCornerRadius="8.0dip" app:cardElevation="8.0dip">
+                    <LinearLayout android:paddingTop="24.0dip" style="@style/UiKit.ViewGroup.LinearLayout">
+                        <LinearLayout android:paddingLeft="24.0dip" android:paddingRight="24.0dip" style="@style/UiKit.ViewGroup.LinearLayout">
+                            <TextView android:textColor="?colorHeaderPrimary" android:gravity="center" android:layout_gravity="center" android:layout_marginBottom="8.0dip" android:text="@string/changelog_stickers_cta_title" android:lineSpacingMultiplier="1.0" style="@style/UiKit.TextView.H1.Bold" />
+                            <TextView android:textColor="?colorTextNormal" android:gravity="center" android:layout_gravity="center" android:id="@id/change_log_special_cta_body" android:focusable="true" android:clickable="true" android:layout_marginBottom="8.0dip" android:text="@string/changelog_stickers_cta_body" android:lineSpacingMultiplier="1.0" style="@style/UiKit.TextView.Large" />
+                            <com.google.android.material.button.MaterialButton android:gravity="center" android:layout_gravity="center" android:id="@id/change_log_special_button" android:layout_width="wrap_content" android:text="@string/changelog_stickers_cta" android:contentDescription="\@strings/changelog_special_cta" style="@style/UiKit.Material.Button.Green" />
+                        </LinearLayout>
+                        <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/changelog_special_footer" android:scaleType="fitXY" android:adjustViewBounds="true" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+        <ImageButton android:layout_gravity="start" android:id="@id/change_log_special_close" android:background="@color/transparent" android:layout_width="64.0dip" android:layout_height="64.0dip" android:layout_marginTop="8.0dip" android:src="@drawable/changelog_special_close" android:scaleType="fitXY" android:adjustViewBounds="true" android:contentDescription="\@strings/close" />
+        <ImageButton android:layout_gravity="start" android:id="@id/change_log_special_back" android:background="@color/transparent" android:visibility="invisible" android:layout_width="64.0dip" android:layout_height="64.0dip" android:layout_marginTop="8.0dip" android:src="@drawable/changelog_special_back" android:scaleType="fitXY" android:adjustViewBounds="true" android:contentDescription="\@strings/back" />
+    </FrameLayout>
+</LinearLayout>

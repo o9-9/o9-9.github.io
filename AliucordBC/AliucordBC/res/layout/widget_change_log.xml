@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" style="@style/UiKit.ViewGroup.Page.LinearLayout"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout style="@style/AppTheme.AppBarLayout">
+        <androidx.appcompat.widget.Toolbar app:navigationContentDescription="@string/back" style="@style/AppTheme.Toolbar" />
+    </com.google.android.material.appbar.AppBarLayout>
+    <androidx.core.widget.NestedScrollView android:id="@id/change_log_scrollview" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:id="@id/change_log_contents" android:paddingBottom="@dimen/list_bottom_padding" style="@style/UiKit.ViewGroup.LinearLayout">
+            <FrameLayout android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="8.0dip" android:elevation="16.0dip">
+                <FrameLayout android:background="@color/black" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <VideoView android:id="@id/change_log_video" android:layout_width="fill_parent" android:layout_height="200.0dip" />
+                </FrameLayout>
+                <com.facebook.drawee.view.SimpleDraweeView android:layout_gravity="center" android:id="@id/change_log_thumbnail" android:padding="8.0dip" android:visibility="gone" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" app:backgroundImage="@color/primary_900_alpha_60" app:viewAspectRatio="1.7777778" />
+                <com.facebook.drawee.view.SimpleDraweeView android:layout_gravity="center" android:id="@id/change_log_video_overlay" android:padding="8.0dip" android:clickable="false" android:layout_width="64.0dip" android:layout_height="64.0dip" app:backgroundImage="@color/primary_900_alpha_60" app:placeholderImage="@drawable/ic_play_arrow_grey_24dp" app:placeholderImageScaleType="fitCenter" app:roundAsCircle="true" />
+            </FrameLayout>
+            <com.discord.utilities.view.text.LinkifiedTextView android:id="@id/change_log_body" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:text="@string/change_log_md_body" style="@style/UiKit.TextView" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <LinearLayout android:background="?colorBackgroundSecondary" android:paddingTop="4.0dip" android:paddingBottom="4.0dip" android:paddingStart="16.0dip" android:paddingEnd="0.0dip" style="@style/UiKit.ViewGroup.LinearLayout.Horizontal">
+        <androidx.appcompat.widget.AppCompatImageButton android:id="@id/change_log_twitter" android:padding="8.0dip" android:layout_margin="2.0dip" android:src="@drawable/ic_twitter_white_18dp" android:scaleType="fitCenter" app:tint="?primary_100" style="@style/UiKit.ImageView.Clickable" />
+        <androidx.appcompat.widget.AppCompatImageButton android:id="@id/change_log_facebook" android:padding="8.0dip" android:layout_margin="2.0dip" android:src="@drawable/ic_facebook_white_18dp" android:scaleType="fitCenter" app:tint="?primary_100" style="@style/UiKit.ImageView.Clickable" />
+        <androidx.appcompat.widget.AppCompatImageButton android:id="@id/change_log_instagram" android:padding="8.0dip" android:layout_margin="2.0dip" android:src="@drawable/ic_instagram_white_18dp" android:scaleType="fitCenter" app:tint="?primary_100" style="@style/UiKit.ImageView.Clickable" />
+    </LinearLayout>
+</LinearLayout>

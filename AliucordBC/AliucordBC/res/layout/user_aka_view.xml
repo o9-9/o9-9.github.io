@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textAppearance="@style/UiKit.TextAppearance.Bold" android:textSize="14.0dip" android:textColor="?colorHeaderSecondary" android:id="@id/aka_text" android:text="@string/aka" app:layout_constraintEnd_toStartOf="@id/avatars_pile_view" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/UiKit.TextView" />
+    <com.discord.views.PileView android:id="@id/avatars_pile_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/aka_margin_between_aka_and_avatars" app:layout_constraintBottom_toBottomOf="@id/aka_text" app:layout_constraintStart_toEndOf="@id/aka_text" app:layout_constraintTop_toTopOf="@id/aka_text" app:pile_itemBackgroundColor="?colorBackgroundTertiary" app:pile_itemCutoutThickness="2.0dip" app:pile_itemOverlap="4.0dip" app:pile_itemSize="@dimen/aka_avatar_width" app:pile_maxItems="4" app:pile_overFlowTextSize="12.0dip" app:pile_roundBackground="true" app:pile_showOverflowItem="true" />
+    <TextView android:textSize="14.0dip" android:textColor="?colorHeaderSecondary" android:id="@id/nicknames" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toTopOf="@id/aka_text" style="@style/UiKit.TextView" />
+    <TextView android:textSize="14.0dip" android:id="@id/space_for_measuring" android:visibility="invisible" android:text=" " style="@style/UiKit.TextView" />
+</merge>

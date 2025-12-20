@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout style="@style/UiKit.ViewGroup.Page"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout style="@style/AppTheme.AppBarLayout.Flat">
+        <androidx.appcompat.widget.Toolbar style="@style/AppTheme.Toolbar" />
+    </com.google.android.material.appbar.AppBarLayout>
+    <androidx.core.widget.NestedScrollView style="@style/UiKit.ViewGroup.NestedScrollView.AppBarScrollingViewBehavior">
+        <LinearLayout style="@style/UiKit.ViewGroup.LinearLayout">
+            <TextView android:id="@id/report_header" android:layout_width="fill_parent" android:layout_marginLeft="16.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="16.0dip" style="@style/UiKit.TextView.H1" />
+            <TextView android:id="@id/report_reasons_header" android:visibility="gone" android:layout_marginTop="16.0dip" android:text="@string/form_label_report_reason" style="@style/UiKit.Settings.Item.Header" />
+            <ProgressBar android:layout_gravity="center" android:id="@id/report_reasons_loading" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="32.0dip" />
+            <LinearLayout android:id="@id/report_reasons_container" style="@style/UiKit.ViewGroup.LinearLayout" />
+            <View style="@style/UiKit.Settings.Divider" />
+            <com.discord.utilities.view.text.LinkifiedTextView android:id="@id/report_tooltip" android:layout_margin="16.0dip" style="@style/UiKit.TextView.Subtext" />
+            <com.discord.views.LoadingButton android:id="@id/report_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="16.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/age_verify_input_wrapper" app:lb_disabled_alpha="0.6" app:lb_progress_color="@color/white" app:lb_text="@string/report" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

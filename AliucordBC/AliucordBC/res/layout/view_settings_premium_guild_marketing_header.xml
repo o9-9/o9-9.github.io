@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge style="@style/UiKit.ViewGroup.LinearLayout"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_gravity="center_horizontal" android:src="@drawable/img_boost_hands" android:importantForAccessibility="no" style="@style/UiKit.ImageView" />
+    <ImageView android:layout_gravity="center_horizontal" android:layout_marginTop="16.0dip" android:src="@drawable/img_server_boost_long" android:importantForAccessibility="no" app:tint="?colorInteractiveActive" style="@style/UiKit.ImageView" />
+    <TextView android:textColor="?colorHeaderPrimary" android:gravity="center" android:layout_gravity="center_horizontal" android:layout_marginLeft="16.0dip" android:layout_marginTop="24.0dip" android:layout_marginRight="16.0dip" android:text="@string/premium_guild_subscription_marketing_header" style="@style/UiKit.TextView.H1" />
+    <TextView android:textSize="@dimen/uikit_textsize_large" android:textColor="?colorHeaderPrimary" android:gravity="center" android:layout_gravity="center_horizontal" android:layout_marginLeft="16.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="8.0dip" android:text="@string/premium_guild_subscription_marketing_blurb" style="@style/UiKit.TextView" />
+</merge>

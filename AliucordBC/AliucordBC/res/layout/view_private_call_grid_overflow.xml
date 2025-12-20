@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textSize="@dimen/uikit_textsize_xxlarge" android:textColor="?colorInteractiveActive" android:gravity="center" android:background="?primary_700_circle_alpha_50" android:layout_margin="8.0dip" style="@style/UiKit.TextView.Semibold"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

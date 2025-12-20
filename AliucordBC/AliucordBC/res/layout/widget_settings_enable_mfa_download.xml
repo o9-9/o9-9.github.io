@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_gravity="center" android:layout_margin="16.0dip" style="@style/UiKit.ViewGroup.LinearLayout"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_width="150.0dip" android:layout_height="150.0dip" android:layout_marginBottom="32.0dip" android:src="@drawable/ic_google_auth_logo" style="@style/UiKit.ImageView" />
+    <TextView android:textSize="24.0sp" android:textColor="?primary_100" android:layout_marginBottom="8.0dip" android:text="@string/two_fa_download_app_label" style="@style/UiKit.TextView" />
+    <TextView android:id="@id/mfa_download_body" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" android:text="@string/two_fa_download_app_body" style="@style/UiKit.TextView" />
+</LinearLayout>

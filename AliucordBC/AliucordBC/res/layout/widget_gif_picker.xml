@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/gif_picker_container" android:background="?colorBackgroundSecondary" android:paddingStart="12.0dip" android:paddingEnd="12.0dip" style="@style/UiKit.ViewGroup.Page"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/gif_picker_category_recycler" android:paddingTop="4.0dip" android:visibility="gone" android:layout_height="fill_parent" style="@style/UiKit.ViewGroup.RecyclerView" />
+    <com.discord.widgets.chat.input.gifpicker.GifLoadingView android:id="@id/gif_picker_loading_view" android:paddingTop="12.0dip" android:layout_height="fill_parent" app:glv_is_staggered="false" style="@style/UiKit.ViewGroup.RecyclerView" />
+</FrameLayout>

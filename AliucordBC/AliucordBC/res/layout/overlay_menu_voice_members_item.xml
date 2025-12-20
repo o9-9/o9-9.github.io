@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.discord.views.VoiceUserView android:clipChildren="false" android:layout_width="64.0dip" android:layout_height="64.0dip" android:layout_marginLeft="2.0dip" android:layout_marginRight="2.0dip" app:vuv_animate_avatar_when_ringing="true" app:vuv_avatar_size="@dimen/overlay_bubble_size" app:vuv_fade_when_disconnected="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

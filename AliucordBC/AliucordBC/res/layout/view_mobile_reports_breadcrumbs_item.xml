@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" android:minHeight="20.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/reports_breadcrumbs_item_dot" android:background="@drawable/drawable_circle_brand_500" android:layout_width="4.0dip" android:layout_height="4.0dip" android:layout_marginTop="8.0dip" android:layout_marginStart="2.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textColor="?colorTextNormal" android:ellipsize="end" android:id="@id/reports_breadcrumbs_item_title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLines="2" android:singleLine="false" android:textAlignment="textStart" android:layout_marginStart="8.0dip" app:layout_constrainedWidth="true" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/reports_breadcrumbs_item_dot" app:layout_constraintTop_toTopOf="parent" style="@style/UiKit.TextView.Large" />
+</androidx.constraintlayout.widget.ConstraintLayout>

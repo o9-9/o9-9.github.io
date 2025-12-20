@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout style="@style/UiKit.ViewGroup.CoordinatorLayout.Page"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout style="@style/AppTheme.AppBarLayout.Flat">
+        <androidx.appcompat.widget.Toolbar style="@style/AppTheme.Toolbar" />
+    </com.google.android.material.appbar.AppBarLayout>
+    <com.discord.app.AppViewFlipper android:id="@id/integrations_view_flipper" android:layout_width="fill_parent" android:layout_height="fill_parent" android:inAnimation="@android:anim/fade_in" android:outAnimation="@android:anim/fade_out" style="@style/UiKit.ViewGroup.AppViewFlipper.InCoordinatorLayout">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/integrations_recycler" android:layout_height="fill_parent" android:layout_marginTop="16.0dip" style="@style/UiKit.ViewGroup.RecyclerView" />
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" style="@style/UiKit.ViewGroup.LinearLayout">
+            <TextView android:id="@id/integrations_empty_header" android:text="@string/no_integrations_label" app:drawableTopCompat="?ic_empty_integrations" style="@style/UiKit.TextView.NoResults" />
+            <TextView android:gravity="center" android:id="@id/integrations_empty_body" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:text="@string/no_integrations_body" style="@style/UiKit.TextView" />
+        </LinearLayout>
+    </com.discord.app.AppViewFlipper>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

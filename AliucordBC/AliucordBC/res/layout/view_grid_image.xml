@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/FlexInput.Items.Photo"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/content_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.facebook.drawee.view.SimpleDraweeView android:id="@id/content_iv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:adjustViewBounds="true" app:placeholderImageScaleType="centerCrop" app:roundedCornerRadius="4.0dip" style="@style/FlexInput.Items.Photo.Image" />
+        <TextView android:textSize="@dimen/uikit_textsize_small" android:textColor="?colorInteractiveActive" android:layout_gravity="end|bottom" android:id="@id/item_video_indicator" android:background="@drawable/rounded_rectangle_4dp_radius" android:paddingLeft="8.0dip" android:paddingTop="4.0dip" android:paddingRight="8.0dip" android:paddingBottom="4.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="8.0dip" android:text="@string/video" android:backgroundTint="?colorBackgroundTertiary" style="UiKit.TextAppearance.Bold" />
+    </FrameLayout>
+    <com.facebook.drawee.view.SimpleDraweeView android:id="@id/item_check_indicator" android:visibility="gone" style="@style/FlexInput.Items.Photo.Selection" />
+</FrameLayout>

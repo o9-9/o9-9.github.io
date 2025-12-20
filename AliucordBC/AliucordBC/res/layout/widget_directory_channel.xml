@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/UiKit.ViewGroup.Page"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout android:background="?toolbarColor" style="@style/AppTheme.AppBarLayout">
+        <com.google.android.material.appbar.CollapsingToolbarLayout app:layout_scrollFlags="scroll|exitUntilCollapsed|snap" style="@style/AppTheme.CollapsingToolbarLayout">
+            <com.discord.views.directories.ServerDiscoveryHeader android:id="@id/header" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="?actionBarSize" android:layout_marginBottom="48.0dip" app:layout_collapseMode="parallax" />
+            <androidx.appcompat.widget.Toolbar android:id="@id/action_bar_toolbar" android:layout_marginBottom="48.0dip" app:contentInsetStartWithNavigation="0.0dip" app:layout_collapseMode="pin" app:navigationContentDescription="@string/back" style="@style/AppTheme.Toolbar" />
+            <com.google.android.material.tabs.TabLayout android:layout_gravity="bottom" android:id="@id/tabs" android:background="?colorBackgroundSecondaryAlt" android:layout_width="fill_parent" android:layout_height="48.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:tabIndicatorHeight="0.0dip" app:tabMode="scrollable" app:tabSelectedTextColor="?colorHeaderPrimary" app:tabTextAppearance="@style/UiKit.TextAppearance.Toolbar.Title" app:tabTextColor="?colorTextMuted" />
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+    <include android:id="@id/widget_directory_channel_empty" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/widget_directory_channel_empty" />
+    <androidx.viewpager2.widget.ViewPager2 android:id="@id/view_pager" android:paddingBottom="60.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

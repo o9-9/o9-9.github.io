@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:background="?drawable_overlay_category" android:paddingTop="12.0dip" android:paddingBottom="12.0dip" android:focusable="false" android:layout_marginTop="8.0dip" style="@style/UiKit.ViewGroup.LinearLayout.Horizontal"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/channels_item_category_arrow" android:layout_width="12.0dip" android:layout_height="12.0dip" android:src="@drawable/ic_chevron_down_grey_12dp" android:importantForAccessibility="no" android:layout_marginStart="2.0dip" app:tint="?colorChannelDefault" style="@style/UiKit.ImageView" />
+    <TextView android:textSize="@dimen/uikit_textsize_small" android:textColor="?colorChannelDefault" android:id="@id/channels_item_category_name" android:focusable="true" android:layout_width="0.0dip" android:singleLine="true" android:layout_weight="1.0" android:textAllCaps="true" android:layout_marginStart="2.0dip" android:layout_marginEnd="8.0dip" style="@style/UiKit.TextView.H6" />
+    <ImageView android:id="@id/channels_item_category_add" android:src="@drawable/ic_add_24dp" android:scaleType="centerCrop" android:contentDescription="@string/guild_settings_action_filter_channel_create" android:layout_marginEnd="8.0dip" app:tint="?colorChannelDefault" style="@style/UiKit.ImageView.Clickable" />
+</LinearLayout>

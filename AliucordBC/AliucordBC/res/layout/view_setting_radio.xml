@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge style="@style/UiKit.ViewGroup"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/setting_container" android:background="?selectableItemBackground" android:padding="16.0dip" android:focusable="true" android:clickable="true" style="@style/UiKit.ViewGroup.ConstraintLayout">
+        <include layout="@layout/view_setting_shared" />
+        <com.google.android.material.radiobutton.MaterialRadioButton android:id="@id/setting_button" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:importantForAccessibility="no" android:buttonTint="?colorCompoundButton" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</merge>

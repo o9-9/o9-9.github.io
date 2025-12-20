@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/rounded_rectangle_4dp_radius" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:backgroundTint="?colorBackgroundTertiary"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_width="22.0dip" android:layout_height="wrap_content" android:layout_margin="12.0dip" android:src="@drawable/ic_nitro_badge_nitro_gradient_16dp" android:adjustViewBounds="true" android:importantForAccessibility="no" />
+    <TextView android:paddingTop="12.0dip" android:paddingBottom="12.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/emoji_picker_premium_upsell_body" android:layout_weight="1.0" android:lineSpacingMultiplier="1.0" android:layout_marginEnd="36.0dip" style="@style/UiKit.TextView" />
+    <TextView android:id="@id/emojiPickerPremiumCta" android:background="?selectableItemBackgroundBorderless" android:paddingLeft="12.0dip" android:paddingTop="16.0dip" android:paddingRight="12.0dip" android:paddingBottom="16.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/emoji_picker_premium_upsell_cta" android:paddingHorizontal="12.0dip" android:paddingVertical="16.0dip" style="@style/UiKit.TextView.Link" />
+</LinearLayout>

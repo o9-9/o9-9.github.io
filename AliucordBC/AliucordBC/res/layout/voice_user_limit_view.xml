@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="12.0dip" android:textColor="?colorChannelsDefault" android:id="@id/voice_user_limit_current" android:background="@drawable/voice_user_limit_view_left_bg" android:paddingLeft="8.0dip" android:paddingTop="2.25dip" android:paddingRight="2.0dip" android:paddingBottom="2.25dip" android:includeFontPadding="false" android:drawablePadding="4.0dip" android:backgroundTint="?colorBackgroundMobilePrimary" style="@style/UiKit.TextView" />
+    <TextView android:textSize="@dimen/uikit_textsize_small" android:textColor="?colorChannelsDefault" android:id="@id/voice_user_limit_max" android:background="@drawable/voice_user_limit_view_right_bg" android:paddingLeft="8.0dip" android:paddingTop="2.25dip" android:paddingRight="8.0dip" android:paddingBottom="2.25dip" android:includeFontPadding="false" android:backgroundTint="?colorBackgroundTertiary" style="@style/UiKit.TextView" />
+</merge>

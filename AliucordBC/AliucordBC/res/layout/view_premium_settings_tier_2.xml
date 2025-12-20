@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:paddingLeft="16.0dip" android:paddingTop="16.0dip" android:paddingRight="16.0dip" android:paddingBottom="16.0dip" style="@style/UiKit.ViewGroup.LinearLayout"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:layout_marginTop="16.0dip" style="@style/UiKit.ViewGroup.LinearLayout.Horizontal">
+        <ImageView android:id="@id/premium_settings_nitro" android:layout_width="wrap_content" android:layout_height="70.0dip" android:src="?img_logo_discord_nitro" android:adjustViewBounds="true" android:contentDescription="@string/premium_tier_2" style="@style/UiKit.ImageView" />
+        <ImageView android:id="@id/premium_settings_nitro_wumpus" android:layout_width="wrap_content" android:layout_height="70.0dip" android:src="@drawable/img_wumpus_jetpack" android:adjustViewBounds="true" android:scaleX="-1.0" android:importantForAccessibility="no" android:layout_marginStart="16.0dip" style="@style/UiKit.ImageView" />
+    </LinearLayout>
+    <TextView android:textSize="@dimen/uikit_textsize_xlarge" android:textColor="?primary_000" android:layout_marginTop="16.0dip" android:text="@string/premium_tier_2_title" style="@style/UiKit.TextView.Semibold" />
+    <TextView android:textSize="@dimen/uikit_textsize_large" android:textColor="?primary_200" android:layout_marginTop="8.0dip" android:text="@string/premium_tier_2_subtitle" style="@style/UiKit.TextView" />
+    <com.google.android.material.button.MaterialButton android:textColor="@color/white" android:id="@id/premium_settings_premium" android:layout_marginTop="16.0dip" app:icon="@drawable/ic_nitro_badge_white" app:iconGravity="textStart" app:iconSize="@dimen/uikit_textsize_large" app:iconTint="@color/white" style="@style/UiKit.Material.Button.Green" />
+</LinearLayout>

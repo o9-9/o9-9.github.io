@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="vertical"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="?colorBackgroundModifierAccent" android:layout_height="1.0dip" android:layout_marginBottom="16.0dip" style="@style/UiKit.Divider" />
+    <com.discord.utilities.view.text.LinkifiedTextView android:id="@id/report_node_bottom_button_description" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="16.0dip" android:textAlignment="center" style="@style/UiKit.TextView.Subtext" />
+    <com.discord.views.LoadingButton android:id="@id/report_node_bottom_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="8.0dip" android:elevation="0.0dip" style="@style/UiKit.Material.Button" />
+    <com.google.android.material.button.MaterialButton android:id="@id/report_node_bottom_button_cancel" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="8.0dip" android:text="@string/cancel" android:elevation="0.0dip" style="@style/UiKit.Material.Button.Transparent" />
+    <TextView android:textColor="@color/status_red" android:id="@id/report_node_bottom_button_error_text" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="8.0dip" android:textAlignment="center" style="@style/UiKit.TextView.Subtext" />
+</merge>

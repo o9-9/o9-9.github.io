@@ -1,0 +1,6 @@
+[submodule "assets"]
+	path = assets
+	url = https://github.com/ChrisEric1/assets
+[submodule "developers"]
+	path = developers
+	url = https://github.com/ChrisEric1/developers

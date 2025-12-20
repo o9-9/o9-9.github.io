@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/channel_topic" android:background="?colorBackgroundSecondary" android:paddingTop="16.0dip" android:paddingStart="12.0dip" android:paddingEnd="12.0dip" style="@style/UiKit.ViewGroup.LinearLayout"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_width="fill_parent" android:layout_marginStart="4.0dip" android:layout_marginEnd="4.0dip" style="@style/UiKit.ViewGroup.LinearLayout.Horizontal">
+        <com.facebook.drawee.view.SimpleDraweeView android:layout_gravity="top" android:id="@id/channel_topic_channel_icon" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginTop="2.0dip" android:layout_marginEnd="8.0dip" app:actualImageScaleType="fitCenter" app:placeholderImage="?ic_channel_text" app:roundAsCircle="true" />
+        <TextView android:textAppearance="@style/UiKit.TextView.H1" android:textSize="@dimen/uikit_textsize_xlarge" android:textColor="?colorHeaderPrimary" android:id="@id/channel_topic_name" android:layout_width="0.0dip" android:text="@string/form_label_channel_topic" android:layout_weight="1.0" app:drawableTint="?colorChannelsDefault" style="@style/UiKit.TextView" />
+        <ImageView android:layout_gravity="top" android:id="@id/channel_topic_more_icon" android:visibility="gone" android:layout_marginTop="2.0dip" android:src="?ic_overflow" android:contentDescription="@string/settings" style="@style/UiKit.ImageView" />
+    </LinearLayout>
+    <com.discord.utilities.view.text.LinkifiedTextView android:textAppearance="@style/UiKit.TextAppearance.Semibold" android:textColor="?colorHeaderSecondary" android:autoLink="all" android:id="@id/channel_topic_title" android:layout_width="fill_parent" android:layout_marginTop="8.0dip" android:layout_marginBottom="4.0dip" style="@style/UiKit.TextView" />
+    <com.discord.widgets.channels.UserAkaView android:id="@id/channel_aka" android:background="?bg_pressed_highlight" android:padding="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="16.0dip" android:layout_marginBottom="4.0dip" android:layout_marginStart="4.0dip" android:layout_marginEnd="4.0dip" style="@style/UiKit.ViewGroup.RelativeLayout">
+        <ImageView android:id="@id/channel_topic_ellipsis" android:src="?ic_channel_topic_ellipsis" android:importantForAccessibility="no" style="@style/UiKit.ImageView" />
+    </FrameLayout>
+</LinearLayout>

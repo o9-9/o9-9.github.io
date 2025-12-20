@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/UiKit.ViewGroup.Page.LinearLayout"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/UiKit.ViewGroup.LinearLayout">
+        <TextView android:padding="16.0dip" android:layout_width="fill_parent" android:text="@string/upload_image" style="@style/UiKit.TextView.H1.Bold" />
+        <View style="@style/UiKit.Divider" />
+    </LinearLayout>
+    <androidx.core.widget.NestedScrollView style="@style/UiKit.ViewGroup.NestedScrollView">
+        <LinearLayout android:gravity="center" style="@style/UiKit.ViewGroup.LinearLayout">
+            <TextView android:gravity="start" android:layout_gravity="start" android:padding="16.0dip" android:text="@string/upload_image_body" style="@style/UiKit.TextView" />
+            <com.facebook.drawee.view.SimpleDraweeView android:id="@id/notice_image" android:layout_width="200.0dip" android:layout_height="200.0dip" />
+            <TextView android:id="@id/notice_crop" android:paddingLeft="16.0dip" android:paddingTop="16.0dip" android:paddingRight="16.0dip" android:paddingBottom="16.0dip" android:text="@string/crop" style="@style/UiKit.TextView.Link" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <View style="@style/UiKit.Divider" />
+    <LinearLayout style="@style/UiKit.Dialog.ButtonContainer">
+        <com.google.android.material.button.MaterialButton android:textColor="?primary_200" android:id="@id/notice_cancel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cancel" style="@style/UiKit.Material.Button.Transparent" />
+        <com.google.android.material.button.MaterialButton android:id="@id/notice_upload" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/upload" android:layout_marginStart="8.0dip" style="@style/UiKit.Material.Button" />
+    </LinearLayout>
+</LinearLayout>

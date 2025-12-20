@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:id="@id/mobile_reports_child" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" android:minHeight="64.0dip" app:cardBackgroundColor="?colorBackgroundSecondary" app:cardElevation="0.0dip" app:roundedCornerRadius="4.0dip">
+        <TextView android:layout_gravity="start|center" android:id="@id/mobile_reports_child_menu_title" android:layout_marginStart="16.0dip" android:layout_marginEnd="40.0dip" style="@style/UiKit.TextView.H2" />
+        <ImageView android:layout_gravity="end|center" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/ic_chevron_right_primary_300_12dp" android:contentDescription="@string/pagination_next" android:layout_marginEnd="8.0dip" app:drawableTint="?colorInteractiveNormal" />
+    </androidx.cardview.widget.CardView>
+</FrameLayout>

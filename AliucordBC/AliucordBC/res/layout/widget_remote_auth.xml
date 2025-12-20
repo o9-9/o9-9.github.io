@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout style="@style/UiKit.ViewGroup.RelativeLayout"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:background="?auth_ptrn" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginTop="16.0dip" android:src="@drawable/img_logo_square" android:layout_centerHorizontal="true" android:importantForAccessibility="no" app:tint="@color/white" />
+    <androidx.cardview.widget.CardView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:layout_centerInParent="true" app:cardBackgroundColor="?colorBackgroundFloating" app:cardCornerRadius="8.0dip">
+        <com.discord.app.AppViewFlipper android:id="@id/remote_auth_view_flipper" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="16.0dip" android:measureAllChildren="false" android:animateLayoutChanges="true">
+            <include android:id="@id/pending_login" layout="@layout/widget_remote_auth_pending_login" />
+            <include android:id="@id/not_found" layout="@layout/widget_remote_auth_not_found" />
+            <RelativeLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="300.0dip">
+                <ProgressBar android:layout_width="32.0dip" android:layout_height="32.0dip" />
+            </RelativeLayout>
+            <include android:id="@id/auth_success" layout="@layout/widget_remote_auth_success" />
+        </com.discord.app.AppViewFlipper>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

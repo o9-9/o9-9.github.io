@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:layout_marginStart="@dimen/uikit_guideline_chat" android:layout_marginEnd="16.0dip" app:cardCornerRadius="4.0dip" app:cardElevation="1.0dip" style="@style/UiKit.Chat.Embed.CardView"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.discord.widgets.chat.list.ViewEmbedGameInvite android:id="@id/item_game_invite" style="@style/UiKit.ViewGroup" />
+</androidx.cardview.widget.CardView>

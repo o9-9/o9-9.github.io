@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.facebook.drawee.view.SimpleDraweeView android:id="@id/sticker_view_imageview" android:background="?selectableItemBackground" android:padding="4.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.discord.rlottie.RLottieImageView android:id="@id/sticker_view_lottie" android:background="?selectableItemBackground" android:padding="4.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" app:actualImageScaleType="fitCenter" app:placeholderImage="?theme_expression_picker_item_placeholder" app:placeholderImageScaleType="fitCenter" />
+    <ImageView android:id="@id/sticker_view_placeholder" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="?theme_expression_picker_item_placeholder" android:adjustViewBounds="true" />
+</merge>

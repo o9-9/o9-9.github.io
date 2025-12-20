@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginBottom="4.0dip" android:layout_marginEnd="4.0dip" app:cardBackgroundColor="?primary_700" app:cardCornerRadius="4.0dip" app:cardElevation="0.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textAppearance="@style/UiKit.TextAppearance.Semibold" android:textColor="?primary_100" android:ellipsize="end" android:id="@id/guild_role_item_text" android:padding="8.0dip" android:maxLines="1" android:drawablePadding="8.0dip" style="@style/UiKit.TextView.Subtext" />
+</androidx.cardview.widget.CardView>

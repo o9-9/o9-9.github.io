@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView style="@style/UiKit.ViewGroup.NestedScrollView"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:background="?colorBackgroundSecondary" android:paddingTop="16.0dip" android:paddingBottom="16.0dip" android:layout_height="wrap_content" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" style="@style/UiKit.ViewGroup.LinearLayout">
+        <com.facebook.drawee.view.SimpleDraweeView android:id="@id/announcement_guild_avatar" android:layout_width="@dimen/avatar_size_xxlarge" android:layout_height="@dimen/avatar_size_xxlarge" android:layout_marginBottom="16.0dip" app:roundedCornerRadius="16.0dip" />
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" style="@style/UiKit.ViewGroup.LinearLayout.Horizontal">
+            <ImageView android:layout_gravity="center" android:id="@id/announcement_guild_staff_icon" android:visibility="visible" android:layout_width="@dimen/avatar_size_medium" android:layout_height="@dimen/avatar_size_medium" android:src="@drawable/ic_staff_badge_blurple_24dp" android:importantForAccessibility="no" android:layout_marginEnd="8.0dip" />
+            <TextView android:id="@id/announcement_guild_name" android:text="@string/announcement_guild_popout_name" style="@style/UiKit.TextView.H1" />
+        </LinearLayout>
+        <TextView android:id="@id/announcement_guild_description" android:layout_marginBottom="16.0dip" android:text="@string/announcement_guild_description" style="@style/UiKit.TextView" />
+        <TextView android:id="@id/announcement_guild_here_to_help" android:text="@string/announcement_guild_here_to_help" style="@style/UiKit.TextView" />
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

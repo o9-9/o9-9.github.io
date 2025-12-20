@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/UiKit.ViewGroup.Page.LinearLayout"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.airbnb.lottie.LottieAnimationView android:layout_gravity="center_horizontal" android:id="@id/guild_boost_activated_lottie" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:maxWidth="140.0dip" android:maxHeight="88.0dip" app:lottie_fileName="animations/anim_boost_activated.json" style="@style/UiKit.LottieAnimationView" />
+    <ImageView android:layout_gravity="center_horizontal" android:layout_marginLeft="8.0dip" android:layout_marginTop="24.0dip" android:layout_marginRight="8.0dip" android:src="?img_boost_activated" android:importantForAccessibility="no" style="@style/UiKit.ImageView" />
+    <TextView android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/guild_boost_activated_body_1" android:layout_marginLeft="16.0dip" android:layout_marginTop="24.0dip" android:layout_marginRight="16.0dip" style="@style/UiKit.TextView" />
+    <TextView android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/guild_boost_activated_body_2" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="24.0dip" style="@style/UiKit.TextView" />
+    <com.google.android.material.button.MaterialButton android:id="@id/guild_boost_activated_ok" android:layout_marginLeft="24.0dip" android:layout_marginRight="24.0dip" android:layout_marginBottom="32.0dip" android:text="@string/guild_subscription_purchase_modal_activated_close_button" style="@style/UiKit.Material.Button" />
+</LinearLayout>

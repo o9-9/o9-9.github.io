@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/animated_banner_upsell_container" android:background="@drawable/rounded_rectangle_4dp_radius" android:paddingLeft="10.0dip" android:paddingTop="8.0dip" android:paddingRight="10.0dip" android:paddingBottom="8.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="16.0dip" android:backgroundTint="?colorBackgroundTertiary"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textColor="?colorHeaderPrimary" android:gravity="center_vertical" android:id="@id/animated_banner_upsell_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/guild_settings_animated_banner_upsell" android:drawablePadding="10.0dip" app:drawableStartCompat="@drawable/ic_boosted_badge_24dp" />
+    <com.google.android.material.button.MaterialButton android:id="@id/animated_banner_upsell_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/premium_guild_boost_this_server" style="@style/UiKit.Material.Button" />
+</LinearLayout>

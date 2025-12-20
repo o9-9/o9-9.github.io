@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout style="@style/UiKit.ViewGroup.CoordinatorLayout.Page"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout style="@style/AppTheme.AppBarLayout.Flat">
+        <androidx.appcompat.widget.Toolbar style="@style/AppTheme.Toolbar" />
+    </com.google.android.material.appbar.AppBarLayout>
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true" android:layout_above="@id/boost_confirmation_button_container">
+            <LinearLayout android:gravity="center" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" style="@style/UiKit.ViewGroup.LinearLayout">
+                <ImageView android:src="@drawable/drawable_nitro_server_boost" android:importantForAccessibility="no" style="@style/UiKit.ImageView" />
+                <TextView android:layout_marginTop="8.0dip" android:text="@string/premium_guild_subscribe_confirm_blurb" style="@style/UiKit.TextView.H1.Bold" />
+                <com.discord.views.guildboost.GuildBoostConfirmationView android:id="@id/boost_confirmation_confirmation_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginBottom="16.0dip" app:cardBackgroundColor="?colorBackgroundSecondary" app:cardCornerRadius="4.0dip" />
+                <TextView android:textColor="?colorTextNormal" android:gravity="center_horizontal" android:id="@id/boost_confirmation_cooldown_warning" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/premium_guild_subscribe_confirm_cooldown_warning" style="@style/UiKit.TextView" />
+            </LinearLayout>
+        </ScrollView>
+        <LinearLayout android:id="@id/boost_confirmation_button_container" android:layout_margin="16.0dip" android:layout_alignParentBottom="true" style="@style/UiKit.ViewGroup.LinearLayout">
+            <TextView android:textColor="@color/status_red_500" android:id="@id/boost_confirmation_error" android:visibility="invisible" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" android:text="@string/premium_guild_subscription_error_mobile" style="@style/UiKit.TextView" />
+            <com.google.android.material.button.MaterialButton android:id="@id/boost_confirmation_select" android:text="@string/premium_guild_subscribe_confirm_confirmation" style="@style/UiKit.Material.Button" />
+        </LinearLayout>
+    </RelativeLayout>
+    <com.discord.utilities.dimmer.DimmerView android:id="@id/dimmer_view" style="@style/UiKit.DimmerView" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

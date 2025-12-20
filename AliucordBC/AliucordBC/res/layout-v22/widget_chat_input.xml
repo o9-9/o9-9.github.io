@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/chat_input_container" style="@style/UiKit.ViewGroup.LinearLayout"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/guard" layout="@layout/widget_chat_input_guard" />
+    <include android:id="@id/guard_member_verification" layout="@layout/widget_chat_input_member_verification_guard" />
+    <include android:id="@id/guard_communication_disabled" layout="@layout/widget_chat_input_communication_disabled_guard" />
+    <LinearLayout android:id="@id/chat_input_wrap" android:visibility="gone" style="@style/UiKit.ViewGroup.LinearLayout">
+        <LinearLayout android:orientation="vertical" android:id="@id/chat_input_stickers_container" android:background="?colorBackgroundSecondary" android:paddingLeft="12.0dip" android:paddingTop="12.0dip" android:paddingRight="12.0dip" android:paddingBottom="4.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="12.0dip">
+            <TextView android:textColor="?colorTextNormal" android:id="@id/chat_input_stickers_matching_header" android:layout_marginBottom="8.0dip" style="@style/UiKit.TextView" />
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/chat_input_stickers_recycler" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip" />
+            <View style="@style/UiKit.Divider" />
+        </LinearLayout>
+        <FrameLayout android:background="?colorBackgroundSecondary" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textColor="?colorTextNormal" android:id="@id/chat_input_emoji_matching_header" android:visibility="gone" android:layout_marginLeft="12.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="12.0dip" android:layout_marginBottom="8.0dip" android:layout_marginHorizontal="12.0dip" android:layout_marginVertical="8.0dip" style="@style/UiKit.TextView" />
+        </FrameLayout>
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/chat_input_mentions_recycler" android:background="?colorBackgroundSecondary" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+        <androidx.recyclerview.widget.RecyclerView android:orientation="horizontal" android:id="@id/chat_input_categories_recycler" android:background="?colorBackgroundTertiary" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/expression_picker_category_bar_height" android:paddingHorizontal="8.0dip" />
+        <include android:id="@id/application_commands_root" android:visibility="gone" layout="@layout/widget_chat_input_application_commands" />
+        <RelativeLayout android:id="@id/chat_input_context_bar" android:background="?colorBackgroundSecondary" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="40.0dip">
+            <androidx.appcompat.widget.AppCompatImageButton android:id="@id/chat_input_context_cancel" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:layout_width="44.0dip" android:layout_height="fill_parent" android:src="@drawable/ic_close_circle_nova_grey_24dp" android:scaleType="fitCenter" android:layout_centerVertical="true" android:paddingStart="12.0dip" android:paddingEnd="12.0dip" style="@style/UiKit.ImageView.Clickable" />
+            <TextView android:textSize="@dimen/uikit_textsize_medium" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/chat_input_context_description" android:layout_width="wrap_content" android:layout_height="fill_parent" android:maxLines="1" android:layout_centerVertical="true" android:layout_alignWithParentIfMissing="true" android:layout_toStartOf="@id/chat_input_context_reply_mention_button" android:layout_toEndOf="@id/chat_input_context_cancel" style="@style/UiKit.TextView" />
+            <LinearLayout android:gravity="center" android:id="@id/chat_input_context_reply_mention_button" android:background="?selectableItemBackground" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_centerVertical="true" android:paddingStart="12.0dip" android:paddingEnd="12.0dip" android:layout_alignParentEnd="true">
+                <ImageView android:id="@id/chat_input_context_reply_mention_button_image" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/ic_mentions_white_24dp" android:contentDescription="@string/mention" app:tint="?colorControlBrandForeground" />
+                <TextView android:textColor="?colorControlBrandForeground" android:id="@id/chat_input_context_reply_mention_button_text" android:text="@string/reply_mention_on" android:textAllCaps="true" style="@style/UiKit.TextView.Bold" />
+            </LinearLayout>
+        </RelativeLayout>
+        <androidx.fragment.app.FragmentContainerView android:name="com.lytefast.flexinput.fragment.FlexInputFragment" android:id="@id/chat_input_widget" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

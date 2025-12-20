@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:paddingLeft="16.0dip" android:paddingTop="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/UiKit.ViewGroup.LinearLayout"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/uikit_textsize_xxlarge" android:id="@id/item_guild_welcome_header" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" style="@style/UiKit.TextView.H1.Bold" />
+    <LinearLayout android:layout_marginBottom="16.0dip" style="@style/UiKit.ViewGroup.LinearLayout">
+        <com.discord.utilities.view.text.LinkifiedTextView android:textSize="@dimen/uikit_textsize_large" android:textColor="?colorHeaderSecondary" android:id="@id/item_guild_welcome_subheader" android:text="@string/welcome_cta_subtitle_owner" style="@style/UiKit.TextView" />
+        <com.discord.utilities.view.text.LinkifiedTextView android:textSize="@dimen/uikit_textsize_large" android:textColor="?colorHeaderSecondary" android:id="@id/item_guild_welcome_subheader_intro" android:layout_marginTop="8.0dip" android:text="@string/welcome_cta_subtitle_owner" style="@style/UiKit.TextView" />
+    </LinearLayout>
+    <com.discord.views.ChatActionItem android:id="@id/welcome_card_invite_friends" android:layout_marginBottom="12.0dip" app:action_item_img_src="@drawable/ic_guild_welcome_add_friend" app:action_item_text="@string/welcome_cta_invite_title" style="@style/UiKit.WelcomeMessageCard" />
+    <com.discord.views.ChatActionItem android:id="@id/welcome_card_upload_icon" android:layout_marginBottom="12.0dip" app:action_item_img_src="@drawable/ic_guild_welcome_personalize" app:action_item_text="@string/welcome_cta_personalize_title_mobile" style="@style/UiKit.WelcomeMessageCard" />
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:background="?colorBackgroundPrimary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="16.0dip" style="@style/UiKit.ViewGroup.LinearLayout"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/uikit_textsize_small" android:textColor="?colorHeaderPrimary" android:id="@id/mobile_reports_block_user_header" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" android:text="@string/mobile_reports_block_element_header" style="@style/UiKit.TextView.Bold" />
+    <TextView android:textColor="?colorTextNormal" android:id="@id/mobile_reports_block_user_description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" android:text="@string/mobile_reports_block_element_description" style="@style/UiKit.TextView.Medium" />
+    <LinearLayout android:gravity="start|center" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/UiKit.ViewGroup.LinearLayout.Horizontal">
+        <com.facebook.drawee.view.SimpleDraweeView android:id="@id/mobile_reports_block_user_avatar" android:importantForAccessibility="no" style="@style/Avatar.Standard" />
+        <TextView android:textAppearance="@style/UiKit.TextAppearance.Semibold" android:id="@id/mobile_reports_block_user_name" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="16.0dip" style="@style/UiKit.TextView.SingleLine" />
+        <com.google.android.material.button.MaterialButton android:textAppearance="@style/UiKit.TextAppearance.Button" android:id="@id/mobile_reports_block_user_button" android:paddingLeft="16.0dip" android:paddingTop="8.0dip" android:paddingRight="16.0dip" android:paddingBottom="8.0dip" android:layout_height="32.0dip" android:minWidth="0.0dip" android:minHeight="0.0dip" android:text="@string/block" android:insetTop="0.0dip" android:insetBottom="0.0dip" android:elevation="0.0dip" android:backgroundTint="@color/status_red" style="@style/UiKit.Material.Button.Red.Fit" />
+    </LinearLayout>
+</LinearLayout>

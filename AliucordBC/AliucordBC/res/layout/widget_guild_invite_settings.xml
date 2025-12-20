@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:background="?colorBackgroundPrimary" android:layout_height="fill_parent" style="@style/UiKit.ViewGroup.LinearLayout"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout style="@style/AppTheme.AppBarLayout">
+        <androidx.appcompat.widget.Toolbar app:navigationIcon="?ic_close_24dp" app:title="@string/link_settings" style="@style/AppTheme.Toolbar" />
+    </com.google.android.material.appbar.AppBarLayout>
+    <androidx.core.widget.NestedScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:paddingBottom="@dimen/list_bottom_padding" style="@style/UiKit.ViewGroup.LinearLayout">
+            <LinearLayout android:padding="16.0dip" android:layout_marginTop="8.0dip" style="@style/UiKit.ViewGroup.LinearLayout">
+                <TextView android:padding="0.0dip" android:text="@string/form_label_instant_invite_channel" android:paddingStart="0.0dip" android:paddingEnd="0.0dip" style="@style/UiKit.Settings.Item.Header" />
+                <Spinner android:id="@id/guild_invite_channel_spinner" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:popupBackground="?colorPrimary" />
+                <View android:background="?colorBackgroundAccent" android:layout_width="fill_parent" android:layout_height="0.25dip" />
+            </LinearLayout>
+            <TextView android:text="@string/expire_after" style="@style/UiKit.Settings.Item.Header" />
+            <HorizontalScrollView style="@style/UiKit.ViewGroup.ScrollView.Horizontal">
+                <RadioGroup android:orientation="horizontal" android:id="@id/guild_invite_expires_after_radiogroup" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </HorizontalScrollView>
+            <TextView android:text="@string/max_number_of_uses" style="@style/UiKit.Settings.Item.Header" />
+            <HorizontalScrollView style="@style/UiKit.ViewGroup.ScrollView.Horizontal">
+                <RadioGroup android:orientation="horizontal" android:id="@id/guild_invite_max_uses_radiogroup" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </HorizontalScrollView>
+            <com.discord.views.CheckedSetting android:id="@id/guild_invite_temporary_membership" app:cs_subtext="@string/temporary_membership_explanation" app:cs_text="@string/grant_temporary_membership" app:cs_view_type="switchview" style="@style/UiKit.CheckedSetting.Themed" />
+            <com.google.android.material.button.MaterialButton android:id="@id/guild_invite_generate_link" android:layout_margin="16.0dip" android:text="@string/create_link" style="@style/UiKit.Material.Button" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

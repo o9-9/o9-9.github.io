@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/UiKit.ViewGroup.Page.LinearLayout"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.material.appbar.AppBarLayout style="@style/AppTheme.AppBarLayout.Flat">
+        <androidx.appcompat.widget.Toolbar style="@style/AppTheme.Toolbar" />
+    </com.google.android.material.appbar.AppBarLayout>
+    <TextView android:textSize="@dimen/uikit_textsize_medium" android:textColor="?colorHeaderSecondary" android:paddingLeft="16.0dip" android:paddingTop="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/channel_permissions_moderator_description" style="@style/UiKit.TextView" />
+    <androidx.fragment.app.FragmentContainerView android:id="@id/content" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

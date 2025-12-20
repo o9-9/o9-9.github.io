@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="?colorBackgroundPrimary" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="?colorInteractiveNormal" android:id="@id/guild_role_subscription_section_header" android:background="?colorBackgroundPrimary" android:paddingTop="24.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/UiKit.TextView.H6" />
+    <TextView android:textColor="?colorHeaderSecondary" android:id="@id/guild_role_subscription_section_description" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" style="@style/UiKit.TextView.Medium" />
+</LinearLayout>
