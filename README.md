@@ -1,4 +1,4 @@
-# Discord Bot Client - Login to Discord with a Bot Token (2022 - 2025)
+# Discord Bot Client - Login to Discord with a Bot Token (2022 - 2026)
 
 - For a electron.js download of the website, no extension is required, or to download the Lightcord Bot Client, go here: https://github.com/ChrisEric1/ChrisEric1.GitHub.io/releases/latest
   - Supports macOS, Windows, and Linux
