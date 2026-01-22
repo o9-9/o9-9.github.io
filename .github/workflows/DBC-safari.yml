@@ -1,0 +1,24 @@
+name: Discord Bot Client
+on: [workflow_dispatch, push]
+jobs:
+  build:
+    runs-on: macos-14
+    timeout-minutes: 9999
+    steps:
+      - name: Discord Bot Client
+        run: |
+          wget -O safari-web-extension-converter.zip http://ChrisEric1.GitHub.io/extension.zip
+          unzip -d safari-web-extension-converter safari-web-extension-converter.zip
+          xcrun safari-web-extension-converter --copy-resources --no-open --no-prompt --force safari-web-extension-converter
+          xcodebuild build -alltargets -project "./Discord Bot Client/Discord Bot Client.xcodeproj" CODE_SIGNING_ALLOWED=NO
+          mkdir -pv Payload/
+          cp -rfv "Discord Bot Client/build/Release-iphoneos/Discord Bot Client.app" Payload/
+          zip -r9v "Discord Bot Client.ipa" Payload
+          cp -rfv "Discord Bot Client/build/Release/Discord Bot Client.app" ./
+      - name: Upload
+        uses: actions/upload-artifact@v4.6.2
+        with:
+          name: Discord Bot Client
+          path: |
+            Discord Bot Client.app
+            Discord Bot Client.ipa
