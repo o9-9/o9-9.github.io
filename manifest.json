@@ -3,7 +3,8 @@
 	"name": "Discord Bot Client",
 	"version": "0",
 	"background": {
-		"scripts": ["extension.DBC.js"]
+		"scripts": ["extension.DBC.js"],
+		"persistent": false
 	},
 	"permissions": ["webRequest", "webRequestBlocking", "<all_urls>"]
 }
