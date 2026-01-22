@@ -14,8 +14,8 @@ if (typeof chrome !== "undefined") {
 if (chr) extraInfoSpecRequest.push("extraHeaders") && extraInfoSpecResponse.push("extraHeaders");
 chrome.webRequest.onBeforeSendHeaders.addListener(
 	function (details) {
- 		if (chr) if (!details || !details.initiator || !details.initiator.includes(dbcloginurl)) return;
- 		if (fir) if (!details || !details.originUrl || !details.originUrl.includes(dbcloginurl)) return;
+ 		if (chr) if (!details.initiator.includes(dbcloginurl)) return;
+ 		if (fir) if (!details.originUrl.includes(dbcloginurl)) return;
 
 		let header = details.requestHeaders.find((e) => e.name.toLowerCase() === "origin");
 		if (header) header.value = "https://discord.com";
@@ -32,8 +32,8 @@ chrome.webRequest.onBeforeSendHeaders.addListener(
 );
 chrome.webRequest.onHeadersReceived.addListener(
 	(details) => {
- 		if (chr) if (!details || !details.initiator || !details.initiator.includes(dbcloginurl)) return;
- 		if (fir) if (!details || !details.originUrl || !details.originUrl.includes(dbcloginurl)) return;
+ 		if (chr) if (!details.initiator.includes(dbcloginurl)) return;
+ 		if (fir) if (!details.originUrl.includes(dbcloginurl)) return;
 
 		let header = details.responseHeaders.find((e) => e.name.toLowerCase() === "access-control-allow-origin");
 		if (header) header.value = "*";
