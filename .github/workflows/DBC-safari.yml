@@ -5,11 +5,13 @@ jobs:
     runs-on: macos-14
     timeout-minutes: 9999
     steps:
+      - name: Checkout
+        uses: actions/checkout@v6
       - name: Discord Bot Client
         run: |
           mkdir -pv safari-web-extension-converter/
-          wget -O safari-web-extension-converter/manifest.json http://ChrisEric1.GitHub.io/manifest.json
-          wget -O safari-web-extension-converter/extension.DBC.js http://ChrisEric1.GitHub.io/extension.DBC.js
+          cp -rfv manifest.json safari-web-extension-converter/manifest.json
+          cp -rfv extension.DBC.js safari-web-extension-converter/extension.DBC.js
           xcrun safari-web-extension-converter --copy-resources --no-open --no-prompt --force safari-web-extension-converter
           xcodebuild build -alltargets -project "./Discord Bot Client/Discord Bot Client.xcodeproj" CODE_SIGNING_ALLOWED=NO
           mkdir -pv Payload/
