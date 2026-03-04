@@ -278,73 +278,12 @@ async function privateInit() {
                     if (data.user.bot) {
                         window._handleDispatch = _handleDispatch;
                         logger.log(`Logged in as a bot, spoofing user...`);
-                        data.user.bot = false
-                        data.user.premium = true
-                        data.user.premium_type = 2
-                        data.user.mfa_enabled = 1
-                        data.user.flags = data.user.flags || "0";
-                        data.user.public_flags = data.user.public_flags || "0";
-                        data.user.phone = "666";
-                        data.user.verified = true;
-                        data.user.nsfw_allowed = true;
-                        data.user.email = data.user.email || uuid() + "@ChrisEric1.GitHub.Io" // filler email, not a real one
-                        data.experiments = data.experiments || []
-                        data.guild_experiments = data.guild_experiments || [];
-                        data.connected_accounts = data.connected_accounts || [];
-                        data.relationships = data.relationships || [];
-                        data.notes = data.notes || {};
-                        data.user_feed_settings = data.user_feed_settings || [];
-                        data.analytics_tokens = data.analytics_tokens || [];
-                        data.analytics_token = data.analytics_token || ""
-                        data.private_channels = data.private_channels || [];
-                        data.read_state = data.read_state || {
-                            entries: [],
-                            partial: false,
-                            version: 19438
-                        }
-                        data.consents = data.consents || {
-                            personalization: false
-                        }
-                        data.tutorial = data.tutorial || null
-                        data.user_settings = Object.assign(data.user_settings || {}, {
-                            afk_timeout: 600,
-                            allow_accessibility_detection: false,
-                            animate_emoji: true,
-                            contact_sync_enabled: false,
-                            convert_emoticons: true,
-                            custom_status: null,
-                            default_guilds_restricted: false,
-                            detect_platform_accounts: false,
-                            developer_mode: true,
-                            disable_games_tab: true,
-                            enable_tts_command: true,
-                            explicit_content_filter: 0,
-                            friend_source_flags: {
-                                all: false,
-                                mutual_friends: false,
-                                mutual_guilds: false
-                            },
-                            gif_auto_play: true,
-                            guild_folders: [],
-                            guild_positions: [],
-                            inline_attachment_media: true,
-                            inline_embed_media: true,
-                            message_display_compact: false,
-                            native_phone_integration_enabled: false,
-                            render_embeds: true,
-                            render_reactions: true,
-                            restricted_guilds: [],
-                            show_current_game: false,
-                            stream_notifications_enabled: false,
-                            status: botStatus,
-                        }, data.user_settings || {})
-                        data.user_guild_settings = data.user_guild_settings || {
-                            entries: [],
-                            version: 0,
-                            partial: false
-                        }
-                        data.friend_suggestion_count = data.friend_suggestion_count || 0
-                        data.presences = data.presences || []
+                        data.connected_accounts = [];
+                        data.experiments = [];
+                        data.user_guild_settings = [];
+                        data.read_state = {entries: [], partial: false, version: 0};
+                        data.user.bot = false;
+                        data.user.email = " ";
                         const buildInfo = electron.ipcRenderer.sendSync("LIGHTCORD_GET_BUILD_INFOS")
                         electron.ipcRenderer.sendSync("LIGHTCORD_SET_USER_AGENT", `DiscordBot (https://github.com/lightcord/lightcord, v${buildInfo.version})`)
                     } else {
