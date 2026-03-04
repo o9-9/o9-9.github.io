@@ -85,7 +85,7 @@ const DISCORD_NAMESPACE = 'DISCORD_';
 let isTabs = false
 
 const IPADR = ''; // change to your Fosscord Hostname Or IP Address
-const PROT0 = 'https'; // HTTP or HTTPS
+const PROT0 = 'http'; // HTTP or HTTPS
 const syntx = '://'; // DO NOT CHANGE!
 const chngr = ':'; // DO NOT CHANGE!
 const ap = '/app'; // DO NOT CHANGE!
@@ -95,16 +95,11 @@ const PORT2 = '443'; // Port 443
 const PORT3 = '2022'; // DO NOT CHANGE!
 
 const express = require("express");
-const https = require('https');
 const fs = require("fs");
 const path = require("path");
 const request = require("request");
 const app = express();
 const indexHTML = fs.readFileSync(path.join(__dirname, "404.html"), { encoding: "utf8" });
-const httpsOptions = {
-  key: fs.readFileSync(path.join(__dirname, "security", "key.pem")),
-  cert: fs.readFileSync(path.join(__dirname, "security", "cert.pem"))
-}
 const html = indexHTML;
 
 app.all('/d/*', function (req, res) {
@@ -125,9 +120,7 @@ app.all('/asset*', function (req, res) {
 app.all("*", (req, res) => {
   res.send(html);
 });
-const server = https.createServer(httpsOptions, app).listen(PORT3, () => {
-//  console.log('server running at ' + PORT3)
-});
+app.listen(PORT3);
 
 process.on("uncaughtException", console.log);
 process.on("unhandledRejection", console.log);
