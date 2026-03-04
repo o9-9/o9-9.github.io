@@ -93,7 +93,7 @@ window.onload = () => {
         let webview = document.createElement("webview")
 const fs = require('fs');
 const IPADR = ''; // change to your Fosscord Hostname Or IP Address
-const PROT0 = 'https'; // HTTP or HTTPS
+const PROT0 = 'http'; // HTTP or HTTPS
 const syntx = '://'; // DO NOT CHANGE!
 const chngr = ':'; // DO NOT CHANGE!
 const ap = '/app'; // DO NOT CHANGE!
