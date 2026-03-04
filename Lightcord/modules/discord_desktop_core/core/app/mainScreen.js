@@ -88,7 +88,7 @@ const IPADR = ''; // change to your Fosscord Hostname Or IP Address
 const PROT0 = 'http'; // HTTP or HTTPS
 const syntx = '://'; // DO NOT CHANGE!
 const chngr = ':'; // DO NOT CHANGE!
-const ap = '/app'; // DO NOT CHANGE!
+const ap = '/login'; // DO NOT CHANGE!
 const LH = 'localhost'; // Discord.com Patch, change if localhost doesn't work (127.0.0.1), Note you still need the local server hoster!
 const PORT = '2022'; // Port Number
 
@@ -179,7 +179,7 @@ function getSanitizedProtocolPath(url_) {
 } // TODO: These should probably be thrown in constants.
 
 
-const WEBAPP_PATH = settings.get('WEBAPP_PATH', `/app?_=${Date.now()}`);
+const WEBAPP_PATH = settings.get('WEBAPP_PATH', `/login`);
 let URL_TO_LOAD = `${WEBAPP_ENDPOINT}${WEBAPP_PATH}`;
 if (WEBAPP_ENDPOINT.startsWith("file://")) {
   URL_TO_LOAD = `${WEBAPP_ENDPOINT}?path=${encodeURIComponent(WEBAPP_PATH)}`;
