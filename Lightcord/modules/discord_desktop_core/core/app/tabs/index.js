@@ -98,16 +98,8 @@ const syntx = '://'; // DO NOT CHANGE!
 const chngr = ':'; // DO NOT CHANGE!
 const ap = '/app'; // DO NOT CHANGE!
 const LH = 'localhost'; // Discord.com Patch, change if localhost doesn't work (127.0.0.1), Note you still need the local server hoster!
-const PORT1 = '80'; // Port 80
-const PORT2 = '443'; // Port 443
-const PORT3 = '2022'; // DO NOT CHANGE!
-      if (fs.existsSync('/LC'+PORT1)) {
-        webview.src = PROT0 + syntx + IPADR + chngr + PORT1 + ap;
-      } else if (fs.existsSync('/LC'+PORT2)) {
-        webview.src = PROT0 + syntx + IPADR + chngr + PORT2 + ap;
-      } else {
+const PORT = '2022'; // Port Number
         webview.src = PROT0 + syntx + LH + chngr + PORT3 + ap;
-      }
         webview.classList.add("discord-webview")
         webview.classList.add("webview-active")
         webview.setAttribute("preload", pathToFileURL(join(__dirname, "../tabPreload.js")))
