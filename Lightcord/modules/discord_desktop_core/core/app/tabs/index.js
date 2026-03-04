@@ -99,7 +99,7 @@ const chngr = ':'; // DO NOT CHANGE!
 const ap = '/app'; // DO NOT CHANGE!
 const LH = 'localhost'; // Discord.com Patch, change if localhost doesn't work (127.0.0.1), Note you still need the local server hoster!
 const PORT = '2022'; // Port Number
-        webview.src = PROT0 + syntx + LH + chngr + PORT3 + ap;
+        webview.src = PROT0 + syntx + LH + chngr + PORT + ap;
         webview.classList.add("discord-webview")
         webview.classList.add("webview-active")
         webview.setAttribute("preload", pathToFileURL(join(__dirname, "../tabPreload.js")))
