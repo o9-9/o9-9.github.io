@@ -90,9 +90,7 @@ const syntx = '://'; // DO NOT CHANGE!
 const chngr = ':'; // DO NOT CHANGE!
 const ap = '/app'; // DO NOT CHANGE!
 const LH = 'localhost'; // Discord.com Patch, change if localhost doesn't work (127.0.0.1), Note you still need the local server hoster!
-const PORT1 = '80'; // Port 80
-const PORT2 = '443'; // Port 443
-const PORT3 = '2022'; // DO NOT CHANGE!
+const PORT = '2022'; // Port Number
 
 const express = require("express");
 const fs = require("fs");
@@ -120,7 +118,7 @@ app.all('/asset*', function (req, res) {
 app.all("*", (req, res) => {
   res.send(html);
 });
-app.listen(PORT3);
+app.listen(PORT);
 
 process.on("uncaughtException", console.log);
 process.on("unhandledRejection", console.log);
@@ -130,13 +128,7 @@ const getWebappEndpoint = () => {
   if (!isTabs) {
     let endpoint = settings.get('WEBAPP_ENDPOINT');
     if (!endpoint) {
-      if (fs.existsSync('/LC' + PORT1)) {
-        endpoint = PROT0 + syntx + IPADR + chngr + PORT1;
-      } else if (fs.existsSync('/LC' + PORT2)) {
-        endpoint = PROT0 + syntx + IPADR + chngr + PORT2;
-      } else {
-        endpoint = PROT0 + syntx + LH + chngr + PORT3;
-      }
+      endpoint = PROT0 + syntx + LH + chngr + PORT;
     }
     return endpoint;
   } else {
