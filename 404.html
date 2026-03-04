@@ -236,12 +236,12 @@
 									`switch(e){case"READY":`,
 									`if (e !== 'PRESENCE_UPDATE') 
 						switch(e){case"READY":
-							t.connected_accounts = [];
-							t.experiments = [];
-							t.user_guild_settings = [];
-							t.read_state = {entries: [], partial: false, version: 0};
+							t.connected_accounts = t.connected_accounts || [];
+							t.experiments = t.experiments || [];
+							t.user_guild_settings = t.user_guild_settings || [];
+							t.read_state = t.read_state || {entries: [], partial: false, version: 0};
 							t.user.bot = false;
-							t.user.email = " ";
+							t.user.email = t.user.email || " ";
 							start();
 							window.waitingReady = t;
 							if ((t.guilds[0] && !t.guilds[0].unavailable) || true) {
