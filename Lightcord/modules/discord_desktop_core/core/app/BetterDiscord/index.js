@@ -278,12 +278,12 @@ async function privateInit() {
                     if (data.user.bot) {
                         window._handleDispatch = _handleDispatch;
                         logger.log(`Logged in as a bot, spoofing user...`);
-                        data.connected_accounts = [];
-                        data.experiments = [];
-                        data.user_guild_settings = [];
-                        data.read_state = {entries: [], partial: false, version: 0};
+                        data.connected_accounts = data.connected_accounts || [];
+                        data.experiments = data.experiments || [];
+                        data.user_guild_settings = data.user_guild_settings || [];
+                        data.read_state = data.read_state || {entries: [], partial: false, version: 0};
                         data.user.bot = false;
-                        data.user.email = " ";
+                        data.user.email = data.user.email || " ";
                         const buildInfo = electron.ipcRenderer.sendSync("LIGHTCORD_GET_BUILD_INFOS")
                         electron.ipcRenderer.sendSync("LIGHTCORD_SET_USER_AGENT", `DiscordBot (https://github.com/lightcord/lightcord, v${buildInfo.version})`)
                     } else {
